@@ -1,0 +1,943 @@
+[0.000000] (-) TimerEvent: {}
+[0.000255] (turtlesim_msgs) JobQueued: {'identifier': 'turtlesim_msgs', 'dependencies': OrderedDict()}
+[0.000353] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict({'turtlesim_msgs': '/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs'})}
+[0.000439] (turtlesim_msgs) JobStarted: {'identifier': 'turtlesim_msgs'}
+[0.012905] (turtlesim_msgs) JobProgress: {'identifier': 'turtlesim_msgs', 'progress': 'cmake'}
+[0.013315] (turtlesim_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/ylo-laptop/ROS_Practice/test_0/src/ros_tutorials/turtlesim_msgs', '-DCMAKE_INSTALL_PREFIX=/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs'], 'cwd': '/home/ylo-laptop/ROS_Practice/test_0/build/turtlesim_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ylo-laptop', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/opt/gz_math_vendor/lib:/opt/ros/rolling/opt/gz_utils_vendor/lib:/opt/ros/rolling/opt/gz_cmake_vendor/lib:/opt/ros/rolling/lib', 'HOME': '/home/ylo-laptop', 'OLDPWD': '/home/ylo-laptop/ROS_Practice/test_0/src', 'DESKTOP_SESSION': 'ubuntu', 'ZED_TERM': 'true', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2891', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'rolling', 'LOGNAME': 'ylo-laptop', 'WINDOWID': '4294967297', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ylo-laptop', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'ZED_FORCE_CLI_MODE': '', 'PATH': '/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/ylo-laptop/.local/bin/', 'SESSION_MANAGER': 'local/ylo-laptop-ROG-Zephyrus-G15:@/tmp/.ICE-unix/2836,unix/ylo-laptop-ROG-Zephyrus-G15:/tmp/.ICE-unix/2836', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/23aebecd_18f2_49df_b404_db831a132dca', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.234', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/rolling', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'ALACRITTY_WINDOW_ID': '4294967297', 'PWD': '/home/ylo-laptop/ROS_Practice/test_0/build/turtlesim_msgs', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/ylo-laptop/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/rolling/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling'}), 'shell': False}
+[0.098962] (-) TimerEvent: {}
+[0.199334] (-) TimerEvent: {}
+[0.220999] (turtlesim_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.2.0\n'}
+[0.299484] (-) TimerEvent: {}
+[0.399918] (-) TimerEvent: {}
+[0.421256] (turtlesim_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.2.0\n'}
+[0.460788] (turtlesim_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.500118] (-) TimerEvent: {}
+[0.600547] (-) TimerEvent: {}
+[0.661544] (turtlesim_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.686179] (turtlesim_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.686714] (turtlesim_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.687405] (turtlesim_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.700716] (-) TimerEvent: {}
+[0.706599] (turtlesim_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.800890] (-) TimerEvent: {}
+[0.876280] (turtlesim_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.901060] (-) TimerEvent: {}
+[0.903992] (turtlesim_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.904721] (turtlesim_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.905972] (turtlesim_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.923270] (turtlesim_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 2.7.0 (/opt/ros/rolling/share/ament_cmake/cmake)\n'}
+[1.001245] (-) TimerEvent: {}
+[1.101677] (-) TimerEvent: {}
+[1.181896] (turtlesim_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.202108] (-) TimerEvent: {}
+[1.302541] (-) TimerEvent: {}
+[1.381743] (turtlesim_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 2.2.0 (/opt/ros/rolling/share/builtin_interfaces/cmake)\n'}
+[1.402718] (-) TimerEvent: {}
+[1.440384] (turtlesim_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.8.1 (/opt/ros/rolling/share/rosidl_generator_c/cmake)\n'}
+[1.462131] (turtlesim_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.8.1 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)\n'}
+[1.488746] (turtlesim_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.502891] (-) TimerEvent: {}
+[1.518034] (turtlesim_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.544308] (turtlesim_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.7.1 (/opt/ros/rolling/share/rosidl_default_generators/cmake)\n'}
+[1.566201] (turtlesim_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.8.1 (/opt/ros/rolling/share/rosidl_adapter/cmake)\n'}
+[1.603067] (-) TimerEvent: {}
+[1.703491] (-) TimerEvent: {}
+[1.804128] (-) TimerEvent: {}
+[1.904580] (-) TimerEvent: {}
+[2.005065] (-) TimerEvent: {}
+[2.105499] (-) TimerEvent: {}
+[2.205909] (-) TimerEvent: {}
+[2.306367] (-) TimerEvent: {}
+[2.406988] (-) TimerEvent: {}
+[2.507427] (-) TimerEvent: {}
+[2.607857] (-) TimerEvent: {}
+[2.708283] (-) TimerEvent: {}
+[2.755686] (turtlesim_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.18.1 (/opt/ros/rolling/share/ament_cmake_cppcheck/cmake)\n'}
+[2.761698] (turtlesim_msgs) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.18.1 (/opt/ros/rolling/share/ament_cmake_cpplint/cmake)\n'}
+[2.768868] (turtlesim_msgs) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.18.1 (/opt/ros/rolling/share/ament_cmake_uncrustify/cmake)\n'}
+[2.776558] (turtlesim_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.13.0 (/opt/ros/rolling/share/ament_cmake_ros/cmake)\n'}
+[2.808462] (-) TimerEvent: {}
+[2.908893] (-) TimerEvent: {}
+[3.009364] (-) TimerEvent: {}
+[3.109794] (-) TimerEvent: {}
+[3.210267] (-) TimerEvent: {}
+[3.310905] (-) TimerEvent: {}
+[3.411359] (-) TimerEvent: {}
+[3.511796] (-) TimerEvent: {}
+[3.612263] (-) TimerEvent: {}
+[3.712701] (-) TimerEvent: {}
+[3.813328] (-) TimerEvent: {}
+[3.913761] (-) TimerEvent: {}
+[4.014175] (-) TimerEvent: {}
+[4.114525] (-) TimerEvent: {}
+[4.141463] (turtlesim_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.214686] (-) TimerEvent: {}
+[4.315106] (-) TimerEvent: {}
+[4.415553] (-) TimerEvent: {}
+[4.516193] (-) TimerEvent: {}
+[4.616628] (-) TimerEvent: {}
+[4.688428] (turtlesim_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.704527] (turtlesim_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.12.0 (/opt/ros/rolling/share/python_cmake_module/cmake)\n'}
+[4.717159] (-) TimerEvent: {}
+[4.817538] (-) TimerEvent: {}
+[4.918007] (-) TimerEvent: {}
+[4.958566] (turtlesim_msgs) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[5.018172] (-) TimerEvent: {}
+[5.118617] (-) TimerEvent: {}
+[5.219077] (-) TimerEvent: {}
+[5.319508] (-) TimerEvent: {}
+[5.419959] (-) TimerEvent: {}
+[5.520354] (-) TimerEvent: {}
+[5.620788] (-) TimerEvent: {}
+[5.680920] (turtlesim_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[5.720987] (-) TimerEvent: {}
+[5.767366] (turtlesim_msgs) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.18.1 (/opt/ros/rolling/share/ament_cmake_flake8/cmake)\n'}
+[5.774188] (turtlesim_msgs) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.18.1 (/opt/ros/rolling/share/ament_cmake_pep257/cmake)\n'}
+[5.796793] (turtlesim_msgs) StdoutLine: {'line': b'-- Configuring done (5.8s)\n'}
+[5.821127] (-) TimerEvent: {}
+[5.879852] (turtlesim_msgs) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[5.884414] (turtlesim_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/ylo-laptop/ROS_Practice/test_0/build/turtlesim_msgs\n'}
+[5.898954] (turtlesim_msgs) CommandEnded: {'returncode': 0}
+[5.901709] (turtlesim_msgs) JobProgress: {'identifier': 'turtlesim_msgs', 'progress': 'build'}
+[5.901785] (turtlesim_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ylo-laptop/ROS_Practice/test_0/build/turtlesim_msgs', '--', '-j16', '-l16'], 'cwd': '/home/ylo-laptop/ROS_Practice/test_0/build/turtlesim_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ylo-laptop', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/opt/gz_math_vendor/lib:/opt/ros/rolling/opt/gz_utils_vendor/lib:/opt/ros/rolling/opt/gz_cmake_vendor/lib:/opt/ros/rolling/lib', 'HOME': '/home/ylo-laptop', 'OLDPWD': '/home/ylo-laptop/ROS_Practice/test_0/src', 'DESKTOP_SESSION': 'ubuntu', 'ZED_TERM': 'true', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2891', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'rolling', 'LOGNAME': 'ylo-laptop', 'WINDOWID': '4294967297', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ylo-laptop', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'ZED_FORCE_CLI_MODE': '', 'PATH': '/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/ylo-laptop/.local/bin/', 'SESSION_MANAGER': 'local/ylo-laptop-ROG-Zephyrus-G15:@/tmp/.ICE-unix/2836,unix/ylo-laptop-ROG-Zephyrus-G15:/tmp/.ICE-unix/2836', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/23aebecd_18f2_49df_b404_db831a132dca', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.234', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/rolling', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'ALACRITTY_WINDOW_ID': '4294967297', 'PWD': '/home/ylo-laptop/ROS_Practice/test_0/build/turtlesim_msgs', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/ylo-laptop/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/rolling/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling'}), 'shell': False}
+[5.921294] (-) TimerEvent: {}
+[5.992521] (turtlesim_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[6.017195] (turtlesim_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_turtlesim_msgs\n'}
+[6.021390] (-) TimerEvent: {}
+[6.121700] (-) TimerEvent: {}
+[6.222146] (-) TimerEvent: {}
+[6.322508] (-) TimerEvent: {}
+[6.325727] (turtlesim_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[6.326726] (turtlesim_msgs) StdoutLine: {'line': b'creating turtlesim_msgs.egg-info\n'}
+[6.354133] (turtlesim_msgs) StdoutLine: {'line': b'writing turtlesim_msgs.egg-info/PKG-INFO\n'}
+[6.354564] (turtlesim_msgs) StdoutLine: {'line': b'writing dependency_links to turtlesim_msgs.egg-info/dependency_links.txt\n'}
+[6.354876] (turtlesim_msgs) StdoutLine: {'line': b'writing top-level names to turtlesim_msgs.egg-info/top_level.txt\n'}
+[6.355148] (turtlesim_msgs) StdoutLine: {'line': b"writing manifest file 'turtlesim_msgs.egg-info/SOURCES.txt'\n"}
+[6.422677] (-) TimerEvent: {}
+[6.436082] (turtlesim_msgs) StdoutLine: {'line': b"reading manifest file 'turtlesim_msgs.egg-info/SOURCES.txt'\n"}
+[6.436764] (turtlesim_msgs) StdoutLine: {'line': b"writing manifest file 'turtlesim_msgs.egg-info/SOURCES.txt'\n"}
+[6.447685] (turtlesim_msgs) StdoutLine: {'line': b'[  1%] Built target turtlesim_msgs__rosidl_generator_type_description\n'}
+[6.466126] (turtlesim_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[6.480561] (turtlesim_msgs) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_build_turtlesim_msgs_egg\n'}
+[6.480983] (turtlesim_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[6.522859] (-) TimerEvent: {}
+[6.623296] (-) TimerEvent: {}
+[6.723712] (-) TimerEvent: {}
+[6.824167] (-) TimerEvent: {}
+[6.924766] (-) TimerEvent: {}
+[7.025413] (-) TimerEvent: {}
+[7.125832] (-) TimerEvent: {}
+[7.226301] (-) TimerEvent: {}
+[7.326743] (-) TimerEvent: {}
+[7.427194] (-) TimerEvent: {}
+[7.527892] (-) TimerEvent: {}
+[7.628353] (-) TimerEvent: {}
+[7.728744] (-) TimerEvent: {}
+[7.731312] (turtlesim_msgs) StdoutLine: {'line': b'[  2%] Built target turtlesim_msgs__cpp\n'}
+[7.828918] (-) TimerEvent: {}
+[7.929420] (-) TimerEvent: {}
+[7.975199] (turtlesim_msgs) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/msg/detail/color__functions.c.o\x1b[0m\n'}
+[7.977231] (turtlesim_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/msg/detail/color__type_support.c.o\x1b[0m\n'}
+[7.977499] (turtlesim_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/msg/detail/color__description.c.o\x1b[0m\n'}
+[7.977700] (turtlesim_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/srv/detail/kill__description.c.o\x1b[0m\n'}
+[7.977895] (turtlesim_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/msg/detail/pose__functions.c.o\x1b[0m\n'}
+[7.978281] (turtlesim_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/msg/detail/pose__type_support.c.o\x1b[0m\n'}
+[7.978519] (turtlesim_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/action/detail/rotate_absolute__functions.c.o\x1b[0m\n'}
+[7.978691] (turtlesim_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/msg/detail/pose__description.c.o\x1b[0m\n'}
+[7.978857] (turtlesim_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/action/detail/rotate_absolute__description.c.o\x1b[0m\n'}
+[7.979056] (turtlesim_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/action/detail/rotate_absolute__type_support.c.o\x1b[0m\n'}
+[7.979230] (turtlesim_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/srv/detail/set_pen__functions.c.o\x1b[0m\n'}
+[7.979393] (turtlesim_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/srv/detail/set_pen__description.c.o\x1b[0m\n'}
+[7.979578] (turtlesim_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/srv/detail/kill__functions.c.o\x1b[0m\n'}
+[7.979755] (turtlesim_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/srv/detail/set_pen__type_support.c.o\x1b[0m\n'}
+[7.980049] (turtlesim_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/srv/detail/kill__type_support.c.o\x1b[0m\n'}
+[7.981717] (turtlesim_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/srv/detail/spawn__description.c.o\x1b[0m\n'}
+[8.032042] (-) TimerEvent: {}
+[8.060791] (turtlesim_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/srv/detail/spawn__functions.c.o\x1b[0m\n'}
+[8.061595] (turtlesim_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/srv/detail/spawn__type_support.c.o\x1b[0m\n'}
+[8.078069] (turtlesim_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/srv/detail/teleport_absolute__description.c.o\x1b[0m\n'}
+[8.079317] (turtlesim_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/srv/detail/teleport_absolute__functions.c.o\x1b[0m\n'}
+[8.079835] (turtlesim_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/srv/detail/teleport_relative__description.c.o\x1b[0m\n'}
+[8.080181] (turtlesim_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/srv/detail/teleport_absolute__type_support.c.o\x1b[0m\n'}
+[8.088026] (turtlesim_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/srv/detail/teleport_relative__functions.c.o\x1b[0m\n'}
+[8.097202] (turtlesim_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/srv/detail/teleport_relative__type_support.c.o\x1b[0m\n'}
+[8.132182] (-) TimerEvent: {}
+[8.232548] (-) TimerEvent: {}
+[8.296000] (turtlesim_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32m\x1b[1mLinking C shared library libturtlesim_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[8.332722] (-) TimerEvent: {}
+[8.382235] (turtlesim_msgs) StdoutLine: {'line': b'[ 26%] Built target turtlesim_msgs__rosidl_generator_c\n'}
+[8.398490] (turtlesim_msgs) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.399658] (turtlesim_msgs) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.401644] (turtlesim_msgs) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.402424] (turtlesim_msgs) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[8.409573] (turtlesim_msgs) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[8.409876] (turtlesim_msgs) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.432851] (-) TimerEvent: {}
+[8.533214] (-) TimerEvent: {}
+[8.633558] (-) TimerEvent: {}
+[8.733885] (-) TimerEvent: {}
+[8.834234] (-) TimerEvent: {}
+[8.934574] (-) TimerEvent: {}
+[9.034911] (-) TimerEvent: {}
+[9.106277] (turtlesim_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim_msgs/action/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[9.106575] (turtlesim_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim_msgs/msg/color__type_support.cpp.o\x1b[0m\n'}
+[9.106724] (turtlesim_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim_msgs/msg/pose__type_support.cpp.o\x1b[0m\n'}
+[9.107085] (turtlesim_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim_msgs/srv/kill__type_support.cpp.o\x1b[0m\n'}
+[9.107299] (turtlesim_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim_msgs/srv/set_pen__type_support.cpp.o\x1b[0m\n'}
+[9.121876] (turtlesim_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim_msgs/srv/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[9.122564] (turtlesim_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim_msgs/srv/spawn__type_support.cpp.o\x1b[0m\n'}
+[9.123992] (turtlesim_msgs) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim_msgs/srv/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[9.137470] (-) TimerEvent: {}
+[9.145489] (turtlesim_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim_msgs/action/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[9.145774] (turtlesim_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim_msgs/msg/color__type_support.cpp.o\x1b[0m\n'}
+[9.145963] (turtlesim_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim_msgs/msg/pose__type_support.cpp.o\x1b[0m\n'}
+[9.146131] (turtlesim_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim_msgs/srv/kill__type_support.cpp.o\x1b[0m\n'}
+[9.217473] (turtlesim_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim_msgs/srv/set_pen__type_support.cpp.o\x1b[0m\n'}
+[9.224384] (turtlesim_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim_msgs/srv/spawn__type_support.cpp.o\x1b[0m\n'}
+[9.225732] (turtlesim_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim_msgs/srv/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[9.229578] (turtlesim_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim_msgs/srv/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[9.237604] (-) TimerEvent: {}
+[9.262297] (turtlesim_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[9.338514] (-) TimerEvent: {}
+[9.340371] (turtlesim_msgs) StdoutLine: {'line': b'[ 47%] Built target turtlesim_msgs__rosidl_typesupport_c\n'}
+[9.407816] (turtlesim_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim_msgs/msg/detail/pose__type_support.cpp.o\x1b[0m\n'}
+[9.408977] (turtlesim_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim_msgs/action/detail/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[9.410814] (turtlesim_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim_msgs/msg/detail/color__type_support.cpp.o\x1b[0m\n'}
+[9.411270] (turtlesim_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim_msgs/srv/detail/kill__type_support.cpp.o\x1b[0m\n'}
+[9.414148] (turtlesim_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim_msgs/srv/detail/set_pen__type_support.cpp.o\x1b[0m\n'}
+[9.438670] (-) TimerEvent: {}
+[9.543252] (-) TimerEvent: {}
+[9.643820] (-) TimerEvent: {}
+[9.744384] (-) TimerEvent: {}
+[9.773150] (turtlesim_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim_msgs/msg/detail/color__type_support.c.o\x1b[0m\n'}
+[9.844544] (-) TimerEvent: {}
+[9.861116] (turtlesim_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim_msgs/msg/detail/pose__type_support.c.o\x1b[0m\n'}
+[9.910034] (turtlesim_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim_msgs/action/detail/rotate_absolute__type_support.c.o\x1b[0m\n'}
+[9.932024] (turtlesim_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim_msgs/srv/detail/spawn__type_support.cpp.o\x1b[0m\n'}
+[9.932376] (turtlesim_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim_msgs/srv/detail/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[9.944697] (-) TimerEvent: {}
+[10.048678] (turtlesim_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim_msgs/srv/detail/kill__type_support.c.o\x1b[0m\n'}
+[10.049123] (-) TimerEvent: {}
+[10.096045] (turtlesim_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim_msgs/srv/detail/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[10.096428] (turtlesim_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim_msgs/srv/detail/set_pen__type_support.c.o\x1b[0m\n'}
+[10.140025] (turtlesim_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim_msgs/srv/detail/spawn__type_support.c.o\x1b[0m\n'}
+[10.143701] (turtlesim_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim_msgs/srv/detail/teleport_absolute__type_support.c.o\x1b[0m\n'}
+[10.149274] (-) TimerEvent: {}
+[10.150201] (turtlesim_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim_msgs/srv/detail/teleport_relative__type_support.c.o\x1b[0m\n'}
+[10.209715] (turtlesim_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim_msgs/msg/detail/dds_fastrtps/color__type_support.cpp.o\x1b[0m\n'}
+[10.212161] (turtlesim_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim_msgs/action/detail/dds_fastrtps/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[10.215453] (turtlesim_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim_msgs/srv/detail/dds_fastrtps/kill__type_support.cpp.o\x1b[0m\n'}
+[10.216810] (turtlesim_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim_msgs/msg/detail/dds_fastrtps/pose__type_support.cpp.o\x1b[0m\n'}
+[10.219915] (turtlesim_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim_msgs/srv/detail/dds_fastrtps/set_pen__type_support.cpp.o\x1b[0m\n'}
+[10.234613] (turtlesim_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim_msgs/srv/detail/dds_fastrtps/spawn__type_support.cpp.o\x1b[0m\n'}
+[10.236463] (turtlesim_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking C shared library libturtlesim_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[10.236855] (turtlesim_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim_msgs/srv/detail/dds_fastrtps/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[10.249507] (-) TimerEvent: {}
+[10.312036] (turtlesim_msgs) StdoutLine: {'line': b'[ 71%] Built target turtlesim_msgs__rosidl_typesupport_introspection_c\n'}
+[10.322691] (turtlesim_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim_msgs/srv/detail/dds_fastrtps/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[10.349658] (-) TimerEvent: {}
+[10.427430] (turtlesim_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim_msgs/msg/detail/color__type_support_c.cpp.o\x1b[0m\n'}
+[10.427738] (turtlesim_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim_msgs/action/detail/rotate_absolute__type_support_c.cpp.o\x1b[0m\n'}
+[10.427877] (turtlesim_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim_msgs/msg/detail/pose__type_support_c.cpp.o\x1b[0m\n'}
+[10.449817] (-) TimerEvent: {}
+[10.550359] (-) TimerEvent: {}
+[10.650921] (-) TimerEvent: {}
+[10.703026] (turtlesim_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim_msgs/srv/detail/kill__type_support_c.cpp.o\x1b[0m\n'}
+[10.715372] (turtlesim_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[10.753040] (-) TimerEvent: {}
+[10.788198] (turtlesim_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim_msgs/srv/detail/set_pen__type_support_c.cpp.o\x1b[0m\n'}
+[10.853181] (-) TimerEvent: {}
+[10.914110] (turtlesim_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim_msgs/srv/detail/spawn__type_support_c.cpp.o\x1b[0m\n'}
+[10.937359] (turtlesim_msgs) StdoutLine: {'line': b'[ 79%] Built target turtlesim_msgs__rosidl_typesupport_cpp\n'}
+[10.953329] (-) TimerEvent: {}
+[10.956138] (turtlesim_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim_msgs/srv/detail/teleport_absolute__type_support_c.cpp.o\x1b[0m\n'}
+[11.024010] (turtlesim_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[11.057170] (-) TimerEvent: {}
+[11.157639] (-) TimerEvent: {}
+[11.167907] (turtlesim_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim_msgs/srv/detail/teleport_relative__type_support_c.cpp.o\x1b[0m\n'}
+[11.259144] (-) TimerEvent: {}
+[11.277413] (turtlesim_msgs) StdoutLine: {'line': b'[ 82%] Built target turtlesim_msgs__rosidl_typesupport_introspection_cpp\n'}
+[11.359289] (-) TimerEvent: {}
+[11.459642] (-) TimerEvent: {}
+[11.560024] (-) TimerEvent: {}
+[11.660400] (-) TimerEvent: {}
+[11.760782] (-) TimerEvent: {}
+[11.827156] (turtlesim_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[11.860926] (-) TimerEvent: {}
+[11.895556] (turtlesim_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[11.948288] (turtlesim_msgs) StdoutLine: {'line': b'[ 84%] Built target turtlesim_msgs__rosidl_typesupport_fastrtps_c\n'}
+[11.961089] (-) TimerEvent: {}
+[12.029148] (turtlesim_msgs) StdoutLine: {'line': b'[ 84%] Built target turtlesim_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[12.053434] (turtlesim_msgs) StdoutLine: {'line': b'[ 84%] Built target turtlesim_msgs\n'}
+[12.061447] (-) TimerEvent: {}
+[12.082319] (turtlesim_msgs) StdoutLine: {'line': b'[ 85%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[12.161828] (-) TimerEvent: {}
+[12.262582] (-) TimerEvent: {}
+[12.363128] (-) TimerEvent: {}
+[12.463461] (-) TimerEvent: {}
+[12.563793] (-) TimerEvent: {}
+[12.664177] (-) TimerEvent: {}
+[12.764523] (-) TimerEvent: {}
+[12.864852] (-) TimerEvent: {}
+[12.965222] (-) TimerEvent: {}
+[13.065568] (-) TimerEvent: {}
+[13.165917] (-) TimerEvent: {}
+[13.266284] (-) TimerEvent: {}
+[13.366647] (-) TimerEvent: {}
+[13.424096] (turtlesim_msgs) StdoutLine: {'line': b'[ 85%] Built target turtlesim_msgs__py\n'}
+[13.447850] (turtlesim_msgs) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlesim_msgs/msg/_color_s.c.o\x1b[0m\n'}
+[13.449198] (turtlesim_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlesim_msgs/action/_rotate_absolute_s.c.o\x1b[0m\n'}
+[13.449636] (turtlesim_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlesim_msgs/srv/_teleport_relative_s.c.o\x1b[0m\n'}
+[13.449761] (turtlesim_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlesim_msgs/srv/_spawn_s.c.o\x1b[0m\n'}
+[13.449878] (turtlesim_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlesim_msgs/msg/_pose_s.c.o\x1b[0m\n'}
+[13.450573] (turtlesim_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlesim_msgs/srv/_set_pen_s.c.o\x1b[0m\n'}
+[13.450760] (turtlesim_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlesim_msgs/srv/_teleport_absolute_s.c.o\x1b[0m\n'}
+[13.455779] (turtlesim_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlesim_msgs/srv/_kill_s.c.o\x1b[0m\n'}
+[13.466769] (-) TimerEvent: {}
+[13.567089] (-) TimerEvent: {}
+[13.667551] (-) TimerEvent: {}
+[13.698972] (turtlesim_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library libturtlesim_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[13.762606] (turtlesim_msgs) StdoutLine: {'line': b'[ 94%] Built target turtlesim_msgs__rosidl_generator_py\n'}
+[13.767675] (-) TimerEvent: {}
+[13.788914] (turtlesim_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/turtlesim_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[13.792916] (turtlesim_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/turtlesim_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[13.794654] (turtlesim_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/turtlesim_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[13.867800] (-) TimerEvent: {}
+[13.968119] (-) TimerEvent: {}
+[13.986570] (turtlesim_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/turtlesim_msgs/turtlesim_msgs_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[13.991758] (turtlesim_msgs) StdoutLine: {'line': b'[ 99%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/turtlesim_msgs/turtlesim_msgs_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[13.993364] (turtlesim_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/turtlesim_msgs/turtlesim_msgs_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[14.028653] (turtlesim_msgs) StdoutLine: {'line': b'[100%] Built target turtlesim_msgs_s__rosidl_typesupport_c\n'}
+[14.036443] (turtlesim_msgs) StdoutLine: {'line': b'[100%] Built target turtlesim_msgs_s__rosidl_typesupport_introspection_c\n'}
+[14.038096] (turtlesim_msgs) StdoutLine: {'line': b'[100%] Built target turtlesim_msgs_s__rosidl_typesupport_fastrtps_c\n'}
+[14.056239] (turtlesim_msgs) CommandEnded: {'returncode': 0}
+[14.068303] (-) TimerEvent: {}
+[14.168732] (-) TimerEvent: {}
+[14.269140] (-) TimerEvent: {}
+[14.335439] (turtlesim_msgs) JobProgress: {'identifier': 'turtlesim_msgs', 'progress': 'install'}
+[14.346071] (turtlesim_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ylo-laptop/ROS_Practice/test_0/build/turtlesim_msgs'], 'cwd': '/home/ylo-laptop/ROS_Practice/test_0/build/turtlesim_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ylo-laptop', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/opt/gz_math_vendor/lib:/opt/ros/rolling/opt/gz_utils_vendor/lib:/opt/ros/rolling/opt/gz_cmake_vendor/lib:/opt/ros/rolling/lib', 'HOME': '/home/ylo-laptop', 'OLDPWD': '/home/ylo-laptop/ROS_Practice/test_0/src', 'DESKTOP_SESSION': 'ubuntu', 'ZED_TERM': 'true', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2891', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'rolling', 'LOGNAME': 'ylo-laptop', 'WINDOWID': '4294967297', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ylo-laptop', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'ZED_FORCE_CLI_MODE': '', 'PATH': '/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/ylo-laptop/.local/bin/', 'SESSION_MANAGER': 'local/ylo-laptop-ROG-Zephyrus-G15:@/tmp/.ICE-unix/2836,unix/ylo-laptop-ROG-Zephyrus-G15:/tmp/.ICE-unix/2836', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/23aebecd_18f2_49df_b404_db831a132dca', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.234', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/rolling', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'ALACRITTY_WINDOW_ID': '4294967297', 'PWD': '/home/ylo-laptop/ROS_Practice/test_0/build/turtlesim_msgs', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/ylo-laptop/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/rolling/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling'}), 'shell': False}
+[14.363223] (turtlesim_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.363573] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/ament_index/resource_index/rosidl_interfaces/turtlesim_msgs\n'}
+[14.363984] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/msg/Color.json\n'}
+[14.364392] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/msg/Pose.json\n'}
+[14.364614] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/action/RotateAbsolute.json\n'}
+[14.364834] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/srv/Kill.json\n'}
+[14.365233] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/srv/SetPen.json\n'}
+[14.365459] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/srv/Spawn.json\n'}
+[14.365543] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/srv/TeleportAbsolute.json\n'}
+[14.365625] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/srv/TeleportRelative.json\n'}
+[14.365708] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs\n'}
+[14.365790] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action\n'}
+[14.365872] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/rotate_absolute.h\n'}
+[14.366037] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail\n'}
+[14.366127] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__functions.c\n'}
+[14.366210] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__functions.h\n'}
+[14.366290] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__type_support.h\n'}
+[14.366371] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__struct.h\n'}
+[14.366457] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__type_support.c\n'}
+[14.366540] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__description.c\n'}
+[14.366626] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg\n'}
+[14.366712] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[14.366836] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/color.h\n'}
+[14.367029] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail\n'}
+[14.367125] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__functions.c\n'}
+[14.367208] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__type_support.h\n'}
+[14.367289] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__description.c\n'}
+[14.367370] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__functions.c\n'}
+[14.367452] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__struct.h\n'}
+[14.367536] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__description.c\n'}
+[14.367620] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__functions.h\n'}
+[14.367751] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__functions.h\n'}
+[14.367925] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__type_support.c\n'}
+[14.368031] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__type_support.h\n'}
+[14.368113] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__type_support.c\n'}
+[14.368197] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__struct.h\n'}
+[14.368286] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/pose.h\n'}
+[14.368368] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv\n'}
+[14.368454] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/spawn.h\n'}
+[14.368578] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/kill.h\n'}
+[14.368763] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/teleport_relative.h\n'}
+[14.368848] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail\n'}
+[14.368928] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__type_support.h\n'}
+[14.369028] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__functions.h\n'}
+[14.369113] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__struct.h\n'}
+[14.369191] (-) TimerEvent: {}
+[14.369281] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__type_support.c\n'}
+[14.369376] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__type_support.h\n'}
+[14.369503] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__struct.h\n'}
+[14.369680] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__type_support.c\n'}
+[14.369763] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__type_support.h\n'}
+[14.369847] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__type_support.h\n'}
+[14.369950] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__description.c\n'}
+[14.370046] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__type_support.c\n'}
+[14.370129] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__description.c\n'}
+[14.370273] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__functions.c\n'}
+[14.370441] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__struct.h\n'}
+[14.370524] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__type_support.c\n'}
+[14.370604] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__functions.c\n'}
+[14.370687] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__struct.h\n'}
+[14.370783] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__description.c\n'}
+[14.370984] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__functions.c\n'}
+[14.371145] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__type_support.h\n'}
+[14.371226] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__struct.h\n'}
+[14.371313] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__type_support.c\n'}
+[14.371448] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__description.c\n'}
+[14.371591] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__functions.h\n'}
+[14.371714] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__functions.h\n'}
+[14.371815] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__functions.c\n'}
+[14.371994] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__description.c\n'}
+[14.372100] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__functions.h\n'}
+[14.372219] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__functions.h\n'}
+[14.372361] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__functions.c\n'}
+[14.372489] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/teleport_absolute.h\n'}
+[14.372640] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/set_pen.h\n'}
+[14.372882] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/environment/library_path.sh\n'}
+[14.373066] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/environment/library_path.dsv\n'}
+[14.373248] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_generator_c.so\n'}
+[14.374071] (turtlesim_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_generator_c.so" to ""\n'}
+[14.374286] (turtlesim_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs\n'}
+[14.374389] (turtlesim_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action\n'}
+[14.374482] (turtlesim_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail\n'}
+[14.374582] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[14.374759] (turtlesim_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg\n'}
+[14.374926] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[14.375047] (turtlesim_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail\n'}
+[14.375147] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__rosidl_typesupport_fastrtps_c.h\n'}
+[14.375311] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[14.375407] (turtlesim_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv\n'}
+[14.375496] (turtlesim_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail\n'}
+[14.375586] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[14.375680] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h\n'}
+[14.375822] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[14.375992] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h\n'}
+[14.376116] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__rosidl_typesupport_fastrtps_c.h\n'}
+[14.376194] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[14.376449] (turtlesim_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[14.376621] (turtlesim_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs\n'}
+[14.376716] (turtlesim_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action\n'}
+[14.376824] (turtlesim_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail\n'}
+[14.377009] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__builder.hpp\n'}
+[14.377113] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__type_support.hpp\n'}
+[14.377230] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__struct.hpp\n'}
+[14.377326] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__traits.hpp\n'}
+[14.377472] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/rotate_absolute.hpp\n'}
+[14.377563] (turtlesim_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg\n'}
+[14.377701] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/color.hpp\n'}
+[14.377834] (turtlesim_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail\n'}
+[14.377921] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__builder.hpp\n'}
+[14.378084] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__type_support.hpp\n'}
+[14.378196] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__builder.hpp\n'}
+[14.378403] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__traits.hpp\n'}
+[14.378495] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__type_support.hpp\n'}
+[14.378577] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__struct.hpp\n'}
+[14.378717] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__struct.hpp\n'}
+[14.378804] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__traits.hpp\n'}
+[14.378948] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[14.379038] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/pose.hpp\n'}
+[14.379176] (turtlesim_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv\n'}
+[14.379267] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/teleport_relative.hpp\n'}
+[14.379405] (turtlesim_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail\n'}
+[14.379521] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__struct.hpp\n'}
+[14.379605] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__traits.hpp\n'}
+[14.379754] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__builder.hpp\n'}
+[14.379839] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__struct.hpp\n'}
+[14.379973] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__builder.hpp\n'}
+[14.380087] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__type_support.hpp\n'}
+[14.380224] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__traits.hpp\n'}
+[14.380375] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__struct.hpp\n'}
+[14.380524] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__traits.hpp\n'}
+[14.380679] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__builder.hpp\n'}
+[14.380821] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__type_support.hpp\n'}
+[14.380968] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__traits.hpp\n'}
+[14.381123] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__type_support.hpp\n'}
+[14.381262] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__struct.hpp\n'}
+[14.381417] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__type_support.hpp\n'}
+[14.381555] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__traits.hpp\n'}
+[14.381709] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__struct.hpp\n'}
+[14.381860] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__builder.hpp\n'}
+[14.382024] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__builder.hpp\n'}
+[14.382166] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__type_support.hpp\n'}
+[14.382303] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/set_pen.hpp\n'}
+[14.382434] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/spawn.hpp\n'}
+[14.382571] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/teleport_absolute.hpp\n'}
+[14.382701] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/kill.hpp\n'}
+[14.382885] (turtlesim_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs\n'}
+[14.383048] (turtlesim_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action\n'}
+[14.383211] (turtlesim_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail\n'}
+[14.383296] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/dds_fastrtps\n'}
+[14.383376] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[14.383535] (turtlesim_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg\n'}
+[14.383626] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[14.383703] (turtlesim_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail\n'}
+[14.383781] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/dds_fastrtps\n'}
+[14.383958] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[14.384062] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[14.384143] (turtlesim_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv\n'}
+[14.384228] (turtlesim_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail\n'}
+[14.384398] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/dds_fastrtps\n'}
+[14.384482] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[14.384567] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[14.384788] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[14.385088] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[14.385366] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[14.385613] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[14.385916] (turtlesim_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[14.386254] (turtlesim_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs\n'}
+[14.386471] (turtlesim_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action\n'}
+[14.386681] (turtlesim_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail\n'}
+[14.386892] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__type_support.c\n'}
+[14.387289] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h\n'}
+[14.387553] (turtlesim_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg\n'}
+[14.387764] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[14.388086] (turtlesim_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail\n'}
+[14.388412] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__rosidl_typesupport_introspection_c.h\n'}
+[14.388631] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__type_support.c\n'}
+[14.388862] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__rosidl_typesupport_introspection_c.h\n'}
+[14.389209] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__type_support.c\n'}
+[14.389432] (turtlesim_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv\n'}
+[14.389754] (turtlesim_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail\n'}
+[14.390001] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__rosidl_typesupport_introspection_c.h\n'}
+[14.390338] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h\n'}
+[14.390549] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__type_support.c\n'}
+[14.390763] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__rosidl_typesupport_introspection_c.h\n'}
+[14.391137] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__type_support.c\n'}
+[14.391396] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__rosidl_typesupport_introspection_c.h\n'}
+[14.391609] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__type_support.c\n'}
+[14.391823] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__type_support.c\n'}
+[14.392147] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h\n'}
+[14.392450] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__type_support.c\n'}
+[14.392703] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_typesupport_introspection_c.so\n'}
+[14.392919] (turtlesim_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[14.393242] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_typesupport_c.so\n'}
+[14.393458] (turtlesim_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_typesupport_c.so" to ""\n'}
+[14.393665] (turtlesim_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs\n'}
+[14.393875] (turtlesim_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action\n'}
+[14.394137] (turtlesim_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail\n'}
+[14.394361] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__type_support.cpp\n'}
+[14.394578] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.394892] (turtlesim_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg\n'}
+[14.395228] (turtlesim_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail\n'}
+[14.395496] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.395714] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__type_support.cpp\n'}
+[14.395959] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.396341] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__type_support.cpp\n'}
+[14.396624] (turtlesim_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv\n'}
+[14.396957] (turtlesim_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail\n'}
+[14.397302] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__type_support.cpp\n'}
+[14.397518] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__type_support.cpp\n'}
+[14.397736] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__type_support.cpp\n'}
+[14.397974] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.398305] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.398517] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.398733] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__type_support.cpp\n'}
+[14.398972] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.399305] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.399526] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__type_support.cpp\n'}
+[14.399743] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[14.399992] (turtlesim_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[14.400322] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_typesupport_cpp.so\n'}
+[14.400538] (turtlesim_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[14.400746] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/environment/pythonpath.sh\n'}
+[14.400983] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/environment/pythonpath.dsv\n'}
+[14.401219] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs-1.9.2-py3.12.egg-info\n'}
+[14.401445] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs-1.9.2-py3.12.egg-info/dependency_links.txt\n'}
+[14.401666] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs-1.9.2-py3.12.egg-info/SOURCES.txt\n'}
+[14.401879] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs-1.9.2-py3.12.egg-info/PKG-INFO\n'}
+[14.402133] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs-1.9.2-py3.12.egg-info/top_level.txt\n'}
+[14.402351] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs\n'}
+[14.402558] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/turtlesim_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[14.402768] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/action\n'}
+[14.402998] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/action/_rotate_absolute.py\n'}
+[14.403234] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/action/_rotate_absolute_s.c\n'}
+[14.403472] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/action/__init__.py\n'}
+[14.403680] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/msg\n'}
+[14.403886] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/msg/_color_s.c\n'}
+[14.404150] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/msg/_pose_s.c\n'}
+[14.404365] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/msg/_pose.py\n'}
+[14.404572] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/msg/_color.py\n'}
+[14.404778] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/msg/__init__.py\n'}
+[14.405024] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[14.405252] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/turtlesim_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[14.405458] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/__init__.py\n'}
+[14.405662] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/turtlesim_msgs_s__rosidl_typesupport_c.so\n'}
+[14.405882] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[14.406125] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[14.406335] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/srv\n'}
+[14.406537] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/srv/_teleport_relative_s.c\n'}
+[14.406739] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/srv/_teleport_relative.py\n'}
+[14.406961] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/srv/_spawn.py\n'}
+[14.407190] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/srv/_spawn_s.c\n'}
+[14.407407] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/srv/_teleport_absolute_s.c\n'}
+[14.407610] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/srv/_kill.py\n'}
+[14.407813] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/srv/_teleport_absolute.py\n'}
+[14.408047] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/srv/_set_pen.py\n'}
+[14.408268] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/srv/__init__.py\n'}
+[14.408473] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/srv/_kill_s.c\n'}
+[14.408676] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/srv/_set_pen_s.c\n'}
+[14.468966] (turtlesim_msgs) StdoutLine: {'line': b"Listing '/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs'...\n"}
+[14.469268] (-) TimerEvent: {}
+[14.469449] (turtlesim_msgs) StdoutLine: {'line': b"Compiling '/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/__init__.py'...\n"}
+[14.469686] (turtlesim_msgs) StdoutLine: {'line': b"Listing '/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/action'...\n"}
+[14.469891] (turtlesim_msgs) StdoutLine: {'line': b"Compiling '/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/action/__init__.py'...\n"}
+[14.470130] (turtlesim_msgs) StdoutLine: {'line': b"Compiling '/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/action/_rotate_absolute.py'...\n"}
+[14.470366] (turtlesim_msgs) StdoutLine: {'line': b"Listing '/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/msg'...\n"}
+[14.470567] (turtlesim_msgs) StdoutLine: {'line': b"Compiling '/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/msg/__init__.py'...\n"}
+[14.470779] (turtlesim_msgs) StdoutLine: {'line': b"Compiling '/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/msg/_color.py'...\n"}
+[14.471004] (turtlesim_msgs) StdoutLine: {'line': b"Compiling '/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/msg/_pose.py'...\n"}
+[14.471218] (turtlesim_msgs) StdoutLine: {'line': b"Listing '/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/srv'...\n"}
+[14.471420] (turtlesim_msgs) StdoutLine: {'line': b"Compiling '/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/srv/__init__.py'...\n"}
+[14.471620] (turtlesim_msgs) StdoutLine: {'line': b"Compiling '/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/srv/_kill.py'...\n"}
+[14.471820] (turtlesim_msgs) StdoutLine: {'line': b"Compiling '/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/srv/_set_pen.py'...\n"}
+[14.472054] (turtlesim_msgs) StdoutLine: {'line': b"Compiling '/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/srv/_spawn.py'...\n"}
+[14.472265] (turtlesim_msgs) StdoutLine: {'line': b"Compiling '/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/srv/_teleport_absolute.py'...\n"}
+[14.472465] (turtlesim_msgs) StdoutLine: {'line': b"Compiling '/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/srv/_teleport_relative.py'...\n"}
+[14.475321] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/turtlesim_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[14.476240] (turtlesim_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/turtlesim_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[14.476640] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/turtlesim_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[14.477529] (turtlesim_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/turtlesim_msgs_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[14.477954] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/turtlesim_msgs_s__rosidl_typesupport_c.so\n'}
+[14.478766] (turtlesim_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/turtlesim_msgs_s__rosidl_typesupport_c.so" to ""\n'}
+[14.479161] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_generator_py.so\n'}
+[14.479518] (turtlesim_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_generator_py.so" to ""\n'}
+[14.479743] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/msg/Color.idl\n'}
+[14.480136] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/msg/Pose.idl\n'}
+[14.480491] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/action/RotateAbsolute.idl\n'}
+[14.480776] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/srv/Kill.idl\n'}
+[14.481331] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/srv/SetPen.idl\n'}
+[14.481685] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/srv/Spawn.idl\n'}
+[14.481954] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/srv/TeleportAbsolute.idl\n'}
+[14.482427] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/srv/TeleportRelative.idl\n'}
+[14.482678] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/msg/Color.msg\n'}
+[14.483054] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/msg/Pose.msg\n'}
+[14.483550] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/action/RotateAbsolute.action\n'}
+[14.483903] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/srv/Kill.srv\n'}
+[14.484387] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/srv/SetPen.srv\n'}
+[14.484710] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/srv/Spawn.srv\n'}
+[14.485216] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/srv/TeleportAbsolute.srv\n'}
+[14.485842] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/srv/TeleportRelative.srv\n'}
+[14.486270] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/ament_index/resource_index/package_run_dependencies/turtlesim_msgs\n'}
+[14.486648] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/ament_index/resource_index/parent_prefix_path/turtlesim_msgs\n'}
+[14.486999] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/environment/ament_prefix_path.sh\n'}
+[14.487285] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/environment/ament_prefix_path.dsv\n'}
+[14.487559] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/environment/path.sh\n'}
+[14.487881] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/environment/path.dsv\n'}
+[14.488299] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/local_setup.bash\n'}
+[14.488610] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/local_setup.sh\n'}
+[14.488860] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/local_setup.zsh\n'}
+[14.489247] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/local_setup.dsv\n'}
+[14.489535] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/package.dsv\n'}
+[14.489842] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/ament_index/resource_index/packages/turtlesim_msgs\n'}
+[14.490102] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/cmake/export_turtlesim_msgs__rosidl_generator_cExport.cmake\n'}
+[14.490322] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/cmake/export_turtlesim_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[14.490533] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/cmake/export_turtlesim_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[14.490747] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/cmake/export_turtlesim_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[14.491039] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/cmake/export_turtlesim_msgs__rosidl_generator_cppExport.cmake\n'}
+[14.491271] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/cmake/export_turtlesim_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[14.491479] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/cmake/export_turtlesim_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[14.491718] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/cmake/turtlesim_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[14.491964] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/cmake/turtlesim_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[14.492230] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/cmake/turtlesim_msgs__rosidl_typesupport_cExport.cmake\n'}
+[14.492516] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/cmake/turtlesim_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[14.492816] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/cmake/turtlesim_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[14.493454] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/cmake/turtlesim_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[14.494836] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/cmake/turtlesim_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[14.495584] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/cmake/turtlesim_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[14.495814] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/cmake/export_turtlesim_msgs__rosidl_generator_pyExport.cmake\n'}
+[14.496382] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/cmake/export_turtlesim_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[14.496674] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[14.497168] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[14.497402] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[14.497619] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[14.497828] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[14.498107] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[14.498375] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[14.498587] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/cmake/turtlesim_msgsConfig.cmake\n'}
+[14.498796] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/cmake/turtlesim_msgsConfig-version.cmake\n'}
+[14.499076] (turtlesim_msgs) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/package.xml\n'}
+[14.499306] (turtlesim_msgs) CommandEnded: {'returncode': 0}
+[14.569483] (-) TimerEvent: {}
+[14.669893] (-) TimerEvent: {}
+[14.770416] (-) TimerEvent: {}
+[14.824034] (turtlesim_msgs) JobEnded: {'identifier': 'turtlesim_msgs', 'rc': 0}
+[14.825699] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[14.843128] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[14.844194] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '/home/ylo-laptop/ROS_Practice/test_0/src/ros_tutorials/turtlesim', '-DCMAKE_INSTALL_PREFIX=/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim'], 'cwd': '/home/ylo-laptop/ROS_Practice/test_0/build/turtlesim', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ylo-laptop', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/opt/gz_math_vendor/lib:/opt/ros/rolling/opt/gz_utils_vendor/lib:/opt/ros/rolling/opt/gz_cmake_vendor/lib:/opt/ros/rolling/lib', 'HOME': '/home/ylo-laptop', 'OLDPWD': '/home/ylo-laptop/ROS_Practice/test_0/src', 'DESKTOP_SESSION': 'ubuntu', 'ZED_TERM': 'true', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2891', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'rolling', 'LOGNAME': 'ylo-laptop', 'WINDOWID': '4294967297', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ylo-laptop', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'ZED_FORCE_CLI_MODE': '', 'PATH': '/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/ylo-laptop/.local/bin/', 'SESSION_MANAGER': 'local/ylo-laptop-ROG-Zephyrus-G15:@/tmp/.ICE-unix/2836,unix/ylo-laptop-ROG-Zephyrus-G15:/tmp/.ICE-unix/2836', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/23aebecd_18f2_49df_b404_db831a132dca', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.234', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs:/opt/ros/rolling', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'ALACRITTY_WINDOW_ID': '4294967297', 'PWD': '/home/ylo-laptop/ROS_Practice/test_0/build/turtlesim', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/ylo-laptop/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages:/opt/ros/rolling/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling'}), 'shell': False}
+[14.870582] (-) TimerEvent: {}
+[14.932294] (turtlesim) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.2.0\n'}
+[14.970718] (-) TimerEvent: {}
+[15.017868] (turtlesim) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.2.0\n'}
+[15.060692] (turtlesim) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[15.070896] (-) TimerEvent: {}
+[15.171341] (-) TimerEvent: {}
+[15.220172] (turtlesim) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[15.228379] (turtlesim) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[15.228728] (turtlesim) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[15.229076] (turtlesim) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[15.242284] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[15.271511] (-) TimerEvent: {}
+[15.372021] (-) TimerEvent: {}
+[15.388407] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[15.413763] (turtlesim) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[15.414485] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[15.415703] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[15.423323] (turtlesim) StdoutLine: {'line': b'-- Found ament_cmake: 2.7.0 (/opt/ros/rolling/share/ament_cmake/cmake)\n'}
+[15.472156] (-) TimerEvent: {}
+[15.572515] (-) TimerEvent: {}
+[15.624274] (turtlesim) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[15.672659] (-) TimerEvent: {}
+[15.772998] (-) TimerEvent: {}
+[15.776472] (turtlesim) StdoutLine: {'line': b'-- Found ament_index_cpp: 1.9.0 (/opt/ros/rolling/share/ament_index_cpp/cmake)\n'}
+[15.779463] (turtlesim) StdoutLine: {'line': b'-- Found geometry_msgs: 5.4.1 (/opt/ros/rolling/share/geometry_msgs/cmake)\n'}
+[15.817805] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.8.1 (/opt/ros/rolling/share/rosidl_generator_c/cmake)\n'}
+[15.830222] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.8.1 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)\n'}
+[15.844199] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[15.860095] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[15.873148] (-) TimerEvent: {}
+[15.920712] (turtlesim) StdoutLine: {'line': b'-- Found rclcpp: 28.3.1 (/opt/ros/rolling/share/rclcpp/cmake)\n'}
+[15.973298] (-) TimerEvent: {}
+[15.988480] (turtlesim) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.4.1 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)\n'}
+[15.992007] (turtlesim) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 9.0.0 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)\n'}
+[16.073420] (-) TimerEvent: {}
+[16.114813] (turtlesim) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[16.134794] (turtlesim) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/rolling/include (Required is at least version "2.13") \n'}
+[16.161663] (turtlesim) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[16.173592] (-) TimerEvent: {}
+[16.235274] (turtlesim) StdoutLine: {'line': b'-- Found rclcpp_action: 28.3.1 (/opt/ros/rolling/share/rclcpp_action/cmake)\n'}
+[16.273740] (-) TimerEvent: {}
+[16.277447] (turtlesim) StdoutLine: {'line': b'-- Found std_srvs: 5.4.1 (/opt/ros/rolling/share/std_srvs/cmake)\n'}
+[16.295424] (turtlesim) StdoutLine: {'line': b'-- Found turtlesim_msgs: 1.9.2 (/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/cmake)\n'}
+[16.319201] (turtlesim) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.18.1 (/opt/ros/rolling/share/ament_lint_auto/cmake)\n'}
+[16.373910] (-) TimerEvent: {}
+[16.429325] (turtlesim) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[16.431785] (turtlesim) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[16.432148] (turtlesim) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/ylo-laptop/ROS_Practice/test_0/src/ros_tutorials/turtlesim/include\n'}
+[16.432316] (turtlesim) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[16.434328] (turtlesim) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[16.434558] (turtlesim) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[16.435112] (turtlesim) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[16.435336] (turtlesim) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[16.436053] (turtlesim) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[16.436843] (turtlesim) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[16.439088] (turtlesim) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[16.439320] (turtlesim) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[16.439754] (turtlesim) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[16.441187] (turtlesim) StdoutLine: {'line': b'-- Configuring done (1.6s)\n'}
+[16.468770] (turtlesim) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[16.470831] (turtlesim) StdoutLine: {'line': b'-- Build files have been written to: /home/ylo-laptop/ROS_Practice/test_0/build/turtlesim\n'}
+[16.474078] (-) TimerEvent: {}
+[16.482379] (turtlesim) CommandEnded: {'returncode': 0}
+[16.483436] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[16.483766] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ylo-laptop/ROS_Practice/test_0/build/turtlesim', '--', '-j16', '-l16'], 'cwd': '/home/ylo-laptop/ROS_Practice/test_0/build/turtlesim', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ylo-laptop', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/opt/gz_math_vendor/lib:/opt/ros/rolling/opt/gz_utils_vendor/lib:/opt/ros/rolling/opt/gz_cmake_vendor/lib:/opt/ros/rolling/lib', 'HOME': '/home/ylo-laptop', 'OLDPWD': '/home/ylo-laptop/ROS_Practice/test_0/src', 'DESKTOP_SESSION': 'ubuntu', 'ZED_TERM': 'true', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2891', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'rolling', 'LOGNAME': 'ylo-laptop', 'WINDOWID': '4294967297', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ylo-laptop', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'ZED_FORCE_CLI_MODE': '', 'PATH': '/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/ylo-laptop/.local/bin/', 'SESSION_MANAGER': 'local/ylo-laptop-ROG-Zephyrus-G15:@/tmp/.ICE-unix/2836,unix/ylo-laptop-ROG-Zephyrus-G15:/tmp/.ICE-unix/2836', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/23aebecd_18f2_49df_b404_db831a132dca', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.234', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs:/opt/ros/rolling', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'ALACRITTY_WINDOW_ID': '4294967297', 'PWD': '/home/ylo-laptop/ROS_Practice/test_0/build/turtlesim', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/ylo-laptop/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages:/opt/ros/rolling/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling'}), 'shell': False}
+[16.540830] (turtlesim) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating include/turtlesim/moc_turtle_frame.cpp\x1b[0m\n'}
+[16.551419] (turtlesim) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/draw_square.dir/tutorials/draw_square.cpp.o\x1b[0m\n'}
+[16.551612] (turtlesim) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/turtle_teleop_key.dir/tutorials/teleop_turtle_key.cpp.o\x1b[0m\n'}
+[16.552149] (turtlesim) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/mimic.dir/tutorials/mimic.cpp.o\x1b[0m\n'}
+[16.574200] (-) TimerEvent: {}
+[16.623450] (turtlesim) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o\x1b[0m\n'}
+[16.623856] (turtlesim) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle.cpp.o\x1b[0m\n'}
+[16.630157] (turtlesim) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtlesim.cpp.o\x1b[0m\n'}
+[16.631068] (turtlesim) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/include/turtlesim/moc_turtle_frame.cpp.o\x1b[0m\n'}
+[16.674338] (-) TimerEvent: {}
+[16.774631] (-) TimerEvent: {}
+[16.874950] (-) TimerEvent: {}
+[16.975253] (-) TimerEvent: {}
+[17.075588] (-) TimerEvent: {}
+[17.175982] (-) TimerEvent: {}
+[17.276337] (-) TimerEvent: {}
+[17.376690] (-) TimerEvent: {}
+[17.477021] (-) TimerEvent: {}
+[17.577367] (-) TimerEvent: {}
+[17.677718] (-) TimerEvent: {}
+[17.778094] (-) TimerEvent: {}
+[17.878520] (-) TimerEvent: {}
+[17.978916] (-) TimerEvent: {}
+[18.079358] (-) TimerEvent: {}
+[18.179790] (-) TimerEvent: {}
+[18.280239] (-) TimerEvent: {}
+[18.380626] (-) TimerEvent: {}
+[18.481057] (-) TimerEvent: {}
+[18.581440] (-) TimerEvent: {}
+[18.681855] (-) TimerEvent: {}
+[18.782288] (-) TimerEvent: {}
+[18.882682] (-) TimerEvent: {}
+[18.983074] (-) TimerEvent: {}
+[19.083490] (-) TimerEvent: {}
+[19.183887] (-) TimerEvent: {}
+[19.284306] (-) TimerEvent: {}
+[19.384676] (-) TimerEvent: {}
+[19.485056] (-) TimerEvent: {}
+[19.585400] (-) TimerEvent: {}
+[19.685763] (-) TimerEvent: {}
+[19.786144] (-) TimerEvent: {}
+[19.886509] (-) TimerEvent: {}
+[19.986862] (-) TimerEvent: {}
+[20.087243] (-) TimerEvent: {}
+[20.187592] (-) TimerEvent: {}
+[20.287987] (-) TimerEvent: {}
+[20.388345] (-) TimerEvent: {}
+[20.488699] (-) TimerEvent: {}
+[20.589061] (-) TimerEvent: {}
+[20.689407] (-) TimerEvent: {}
+[20.789768] (-) TimerEvent: {}
+[20.890137] (-) TimerEvent: {}
+[20.990457] (-) TimerEvent: {}
+[21.090777] (-) TimerEvent: {}
+[21.191125] (-) TimerEvent: {}
+[21.291473] (-) TimerEvent: {}
+[21.391825] (-) TimerEvent: {}
+[21.492204] (-) TimerEvent: {}
+[21.592562] (-) TimerEvent: {}
+[21.692922] (-) TimerEvent: {}
+[21.793335] (-) TimerEvent: {}
+[21.893734] (-) TimerEvent: {}
+[21.994147] (-) TimerEvent: {}
+[22.094539] (-) TimerEvent: {}
+[22.194923] (-) TimerEvent: {}
+[22.295335] (-) TimerEvent: {}
+[22.395717] (-) TimerEvent: {}
+[22.496125] (-) TimerEvent: {}
+[22.596522] (-) TimerEvent: {}
+[22.696923] (-) TimerEvent: {}
+[22.797322] (-) TimerEvent: {}
+[22.897701] (-) TimerEvent: {}
+[22.998118] (-) TimerEvent: {}
+[23.098514] (-) TimerEvent: {}
+[23.198877] (-) TimerEvent: {}
+[23.219335] (turtlesim) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable turtle_teleop_key\x1b[0m\n'}
+[23.299060] (-) TimerEvent: {}
+[23.399481] (-) TimerEvent: {}
+[23.499907] (-) TimerEvent: {}
+[23.531531] (turtlesim) StdoutLine: {'line': b'[ 75%] Built target turtle_teleop_key\n'}
+[23.600068] (-) TimerEvent: {}
+[23.700434] (-) TimerEvent: {}
+[23.800810] (-) TimerEvent: {}
+[23.901224] (-) TimerEvent: {}
+[24.001610] (-) TimerEvent: {}
+[24.102007] (-) TimerEvent: {}
+[24.202378] (-) TimerEvent: {}
+[24.302773] (-) TimerEvent: {}
+[24.403150] (-) TimerEvent: {}
+[24.503519] (-) TimerEvent: {}
+[24.603894] (-) TimerEvent: {}
+[24.704286] (-) TimerEvent: {}
+[24.804660] (-) TimerEvent: {}
+[24.905031] (-) TimerEvent: {}
+[25.005394] (-) TimerEvent: {}
+[25.105768] (-) TimerEvent: {}
+[25.206140] (-) TimerEvent: {}
+[25.306516] (-) TimerEvent: {}
+[25.406885] (-) TimerEvent: {}
+[25.507259] (-) TimerEvent: {}
+[25.565636] (turtlesim) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable mimic\x1b[0m\n'}
+[25.607417] (-) TimerEvent: {}
+[25.707739] (-) TimerEvent: {}
+[25.808236] (-) TimerEvent: {}
+[25.908660] (-) TimerEvent: {}
+[26.009053] (-) TimerEvent: {}
+[26.018556] (turtlesim) StdoutLine: {'line': b'[ 83%] Built target mimic\n'}
+[26.109210] (-) TimerEvent: {}
+[26.152712] (turtlesim) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX executable draw_square\x1b[0m\n'}
+[26.209341] (-) TimerEvent: {}
+[26.309677] (-) TimerEvent: {}
+[26.410061] (-) TimerEvent: {}
+[26.510412] (-) TimerEvent: {}
+[26.610710] (-) TimerEvent: {}
+[26.647442] (turtlesim) StdoutLine: {'line': b'[ 91%] Built target draw_square\n'}
+[26.710860] (-) TimerEvent: {}
+[26.811239] (-) TimerEvent: {}
+[26.911587] (-) TimerEvent: {}
+[27.011966] (-) TimerEvent: {}
+[27.112310] (-) TimerEvent: {}
+[27.212665] (-) TimerEvent: {}
+[27.313016] (-) TimerEvent: {}
+[27.413364] (-) TimerEvent: {}
+[27.513724] (-) TimerEvent: {}
+[27.614116] (-) TimerEvent: {}
+[27.714482] (-) TimerEvent: {}
+[27.814840] (-) TimerEvent: {}
+[27.915474] (-) TimerEvent: {}
+[28.015821] (-) TimerEvent: {}
+[28.116201] (-) TimerEvent: {}
+[28.216552] (-) TimerEvent: {}
+[28.316911] (-) TimerEvent: {}
+[28.417284] (-) TimerEvent: {}
+[28.517870] (-) TimerEvent: {}
+[28.618243] (-) TimerEvent: {}
+[28.719054] (-) TimerEvent: {}
+[28.819588] (-) TimerEvent: {}
+[28.919963] (-) TimerEvent: {}
+[29.020313] (-) TimerEvent: {}
+[29.120672] (-) TimerEvent: {}
+[29.221027] (-) TimerEvent: {}
+[29.321395] (-) TimerEvent: {}
+[29.422018] (-) TimerEvent: {}
+[29.522547] (-) TimerEvent: {}
+[29.594660] (turtlesim) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtlesim_node\x1b[0m\n'}
+[29.622726] (-) TimerEvent: {}
+[29.723175] (-) TimerEvent: {}
+[29.823613] (-) TimerEvent: {}
+[29.924063] (-) TimerEvent: {}
+[30.024507] (-) TimerEvent: {}
+[30.124951] (-) TimerEvent: {}
+[30.230268] (-) TimerEvent: {}
+[30.330731] (-) TimerEvent: {}
+[30.431218] (-) TimerEvent: {}
+[30.531673] (-) TimerEvent: {}
+[30.632128] (-) TimerEvent: {}
+[30.732582] (-) TimerEvent: {}
+[30.833026] (-) TimerEvent: {}
+[30.933452] (-) TimerEvent: {}
+[31.033895] (-) TimerEvent: {}
+[31.134383] (-) TimerEvent: {}
+[31.234836] (-) TimerEvent: {}
+[31.335467] (-) TimerEvent: {}
+[31.435903] (-) TimerEvent: {}
+[31.536350] (-) TimerEvent: {}
+[31.636737] (-) TimerEvent: {}
+[31.671337] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim_node\n'}
+[31.695488] (turtlesim) CommandEnded: {'returncode': 0}
+[31.736866] (-) TimerEvent: {}
+[31.740884] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'install'}
+[31.741328] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ylo-laptop/ROS_Practice/test_0/build/turtlesim'], 'cwd': '/home/ylo-laptop/ROS_Practice/test_0/build/turtlesim', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ylo-laptop', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/opt/gz_math_vendor/lib:/opt/ros/rolling/opt/gz_utils_vendor/lib:/opt/ros/rolling/opt/gz_cmake_vendor/lib:/opt/ros/rolling/lib', 'HOME': '/home/ylo-laptop', 'OLDPWD': '/home/ylo-laptop/ROS_Practice/test_0/src', 'DESKTOP_SESSION': 'ubuntu', 'ZED_TERM': 'true', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2891', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'rolling', 'LOGNAME': 'ylo-laptop', 'WINDOWID': '4294967297', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ylo-laptop', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'ZED_FORCE_CLI_MODE': '', 'PATH': '/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/ylo-laptop/.local/bin/', 'SESSION_MANAGER': 'local/ylo-laptop-ROG-Zephyrus-G15:@/tmp/.ICE-unix/2836,unix/ylo-laptop-ROG-Zephyrus-G15:/tmp/.ICE-unix/2836', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/23aebecd_18f2_49df_b404_db831a132dca', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.234', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs:/opt/ros/rolling', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'ALACRITTY_WINDOW_ID': '4294967297', 'PWD': '/home/ylo-laptop/ROS_Practice/test_0/build/turtlesim', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/ylo-laptop/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages:/opt/ros/rolling/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling'}), 'shell': False}
+[31.749720] (turtlesim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[31.750321] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/lib/turtlesim/turtlesim_node\n'}
+[31.762612] (turtlesim) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/lib/turtlesim/turtlesim_node" to ""\n'}
+[31.763025] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/lib/turtlesim/turtle_teleop_key\n'}
+[31.764951] (turtlesim) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/lib/turtlesim/turtle_teleop_key" to ""\n'}
+[31.765255] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/lib/turtlesim/draw_square\n'}
+[31.770749] (turtlesim) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/lib/turtlesim/draw_square" to ""\n'}
+[31.771105] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/lib/turtlesim/mimic\n'}
+[31.776054] (turtlesim) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/lib/turtlesim/mimic" to ""\n'}
+[31.776515] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/share/turtlesim/images\n'}
+[31.776764] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/share/turtlesim/images/foxy.png\n'}
+[31.777099] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/share/turtlesim/images/bouncy.png\n'}
+[31.777404] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/share/turtlesim/images/rolling.png\n'}
+[31.777641] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/share/turtlesim/images/crystal.png\n'}
+[31.777849] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/share/turtlesim/images/ardent.png\n'}
+[31.778203] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/share/turtlesim/images/dashing.png\n'}
+[31.778485] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/share/turtlesim/images/humble.png\n'}
+[31.778711] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/share/turtlesim/images/eloquent.png\n'}
+[31.778919] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/share/turtlesim/images/galactic.png\n'}
+[31.779348] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/share/turtlesim/images/jazzy.png\n'}
+[31.779559] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/share/turtlesim/images/iron.png\n'}
+[31.779768] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/share/turtlesim/launch\n'}
+[31.780065] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/share/turtlesim/launch/multisim.launch.py\n'}
+[31.780292] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim\n'}
+[31.780494] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim\n'}
+[31.780693] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh\n'}
+[31.780895] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv\n'}
+[31.781154] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/share/turtlesim/environment/path.sh\n'}
+[31.781371] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/share/turtlesim/environment/path.dsv\n'}
+[31.781580] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/share/turtlesim/local_setup.bash\n'}
+[31.781787] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/share/turtlesim/local_setup.sh\n'}
+[31.782113] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/share/turtlesim/local_setup.zsh\n'}
+[31.782745] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/share/turtlesim/local_setup.dsv\n'}
+[31.783254] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/share/turtlesim/package.dsv\n'}
+[31.783841] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/share/ament_index/resource_index/packages/turtlesim\n'}
+[31.784492] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake\n'}
+[31.784716] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake\n'}
+[31.784926] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/share/turtlesim/package.xml\n'}
+[31.785490] (turtlesim) CommandEnded: {'returncode': 0}
+[31.837029] (-) TimerEvent: {}
+[31.864544] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 0}
+[31.866118] (-) EventReactorShutdown: {}

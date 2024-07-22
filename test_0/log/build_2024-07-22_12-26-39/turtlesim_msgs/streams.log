@@ -1,0 +1,506 @@
+[0.015s] Invoking command in '/home/ylo-laptop/ROS_Practice/test_0/build/turtlesim_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ylo-laptop/ROS_Practice/test_0/src/ros_tutorials/turtlesim_msgs -DCMAKE_INSTALL_PREFIX=/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs
+[0.221s] -- The C compiler identification is GNU 13.2.0
+[0.421s] -- The CXX compiler identification is GNU 13.2.0
+[0.461s] -- Detecting C compiler ABI info
+[0.661s] -- Detecting C compiler ABI info - done
+[0.686s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.686s] -- Detecting C compile features
+[0.687s] -- Detecting C compile features - done
+[0.706s] -- Detecting CXX compiler ABI info
+[0.876s] -- Detecting CXX compiler ABI info - done
+[0.904s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.904s] -- Detecting CXX compile features
+[0.906s] -- Detecting CXX compile features - done
+[0.923s] -- Found ament_cmake: 2.7.0 (/opt/ros/rolling/share/ament_cmake/cmake)
+[1.182s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.382s] -- Found builtin_interfaces: 2.2.0 (/opt/ros/rolling/share/builtin_interfaces/cmake)
+[1.440s] -- Found rosidl_generator_c: 4.8.1 (/opt/ros/rolling/share/rosidl_generator_c/cmake)
+[1.462s] -- Found rosidl_generator_cpp: 4.8.1 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)
+[1.489s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.518s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.544s] -- Found rosidl_default_generators: 1.7.1 (/opt/ros/rolling/share/rosidl_default_generators/cmake)
+[1.566s] -- Found rosidl_adapter: 4.8.1 (/opt/ros/rolling/share/rosidl_adapter/cmake)
+[2.755s] -- Found ament_cmake_cppcheck: 0.18.1 (/opt/ros/rolling/share/ament_cmake_cppcheck/cmake)
+[2.761s] -- Found ament_cmake_cpplint: 0.18.1 (/opt/ros/rolling/share/ament_cmake_cpplint/cmake)
+[2.769s] -- Found ament_cmake_uncrustify: 0.18.1 (/opt/ros/rolling/share/ament_cmake_uncrustify/cmake)
+[2.776s] -- Found ament_cmake_ros: 0.13.0 (/opt/ros/rolling/share/ament_cmake_ros/cmake)
+[4.141s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.688s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.704s] -- Found python_cmake_module: 0.12.0 (/opt/ros/rolling/share/python_cmake_module/cmake)
+[4.958s] -- Found PythonExtra: /usr/bin/python3  
+[5.681s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[5.767s] -- Found ament_cmake_flake8: 0.18.1 (/opt/ros/rolling/share/ament_cmake_flake8/cmake)
+[5.774s] -- Found ament_cmake_pep257: 0.18.1 (/opt/ros/rolling/share/ament_cmake_pep257/cmake)
+[5.797s] -- Configuring done (5.8s)
+[5.880s] -- Generating done (0.1s)
+[5.884s] -- Build files have been written to: /home/ylo-laptop/ROS_Practice/test_0/build/turtlesim_msgs
+[5.899s] Invoked command in '/home/ylo-laptop/ROS_Practice/test_0/build/turtlesim_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ylo-laptop/ROS_Practice/test_0/src/ros_tutorials/turtlesim_msgs -DCMAKE_INSTALL_PREFIX=/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs
+[5.902s] Invoking command in '/home/ylo-laptop/ROS_Practice/test_0/build/turtlesim_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ylo-laptop/ROS_Practice/test_0/build/turtlesim_msgs -- -j16 -l16
+[5.992s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[6.017s] [  1%] Built target ament_cmake_python_copy_turtlesim_msgs
+[6.326s] running egg_info
+[6.326s] creating turtlesim_msgs.egg-info
+[6.354s] writing turtlesim_msgs.egg-info/PKG-INFO
+[6.354s] writing dependency_links to turtlesim_msgs.egg-info/dependency_links.txt
+[6.355s] writing top-level names to turtlesim_msgs.egg-info/top_level.txt
+[6.355s] writing manifest file 'turtlesim_msgs.egg-info/SOURCES.txt'
+[6.436s] reading manifest file 'turtlesim_msgs.egg-info/SOURCES.txt'
+[6.437s] writing manifest file 'turtlesim_msgs.egg-info/SOURCES.txt'
+[6.447s] [  1%] Built target turtlesim_msgs__rosidl_generator_type_description
+[6.466s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.480s] [  2%] Built target ament_cmake_python_build_turtlesim_msgs_egg
+[6.481s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.731s] [  2%] Built target turtlesim_msgs__cpp
+[7.977s] [  3%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/msg/detail/color__functions.c.o[0m
+[7.977s] [  5%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/msg/detail/color__type_support.c.o[0m
+[7.977s] [  5%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/msg/detail/color__description.c.o[0m
+[7.977s] [  6%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/srv/detail/kill__description.c.o[0m
+[7.978s] [  9%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/msg/detail/pose__functions.c.o[0m
+[7.978s] [  9%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/msg/detail/pose__type_support.c.o[0m
+[7.978s] [  9%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/action/detail/rotate_absolute__functions.c.o[0m
+[7.978s] [ 10%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/msg/detail/pose__description.c.o[0m
+[7.978s] [ 12%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/action/detail/rotate_absolute__description.c.o[0m
+[7.979s] [ 12%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/action/detail/rotate_absolute__type_support.c.o[0m
+[7.979s] [ 14%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/srv/detail/set_pen__functions.c.o[0m
+[7.979s] [ 14%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/srv/detail/set_pen__description.c.o[0m
+[7.979s] [ 16%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/srv/detail/kill__functions.c.o[0m
+[7.979s] [ 16%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/srv/detail/set_pen__type_support.c.o[0m
+[7.980s] [ 17%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/srv/detail/kill__type_support.c.o[0m
+[7.981s] [ 18%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/srv/detail/spawn__description.c.o[0m
+[8.061s] [ 19%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/srv/detail/spawn__functions.c.o[0m
+[8.061s] [ 20%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/srv/detail/spawn__type_support.c.o[0m
+[8.078s] [ 21%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/srv/detail/teleport_absolute__description.c.o[0m
+[8.079s] [ 22%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/srv/detail/teleport_absolute__functions.c.o[0m
+[8.080s] [ 23%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/srv/detail/teleport_relative__description.c.o[0m
+[8.080s] [ 24%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/srv/detail/teleport_absolute__type_support.c.o[0m
+[8.088s] [ 25%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/srv/detail/teleport_relative__functions.c.o[0m
+[8.097s] [ 25%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlesim_msgs/srv/detail/teleport_relative__type_support.c.o[0m
+[8.296s] [ 26%] [32m[1mLinking C shared library libturtlesim_msgs__rosidl_generator_c.so[0m
+[8.382s] [ 26%] Built target turtlesim_msgs__rosidl_generator_c
+[8.398s] [ 27%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[8.399s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.401s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[8.402s] [ 30%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[8.409s] [ 31%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[8.410s] [ 31%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[9.106s] [ 34%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim_msgs/action/rotate_absolute__type_support.cpp.o[0m
+[9.106s] [ 34%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim_msgs/msg/color__type_support.cpp.o[0m
+[9.106s] [ 34%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim_msgs/msg/pose__type_support.cpp.o[0m
+[9.107s] [ 36%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim_msgs/srv/kill__type_support.cpp.o[0m
+[9.107s] [ 36%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim_msgs/srv/set_pen__type_support.cpp.o[0m
+[9.122s] [ 37%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim_msgs/srv/teleport_absolute__type_support.cpp.o[0m
+[9.122s] [ 38%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim_msgs/srv/spawn__type_support.cpp.o[0m
+[9.124s] [ 39%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim_msgs/srv/teleport_relative__type_support.cpp.o[0m
+[9.145s] [ 41%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim_msgs/action/rotate_absolute__type_support.cpp.o[0m
+[9.145s] [ 41%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim_msgs/msg/color__type_support.cpp.o[0m
+[9.146s] [ 42%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim_msgs/msg/pose__type_support.cpp.o[0m
+[9.146s] [ 42%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim_msgs/srv/kill__type_support.cpp.o[0m
+[9.217s] [ 43%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim_msgs/srv/set_pen__type_support.cpp.o[0m
+[9.224s] [ 44%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim_msgs/srv/spawn__type_support.cpp.o[0m
+[9.225s] [ 45%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim_msgs/srv/teleport_absolute__type_support.cpp.o[0m
+[9.229s] [ 46%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim_msgs/srv/teleport_relative__type_support.cpp.o[0m
+[9.262s] [ 47%] [32m[1mLinking CXX shared library libturtlesim_msgs__rosidl_typesupport_c.so[0m
+[9.340s] [ 47%] Built target turtlesim_msgs__rosidl_typesupport_c
+[9.408s] [ 48%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim_msgs/msg/detail/pose__type_support.cpp.o[0m
+[9.410s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim_msgs/action/detail/rotate_absolute__type_support.cpp.o[0m
+[9.411s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim_msgs/msg/detail/color__type_support.cpp.o[0m
+[9.411s] [ 51%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim_msgs/srv/detail/kill__type_support.cpp.o[0m
+[9.416s] [ 52%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim_msgs/srv/detail/set_pen__type_support.cpp.o[0m
+[9.773s] [ 53%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim_msgs/msg/detail/color__type_support.c.o[0m
+[9.861s] [ 54%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim_msgs/msg/detail/pose__type_support.c.o[0m
+[9.910s] [ 55%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim_msgs/action/detail/rotate_absolute__type_support.c.o[0m
+[9.932s] [ 56%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim_msgs/srv/detail/spawn__type_support.cpp.o[0m
+[9.932s] [ 57%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim_msgs/srv/detail/teleport_absolute__type_support.cpp.o[0m
+[10.048s] [ 58%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim_msgs/srv/detail/kill__type_support.c.o[0m
+[10.096s] [ 59%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim_msgs/srv/detail/teleport_relative__type_support.cpp.o[0m
+[10.096s] [ 60%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim_msgs/srv/detail/set_pen__type_support.c.o[0m
+[10.140s] [ 61%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim_msgs/srv/detail/spawn__type_support.c.o[0m
+[10.144s] [ 62%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim_msgs/srv/detail/teleport_absolute__type_support.c.o[0m
+[10.150s] [ 63%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim_msgs/srv/detail/teleport_relative__type_support.c.o[0m
+[10.209s] [ 64%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim_msgs/msg/detail/dds_fastrtps/color__type_support.cpp.o[0m
+[10.212s] [ 65%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim_msgs/action/detail/dds_fastrtps/rotate_absolute__type_support.cpp.o[0m
+[10.215s] [ 66%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim_msgs/srv/detail/dds_fastrtps/kill__type_support.cpp.o[0m
+[10.217s] [ 67%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim_msgs/msg/detail/dds_fastrtps/pose__type_support.cpp.o[0m
+[10.220s] [ 68%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim_msgs/srv/detail/dds_fastrtps/set_pen__type_support.cpp.o[0m
+[10.236s] [ 70%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim_msgs/srv/detail/dds_fastrtps/spawn__type_support.cpp.o[0m
+[10.236s] [ 70%] [32m[1mLinking C shared library libturtlesim_msgs__rosidl_typesupport_introspection_c.so[0m
+[10.237s] [ 71%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim_msgs/srv/detail/dds_fastrtps/teleport_absolute__type_support.cpp.o[0m
+[10.312s] [ 71%] Built target turtlesim_msgs__rosidl_typesupport_introspection_c
+[10.322s] [ 72%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim_msgs/srv/detail/dds_fastrtps/teleport_relative__type_support.cpp.o[0m
+[10.427s] [ 73%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim_msgs/msg/detail/color__type_support_c.cpp.o[0m
+[10.427s] [ 75%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim_msgs/action/detail/rotate_absolute__type_support_c.cpp.o[0m
+[10.427s] [ 75%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim_msgs/msg/detail/pose__type_support_c.cpp.o[0m
+[10.703s] [ 76%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim_msgs/srv/detail/kill__type_support_c.cpp.o[0m
+[10.715s] [ 77%] [32m[1mLinking CXX shared library libturtlesim_msgs__rosidl_typesupport_cpp.so[0m
+[10.788s] [ 78%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim_msgs/srv/detail/set_pen__type_support_c.cpp.o[0m
+[10.914s] [ 79%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim_msgs/srv/detail/spawn__type_support_c.cpp.o[0m
+[10.937s] [ 79%] Built target turtlesim_msgs__rosidl_typesupport_cpp
+[10.956s] [ 80%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim_msgs/srv/detail/teleport_absolute__type_support_c.cpp.o[0m
+[11.024s] [ 81%] [32m[1mLinking CXX shared library libturtlesim_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[11.168s] [ 82%] [32mBuilding CXX object CMakeFiles/turtlesim_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim_msgs/srv/detail/teleport_relative__type_support_c.cpp.o[0m
+[11.277s] [ 82%] Built target turtlesim_msgs__rosidl_typesupport_introspection_cpp
+[11.827s] [ 83%] [32m[1mLinking CXX shared library libturtlesim_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[11.895s] [ 84%] [32m[1mLinking CXX shared library libturtlesim_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[11.948s] [ 84%] Built target turtlesim_msgs__rosidl_typesupport_fastrtps_c
+[12.029s] [ 84%] Built target turtlesim_msgs__rosidl_typesupport_fastrtps_cpp
+[12.053s] [ 84%] Built target turtlesim_msgs
+[12.082s] [ 85%] [34m[1mGenerating Python code for ROS interfaces[0m
+[13.424s] [ 85%] Built target turtlesim_msgs__py
+[13.448s] [ 86%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlesim_msgs/msg/_color_s.c.o[0m
+[13.449s] [ 87%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlesim_msgs/action/_rotate_absolute_s.c.o[0m
+[13.449s] [ 89%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlesim_msgs/srv/_teleport_relative_s.c.o[0m
+[13.449s] [ 89%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlesim_msgs/srv/_spawn_s.c.o[0m
+[13.449s] [ 90%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlesim_msgs/msg/_pose_s.c.o[0m
+[13.450s] [ 91%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlesim_msgs/srv/_set_pen_s.c.o[0m
+[13.450s] [ 92%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlesim_msgs/srv/_teleport_absolute_s.c.o[0m
+[13.455s] [ 93%] [32mBuilding C object CMakeFiles/turtlesim_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlesim_msgs/srv/_kill_s.c.o[0m
+[13.699s] [ 94%] [32m[1mLinking C shared library libturtlesim_msgs__rosidl_generator_py.so[0m
+[13.762s] [ 94%] Built target turtlesim_msgs__rosidl_generator_py
+[13.789s] [ 95%] [32mBuilding C object CMakeFiles/turtlesim_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[13.793s] [ 96%] [32mBuilding C object CMakeFiles/turtlesim_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[13.794s] [ 97%] [32mBuilding C object CMakeFiles/turtlesim_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[13.986s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/turtlesim_msgs/turtlesim_msgs_s__rosidl_typesupport_c.so[0m
+[13.991s] [ 99%] [32m[1mLinking C shared module rosidl_generator_py/turtlesim_msgs/turtlesim_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[13.993s] [100%] [32m[1mLinking C shared module rosidl_generator_py/turtlesim_msgs/turtlesim_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[14.028s] [100%] Built target turtlesim_msgs_s__rosidl_typesupport_c
+[14.036s] [100%] Built target turtlesim_msgs_s__rosidl_typesupport_introspection_c
+[14.038s] [100%] Built target turtlesim_msgs_s__rosidl_typesupport_fastrtps_c
+[14.057s] Invoked command in '/home/ylo-laptop/ROS_Practice/test_0/build/turtlesim_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ylo-laptop/ROS_Practice/test_0/build/turtlesim_msgs -- -j16 -l16
+[14.346s] Invoking command in '/home/ylo-laptop/ROS_Practice/test_0/build/turtlesim_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ylo-laptop/ROS_Practice/test_0/build/turtlesim_msgs
+[14.363s] -- Install configuration: ""
+[14.363s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/ament_index/resource_index/rosidl_interfaces/turtlesim_msgs
+[14.364s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/msg/Color.json
+[14.364s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/msg/Pose.json
+[14.364s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/action/RotateAbsolute.json
+[14.365s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/srv/Kill.json
+[14.365s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/srv/SetPen.json
+[14.365s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/srv/Spawn.json
+[14.365s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/srv/TeleportAbsolute.json
+[14.365s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/srv/TeleportRelative.json
+[14.365s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs
+[14.365s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action
+[14.365s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/rotate_absolute.h
+[14.366s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail
+[14.366s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__functions.c
+[14.366s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__functions.h
+[14.366s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__type_support.h
+[14.366s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__struct.h
+[14.366s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__type_support.c
+[14.366s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__description.c
+[14.366s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg
+[14.366s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/rosidl_generator_c__visibility_control.h
+[14.366s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/color.h
+[14.367s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail
+[14.367s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__functions.c
+[14.367s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__type_support.h
+[14.367s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__description.c
+[14.367s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__functions.c
+[14.367s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__struct.h
+[14.367s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__description.c
+[14.367s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__functions.h
+[14.367s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__functions.h
+[14.367s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__type_support.c
+[14.368s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__type_support.h
+[14.368s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__type_support.c
+[14.368s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__struct.h
+[14.368s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/pose.h
+[14.368s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv
+[14.368s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/spawn.h
+[14.368s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/kill.h
+[14.368s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/teleport_relative.h
+[14.368s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail
+[14.368s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__type_support.h
+[14.369s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__functions.h
+[14.369s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__struct.h
+[14.369s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__type_support.c
+[14.369s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__type_support.h
+[14.369s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__struct.h
+[14.369s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__type_support.c
+[14.369s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__type_support.h
+[14.369s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__type_support.h
+[14.369s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__description.c
+[14.370s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__type_support.c
+[14.370s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__description.c
+[14.370s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__functions.c
+[14.370s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__struct.h
+[14.370s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__type_support.c
+[14.370s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__functions.c
+[14.370s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__struct.h
+[14.370s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__description.c
+[14.371s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__functions.c
+[14.371s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__type_support.h
+[14.371s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__struct.h
+[14.371s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__type_support.c
+[14.371s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__description.c
+[14.371s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__functions.h
+[14.371s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__functions.h
+[14.371s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__functions.c
+[14.372s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__description.c
+[14.372s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__functions.h
+[14.372s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__functions.h
+[14.372s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__functions.c
+[14.372s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/teleport_absolute.h
+[14.372s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/set_pen.h
+[14.372s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/environment/library_path.sh
+[14.373s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/environment/library_path.dsv
+[14.373s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_generator_c.so
+[14.374s] -- Set non-toolchain portion of runtime path of "/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_generator_c.so" to ""
+[14.374s] -- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs
+[14.374s] -- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action
+[14.374s] -- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail
+[14.374s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h
+[14.374s] -- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg
+[14.374s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[14.375s] -- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail
+[14.375s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__rosidl_typesupport_fastrtps_c.h
+[14.375s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__rosidl_typesupport_fastrtps_c.h
+[14.375s] -- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv
+[14.375s] -- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail
+[14.375s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h
+[14.375s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h
+[14.375s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h
+[14.376s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h
+[14.376s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__rosidl_typesupport_fastrtps_c.h
+[14.376s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_typesupport_fastrtps_c.so
+[14.376s] -- Set non-toolchain portion of runtime path of "/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[14.376s] -- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs
+[14.376s] -- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action
+[14.376s] -- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail
+[14.377s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__builder.hpp
+[14.377s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__type_support.hpp
+[14.377s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__struct.hpp
+[14.377s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__traits.hpp
+[14.377s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/rotate_absolute.hpp
+[14.377s] -- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg
+[14.377s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/color.hpp
+[14.377s] -- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail
+[14.377s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__builder.hpp
+[14.378s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__type_support.hpp
+[14.378s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__builder.hpp
+[14.378s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__traits.hpp
+[14.378s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__type_support.hpp
+[14.378s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__struct.hpp
+[14.378s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__struct.hpp
+[14.378s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__traits.hpp
+[14.378s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[14.379s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/pose.hpp
+[14.379s] -- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv
+[14.379s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/teleport_relative.hpp
+[14.379s] -- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail
+[14.379s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__struct.hpp
+[14.379s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__traits.hpp
+[14.379s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__builder.hpp
+[14.379s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__struct.hpp
+[14.380s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__builder.hpp
+[14.380s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__type_support.hpp
+[14.380s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__traits.hpp
+[14.380s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__struct.hpp
+[14.380s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__traits.hpp
+[14.380s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__builder.hpp
+[14.380s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__type_support.hpp
+[14.381s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__traits.hpp
+[14.381s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__type_support.hpp
+[14.381s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__struct.hpp
+[14.381s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__type_support.hpp
+[14.381s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__traits.hpp
+[14.381s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__struct.hpp
+[14.381s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__builder.hpp
+[14.382s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__builder.hpp
+[14.382s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__type_support.hpp
+[14.382s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/set_pen.hpp
+[14.382s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/spawn.hpp
+[14.382s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/teleport_absolute.hpp
+[14.382s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/kill.hpp
+[14.382s] -- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs
+[14.383s] -- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action
+[14.383s] -- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail
+[14.383s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/dds_fastrtps
+[14.383s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp
+[14.383s] -- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg
+[14.383s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[14.383s] -- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail
+[14.383s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/dds_fastrtps
+[14.384s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp
+[14.384s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp
+[14.384s] -- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv
+[14.384s] -- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail
+[14.384s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/dds_fastrtps
+[14.384s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp
+[14.384s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp
+[14.384s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp
+[14.385s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp
+[14.385s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp
+[14.385s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_typesupport_fastrtps_cpp.so
+[14.386s] -- Set non-toolchain portion of runtime path of "/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[14.386s] -- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs
+[14.386s] -- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action
+[14.386s] -- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail
+[14.387s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__type_support.c
+[14.387s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h
+[14.387s] -- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg
+[14.387s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[14.388s] -- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail
+[14.388s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__rosidl_typesupport_introspection_c.h
+[14.388s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__type_support.c
+[14.389s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__rosidl_typesupport_introspection_c.h
+[14.389s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__type_support.c
+[14.389s] -- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv
+[14.389s] -- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail
+[14.390s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__rosidl_typesupport_introspection_c.h
+[14.390s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h
+[14.390s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__type_support.c
+[14.391s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__rosidl_typesupport_introspection_c.h
+[14.391s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__type_support.c
+[14.391s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__rosidl_typesupport_introspection_c.h
+[14.391s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__type_support.c
+[14.392s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__type_support.c
+[14.392s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h
+[14.392s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__type_support.c
+[14.392s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_typesupport_introspection_c.so
+[14.393s] -- Set non-toolchain portion of runtime path of "/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_typesupport_introspection_c.so" to ""
+[14.393s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_typesupport_c.so
+[14.393s] -- Set non-toolchain portion of runtime path of "/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_typesupport_c.so" to ""
+[14.393s] -- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs
+[14.394s] -- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action
+[14.394s] -- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail
+[14.394s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__type_support.cpp
+[14.394s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp
+[14.395s] -- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg
+[14.395s] -- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail
+[14.395s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp
+[14.395s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__type_support.cpp
+[14.396s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp
+[14.396s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/msg/detail/pose__type_support.cpp
+[14.396s] -- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv
+[14.397s] -- Up-to-date: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail
+[14.397s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__type_support.cpp
+[14.397s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__type_support.cpp
+[14.397s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__type_support.cpp
+[14.398s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp
+[14.398s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp
+[14.398s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp
+[14.398s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_absolute__type_support.cpp
+[14.399s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp
+[14.399s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp
+[14.399s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/include/turtlesim_msgs/turtlesim_msgs/srv/detail/spawn__type_support.cpp
+[14.399s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_typesupport_introspection_cpp.so
+[14.400s] -- Set non-toolchain portion of runtime path of "/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[14.400s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_typesupport_cpp.so
+[14.400s] -- Set non-toolchain portion of runtime path of "/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_typesupport_cpp.so" to ""
+[14.400s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/environment/pythonpath.sh
+[14.401s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/environment/pythonpath.dsv
+[14.401s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs-1.9.2-py3.12.egg-info
+[14.401s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs-1.9.2-py3.12.egg-info/dependency_links.txt
+[14.401s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs-1.9.2-py3.12.egg-info/SOURCES.txt
+[14.402s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs-1.9.2-py3.12.egg-info/PKG-INFO
+[14.402s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs-1.9.2-py3.12.egg-info/top_level.txt
+[14.402s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs
+[14.402s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/turtlesim_msgs_s__rosidl_typesupport_introspection_c.so
+[14.402s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/action
+[14.403s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/action/_rotate_absolute.py
+[14.403s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/action/_rotate_absolute_s.c
+[14.403s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/action/__init__.py
+[14.403s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/msg
+[14.404s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/msg/_color_s.c
+[14.404s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/msg/_pose_s.c
+[14.404s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/msg/_pose.py
+[14.404s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/msg/_color.py
+[14.404s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/msg/__init__.py
+[14.405s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[14.405s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/turtlesim_msgs_s__rosidl_typesupport_fastrtps_c.so
+[14.405s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/__init__.py
+[14.405s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/turtlesim_msgs_s__rosidl_typesupport_c.so
+[14.406s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_c.c
+[14.406s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/_turtlesim_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[14.406s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/srv
+[14.406s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/srv/_teleport_relative_s.c
+[14.406s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/srv/_teleport_relative.py
+[14.407s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/srv/_spawn.py
+[14.407s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/srv/_spawn_s.c
+[14.407s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/srv/_teleport_absolute_s.c
+[14.407s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/srv/_kill.py
+[14.407s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/srv/_teleport_absolute.py
+[14.408s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/srv/_set_pen.py
+[14.408s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/srv/__init__.py
+[14.408s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/srv/_kill_s.c
+[14.408s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/srv/_set_pen_s.c
+[14.469s] Listing '/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs'...
+[14.469s] Compiling '/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/__init__.py'...
+[14.469s] Listing '/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/action'...
+[14.470s] Compiling '/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/action/__init__.py'...
+[14.470s] Compiling '/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/action/_rotate_absolute.py'...
+[14.470s] Listing '/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/msg'...
+[14.470s] Compiling '/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/msg/__init__.py'...
+[14.470s] Compiling '/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/msg/_color.py'...
+[14.471s] Compiling '/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/msg/_pose.py'...
+[14.471s] Listing '/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/srv'...
+[14.471s] Compiling '/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/srv/__init__.py'...
+[14.471s] Compiling '/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/srv/_kill.py'...
+[14.471s] Compiling '/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/srv/_set_pen.py'...
+[14.472s] Compiling '/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/srv/_spawn.py'...
+[14.472s] Compiling '/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/srv/_teleport_absolute.py'...
+[14.472s] Compiling '/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/srv/_teleport_relative.py'...
+[14.475s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/turtlesim_msgs_s__rosidl_typesupport_fastrtps_c.so
+[14.476s] -- Set non-toolchain portion of runtime path of "/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/turtlesim_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[14.476s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/turtlesim_msgs_s__rosidl_typesupport_introspection_c.so
+[14.477s] -- Set non-toolchain portion of runtime path of "/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/turtlesim_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[14.478s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/turtlesim_msgs_s__rosidl_typesupport_c.so
+[14.479s] -- Set non-toolchain portion of runtime path of "/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages/turtlesim_msgs/turtlesim_msgs_s__rosidl_typesupport_c.so" to ""
+[14.479s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_generator_py.so
+[14.479s] -- Set non-toolchain portion of runtime path of "/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/libturtlesim_msgs__rosidl_generator_py.so" to ""
+[14.479s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/msg/Color.idl
+[14.480s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/msg/Pose.idl
+[14.480s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/action/RotateAbsolute.idl
+[14.481s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/srv/Kill.idl
+[14.481s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/srv/SetPen.idl
+[14.481s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/srv/Spawn.idl
+[14.482s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/srv/TeleportAbsolute.idl
+[14.482s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/srv/TeleportRelative.idl
+[14.482s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/msg/Color.msg
+[14.483s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/msg/Pose.msg
+[14.483s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/action/RotateAbsolute.action
+[14.484s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/srv/Kill.srv
+[14.484s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/srv/SetPen.srv
+[14.485s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/srv/Spawn.srv
+[14.485s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/srv/TeleportAbsolute.srv
+[14.486s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/srv/TeleportRelative.srv
+[14.486s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/ament_index/resource_index/package_run_dependencies/turtlesim_msgs
+[14.486s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/ament_index/resource_index/parent_prefix_path/turtlesim_msgs
+[14.487s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/environment/ament_prefix_path.sh
+[14.487s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/environment/ament_prefix_path.dsv
+[14.487s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/environment/path.sh
+[14.488s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/environment/path.dsv
+[14.488s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/local_setup.bash
+[14.488s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/local_setup.sh
+[14.489s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/local_setup.zsh
+[14.489s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/local_setup.dsv
+[14.489s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/package.dsv
+[14.490s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/ament_index/resource_index/packages/turtlesim_msgs
+[14.490s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/cmake/export_turtlesim_msgs__rosidl_generator_cExport.cmake
+[14.490s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/cmake/export_turtlesim_msgs__rosidl_generator_cExport-noconfig.cmake
+[14.490s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/cmake/export_turtlesim_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[14.490s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/cmake/export_turtlesim_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[14.491s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/cmake/export_turtlesim_msgs__rosidl_generator_cppExport.cmake
+[14.491s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/cmake/export_turtlesim_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[14.491s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/cmake/export_turtlesim_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[14.491s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/cmake/turtlesim_msgs__rosidl_typesupport_introspection_cExport.cmake
+[14.492s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/cmake/turtlesim_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[14.492s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/cmake/turtlesim_msgs__rosidl_typesupport_cExport.cmake
+[14.492s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/cmake/turtlesim_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[14.493s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/cmake/turtlesim_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[14.494s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/cmake/turtlesim_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[14.495s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/cmake/turtlesim_msgs__rosidl_typesupport_cppExport.cmake
+[14.495s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/cmake/turtlesim_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[14.496s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/cmake/export_turtlesim_msgs__rosidl_generator_pyExport.cmake
+[14.496s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/cmake/export_turtlesim_msgs__rosidl_generator_pyExport-noconfig.cmake
+[14.497s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/cmake/rosidl_cmake-extras.cmake
+[14.497s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.497s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.497s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[14.498s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[14.498s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[14.498s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[14.498s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/cmake/turtlesim_msgsConfig.cmake
+[14.498s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/cmake/turtlesim_msgsConfig-version.cmake
+[14.499s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/package.xml
+[14.499s] Invoked command in '/home/ylo-laptop/ROS_Practice/test_0/build/turtlesim_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ylo-laptop/ROS_Practice/test_0/build/turtlesim_msgs

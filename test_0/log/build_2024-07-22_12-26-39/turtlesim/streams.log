@@ -1,0 +1,106 @@
+[0.020s] Invoking command in '/home/ylo-laptop/ROS_Practice/test_0/build/turtlesim': AMENT_PREFIX_PATH=/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ylo-laptop/ROS_Practice/test_0/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim
+[0.107s] -- The C compiler identification is GNU 13.2.0
+[0.192s] -- The CXX compiler identification is GNU 13.2.0
+[0.235s] -- Detecting C compiler ABI info
+[0.395s] -- Detecting C compiler ABI info - done
+[0.403s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.403s] -- Detecting C compile features
+[0.404s] -- Detecting C compile features - done
+[0.417s] -- Detecting CXX compiler ABI info
+[0.563s] -- Detecting CXX compiler ABI info - done
+[0.588s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.589s] -- Detecting CXX compile features
+[0.590s] -- Detecting CXX compile features - done
+[0.598s] -- Found ament_cmake: 2.7.0 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.799s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.951s] -- Found ament_index_cpp: 1.9.0 (/opt/ros/rolling/share/ament_index_cpp/cmake)
+[0.954s] -- Found geometry_msgs: 5.4.1 (/opt/ros/rolling/share/geometry_msgs/cmake)
+[0.992s] -- Found rosidl_generator_c: 4.8.1 (/opt/ros/rolling/share/rosidl_generator_c/cmake)
+[1.005s] -- Found rosidl_generator_cpp: 4.8.1 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)
+[1.019s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.035s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.095s] -- Found rclcpp: 28.3.1 (/opt/ros/rolling/share/rclcpp/cmake)
+[1.163s] -- Found rmw_implementation_cmake: 7.4.1 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)
+[1.166s] -- Found rmw_fastrtps_cpp: 9.0.0 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)
+[1.289s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.309s] -- Found FastRTPS: /opt/ros/rolling/include (Required is at least version "2.13") 
+[1.336s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.410s] -- Found rclcpp_action: 28.3.1 (/opt/ros/rolling/share/rclcpp_action/cmake)
+[1.452s] -- Found std_srvs: 5.4.1 (/opt/ros/rolling/share/std_srvs/cmake)
+[1.470s] -- Found turtlesim_msgs: 1.9.2 (/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/share/turtlesim_msgs/cmake)
+[1.494s] -- Found ament_lint_auto: 0.18.1 (/opt/ros/rolling/share/ament_lint_auto/cmake)
+[1.604s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.606s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.607s] -- Configured cppcheck include dirs: /home/ylo-laptop/ROS_Practice/test_0/src/ros_tutorials/turtlesim/include
+[1.607s] -- Configured cppcheck exclude dirs and/or files: 
+[1.609s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.609s] -- Configured cpplint exclude dirs and/or files: 
+[1.610s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.610s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.610s] -- Added test 'lint_cmake' to check CMake code style
+[1.611s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.614s] -- Added test 'uncrustify' to check C / C++ code style
+[1.614s] -- Configured uncrustify additional arguments: 
+[1.614s] -- Added test 'xmllint' to check XML markup files
+[1.616s] -- Configuring done (1.6s)
+[1.643s] -- Generating done (0.0s)
+[1.645s] -- Build files have been written to: /home/ylo-laptop/ROS_Practice/test_0/build/turtlesim
+[1.657s] Invoked command in '/home/ylo-laptop/ROS_Practice/test_0/build/turtlesim' returned '0': AMENT_PREFIX_PATH=/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ylo-laptop/ROS_Practice/test_0/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim
+[1.658s] Invoking command in '/home/ylo-laptop/ROS_Practice/test_0/build/turtlesim': AMENT_PREFIX_PATH=/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ylo-laptop/ROS_Practice/test_0/build/turtlesim -- -j16 -l16
+[1.715s] [  8%] [34m[1mGenerating include/turtlesim/moc_turtle_frame.cpp[0m
+[1.726s] [ 25%] [32mBuilding CXX object CMakeFiles/draw_square.dir/tutorials/draw_square.cpp.o[0m
+[1.726s] [ 25%] [32mBuilding CXX object CMakeFiles/turtle_teleop_key.dir/tutorials/teleop_turtle_key.cpp.o[0m
+[1.727s] [ 33%] [32mBuilding CXX object CMakeFiles/mimic.dir/tutorials/mimic.cpp.o[0m
+[1.798s] [ 41%] [32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o[0m
+[1.798s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle.cpp.o[0m
+[1.805s] [ 58%] [32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtlesim.cpp.o[0m
+[1.806s] [ 66%] [32mBuilding CXX object CMakeFiles/turtlesim_node.dir/include/turtlesim/moc_turtle_frame.cpp.o[0m
+[8.394s] [ 75%] [32m[1mLinking CXX executable turtle_teleop_key[0m
+[8.706s] [ 75%] Built target turtle_teleop_key
+[10.740s] [ 83%] [32m[1mLinking CXX executable mimic[0m
+[11.193s] [ 83%] Built target mimic
+[11.327s] [ 91%] [32m[1mLinking CXX executable draw_square[0m
+[11.822s] [ 91%] Built target draw_square
+[14.769s] [100%] [32m[1mLinking CXX executable turtlesim_node[0m
+[16.846s] [100%] Built target turtlesim_node
+[16.870s] Invoked command in '/home/ylo-laptop/ROS_Practice/test_0/build/turtlesim' returned '0': AMENT_PREFIX_PATH=/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ylo-laptop/ROS_Practice/test_0/build/turtlesim -- -j16 -l16
+[16.916s] Invoking command in '/home/ylo-laptop/ROS_Practice/test_0/build/turtlesim': AMENT_PREFIX_PATH=/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ylo-laptop/ROS_Practice/test_0/build/turtlesim
+[16.924s] -- Install configuration: ""
+[16.925s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/lib/turtlesim/turtlesim_node
+[16.937s] -- Set non-toolchain portion of runtime path of "/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/lib/turtlesim/turtlesim_node" to ""
+[16.937s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/lib/turtlesim/turtle_teleop_key
+[16.939s] -- Set non-toolchain portion of runtime path of "/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/lib/turtlesim/turtle_teleop_key" to ""
+[16.940s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/lib/turtlesim/draw_square
+[16.945s] -- Set non-toolchain portion of runtime path of "/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/lib/turtlesim/draw_square" to ""
+[16.946s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/lib/turtlesim/mimic
+[16.951s] -- Set non-toolchain portion of runtime path of "/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/lib/turtlesim/mimic" to ""
+[16.951s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/share/turtlesim/images
+[16.951s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/share/turtlesim/images/foxy.png
+[16.952s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/share/turtlesim/images/bouncy.png
+[16.952s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/share/turtlesim/images/rolling.png
+[16.952s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/share/turtlesim/images/crystal.png
+[16.952s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/share/turtlesim/images/ardent.png
+[16.953s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/share/turtlesim/images/dashing.png
+[16.953s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/share/turtlesim/images/humble.png
+[16.953s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/share/turtlesim/images/eloquent.png
+[16.954s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/share/turtlesim/images/galactic.png
+[16.954s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/share/turtlesim/images/jazzy.png
+[16.954s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/share/turtlesim/images/iron.png
+[16.954s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/share/turtlesim/launch
+[16.954s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/share/turtlesim/launch/multisim.launch.py
+[16.955s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim
+[16.955s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim
+[16.955s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh
+[16.955s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv
+[16.956s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/share/turtlesim/environment/path.sh
+[16.956s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/share/turtlesim/environment/path.dsv
+[16.956s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/share/turtlesim/local_setup.bash
+[16.956s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/share/turtlesim/local_setup.sh
+[16.957s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/share/turtlesim/local_setup.zsh
+[16.957s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/share/turtlesim/local_setup.dsv
+[16.958s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/share/turtlesim/package.dsv
+[16.959s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/share/ament_index/resource_index/packages/turtlesim
+[16.959s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake
+[16.959s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake
+[16.960s] -- Installing: /home/ylo-laptop/ROS_Practice/test_0/install/turtlesim/share/turtlesim/package.xml
+[16.960s] Invoked command in '/home/ylo-laptop/ROS_Practice/test_0/build/turtlesim' returned '0': AMENT_PREFIX_PATH=/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ylo-laptop/ROS_Practice/test_0/install/turtlesim_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ylo-laptop/ROS_Practice/test_0/build/turtlesim
