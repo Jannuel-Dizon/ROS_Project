@@ -1,0 +1,16 @@
+/home/ylo-laptop/ROS_Projects/test_0/install/mycpp_package/lib/mycpp_package/mycpp_node
+/home/ylo-laptop/ROS_Projects/test_0/install/mycpp_package/share/ament_index/resource_index/package_run_dependencies/mycpp_package
+/home/ylo-laptop/ROS_Projects/test_0/install/mycpp_package/share/ament_index/resource_index/parent_prefix_path/mycpp_package
+/home/ylo-laptop/ROS_Projects/test_0/install/mycpp_package/share/mycpp_package/environment/ament_prefix_path.sh
+/home/ylo-laptop/ROS_Projects/test_0/install/mycpp_package/share/mycpp_package/environment/ament_prefix_path.dsv
+/home/ylo-laptop/ROS_Projects/test_0/install/mycpp_package/share/mycpp_package/environment/path.sh
+/home/ylo-laptop/ROS_Projects/test_0/install/mycpp_package/share/mycpp_package/environment/path.dsv
+/home/ylo-laptop/ROS_Projects/test_0/install/mycpp_package/share/mycpp_package/local_setup.bash
+/home/ylo-laptop/ROS_Projects/test_0/install/mycpp_package/share/mycpp_package/local_setup.sh
+/home/ylo-laptop/ROS_Projects/test_0/install/mycpp_package/share/mycpp_package/local_setup.zsh
+/home/ylo-laptop/ROS_Projects/test_0/install/mycpp_package/share/mycpp_package/local_setup.dsv
+/home/ylo-laptop/ROS_Projects/test_0/install/mycpp_package/share/mycpp_package/package.dsv
+/home/ylo-laptop/ROS_Projects/test_0/install/mycpp_package/share/ament_index/resource_index/packages/mycpp_package
+/home/ylo-laptop/ROS_Projects/test_0/install/mycpp_package/share/mycpp_package/cmake/mycpp_packageConfig.cmake
+/home/ylo-laptop/ROS_Projects/test_0/install/mycpp_package/share/mycpp_package/cmake/mycpp_packageConfig-version.cmake
+/home/ylo-laptop/ROS_Projects/test_0/install/mycpp_package/share/mycpp_package/package.xml

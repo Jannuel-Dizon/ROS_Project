@@ -1,0 +1,10 @@
+/home/ylo-laptop/ROS_Projects/test_0/build/mycpp_package/CMakeFiles/uninstall.dir
+/home/ylo-laptop/ROS_Projects/test_0/build/mycpp_package/CMakeFiles/mycpp_package_uninstall.dir
+/home/ylo-laptop/ROS_Projects/test_0/build/mycpp_package/CMakeFiles/mycpp_node.dir
+/home/ylo-laptop/ROS_Projects/test_0/build/mycpp_package/CMakeFiles/test.dir
+/home/ylo-laptop/ROS_Projects/test_0/build/mycpp_package/CMakeFiles/edit_cache.dir
+/home/ylo-laptop/ROS_Projects/test_0/build/mycpp_package/CMakeFiles/rebuild_cache.dir
+/home/ylo-laptop/ROS_Projects/test_0/build/mycpp_package/CMakeFiles/list_install_components.dir
+/home/ylo-laptop/ROS_Projects/test_0/build/mycpp_package/CMakeFiles/install.dir
+/home/ylo-laptop/ROS_Projects/test_0/build/mycpp_package/CMakeFiles/install/local.dir
+/home/ylo-laptop/ROS_Projects/test_0/build/mycpp_package/CMakeFiles/install/strip.dir

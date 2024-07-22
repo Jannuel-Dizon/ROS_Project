@@ -1,0 +1,1 @@
+Invoking command in '/home/ylo-laptop/ROS_Projects/test_0/build/mycpp_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ylo-laptop/ROS_Projects/test_0/src/mycpp_package -DCMAKE_INSTALL_PREFIX=/home/ylo-laptop/ROS_Projects/test_0/install/mycpp_package

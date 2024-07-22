@@ -1,0 +1,4 @@
+[0mCMake Error: The current CMakeCache.txt directory /home/ylo-laptop/ROS_Projects/test_0/build/turtlesim_msgs/CMakeCache.txt is different than the directory /home/ylo-laptop/ROS_Practice/test_0/build/turtlesim_msgs where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0mCMake Error: The source directory "/home/ylo-laptop/ROS_Practice/test_0/src/ros_tutorials/turtlesim_msgs" does not exist.
+Specify --help for usage, or press the help button on the CMake GUI.[0m
+gmake: *** [Makefile:2705: cmake_check_build_system] Error 1

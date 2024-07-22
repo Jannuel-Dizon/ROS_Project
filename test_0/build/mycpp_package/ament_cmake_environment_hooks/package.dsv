@@ -1,0 +1,4 @@
+source;share/mycpp_package/local_setup.bash
+source;share/mycpp_package/local_setup.dsv
+source;share/mycpp_package/local_setup.sh
+source;share/mycpp_package/local_setup.zsh

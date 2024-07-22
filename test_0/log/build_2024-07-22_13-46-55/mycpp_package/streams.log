@@ -1,0 +1,24 @@
+[0.016s] Invoking command in '/home/ylo-laptop/ROS_Projects/test_0/build/mycpp_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ylo-laptop/ROS_Projects/test_0/build/mycpp_package -- -j16 -l16
+[0.111s] [ 50%] [32mBuilding CXX object CMakeFiles/mycpp_node.dir/src/mycpp_node.cpp.o[0m
+[0.174s] [100%] [32m[1mLinking CXX executable mycpp_node[0m
+[0.262s] [100%] Built target mycpp_node
+[0.290s] Invoked command in '/home/ylo-laptop/ROS_Projects/test_0/build/mycpp_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ylo-laptop/ROS_Projects/test_0/build/mycpp_package -- -j16 -l16
+[0.367s] Invoking command in '/home/ylo-laptop/ROS_Projects/test_0/build/mycpp_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ylo-laptop/ROS_Projects/test_0/build/mycpp_package
+[0.379s] -- Install configuration: ""
+[0.380s] -- Installing: /home/ylo-laptop/ROS_Projects/test_0/install/mycpp_package/lib/mycpp_package/mycpp_node
+[0.380s] -- Installing: /home/ylo-laptop/ROS_Projects/test_0/install/mycpp_package/share/ament_index/resource_index/package_run_dependencies/mycpp_package
+[0.380s] -- Installing: /home/ylo-laptop/ROS_Projects/test_0/install/mycpp_package/share/ament_index/resource_index/parent_prefix_path/mycpp_package
+[0.381s] -- Installing: /home/ylo-laptop/ROS_Projects/test_0/install/mycpp_package/share/mycpp_package/environment/ament_prefix_path.sh
+[0.381s] -- Installing: /home/ylo-laptop/ROS_Projects/test_0/install/mycpp_package/share/mycpp_package/environment/ament_prefix_path.dsv
+[0.381s] -- Installing: /home/ylo-laptop/ROS_Projects/test_0/install/mycpp_package/share/mycpp_package/environment/path.sh
+[0.381s] -- Installing: /home/ylo-laptop/ROS_Projects/test_0/install/mycpp_package/share/mycpp_package/environment/path.dsv
+[0.382s] -- Installing: /home/ylo-laptop/ROS_Projects/test_0/install/mycpp_package/share/mycpp_package/local_setup.bash
+[0.382s] -- Installing: /home/ylo-laptop/ROS_Projects/test_0/install/mycpp_package/share/mycpp_package/local_setup.sh
+[0.382s] -- Installing: /home/ylo-laptop/ROS_Projects/test_0/install/mycpp_package/share/mycpp_package/local_setup.zsh
+[0.383s] -- Installing: /home/ylo-laptop/ROS_Projects/test_0/install/mycpp_package/share/mycpp_package/local_setup.dsv
+[0.383s] -- Installing: /home/ylo-laptop/ROS_Projects/test_0/install/mycpp_package/share/mycpp_package/package.dsv
+[0.383s] -- Installing: /home/ylo-laptop/ROS_Projects/test_0/install/mycpp_package/share/ament_index/resource_index/packages/mycpp_package
+[0.383s] -- Installing: /home/ylo-laptop/ROS_Projects/test_0/install/mycpp_package/share/mycpp_package/cmake/mycpp_packageConfig.cmake
+[0.384s] -- Installing: /home/ylo-laptop/ROS_Projects/test_0/install/mycpp_package/share/mycpp_package/cmake/mycpp_packageConfig-version.cmake
+[0.384s] -- Installing: /home/ylo-laptop/ROS_Projects/test_0/install/mycpp_package/share/mycpp_package/package.xml
+[0.388s] Invoked command in '/home/ylo-laptop/ROS_Projects/test_0/build/mycpp_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ylo-laptop/ROS_Projects/test_0/build/mycpp_package

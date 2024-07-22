@@ -1,0 +1,20 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/mycpp_node.dir/src/mycpp_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable mycpp_node[0m
+[100%] Built target mycpp_node
+-- Install configuration: ""
+-- Installing: /home/ylo-laptop/ROS_Projects/test_0/install/mycpp_package/lib/mycpp_package/mycpp_node
+-- Installing: /home/ylo-laptop/ROS_Projects/test_0/install/mycpp_package/share/ament_index/resource_index/package_run_dependencies/mycpp_package
+-- Installing: /home/ylo-laptop/ROS_Projects/test_0/install/mycpp_package/share/ament_index/resource_index/parent_prefix_path/mycpp_package
+-- Installing: /home/ylo-laptop/ROS_Projects/test_0/install/mycpp_package/share/mycpp_package/environment/ament_prefix_path.sh
+-- Installing: /home/ylo-laptop/ROS_Projects/test_0/install/mycpp_package/share/mycpp_package/environment/ament_prefix_path.dsv
+-- Installing: /home/ylo-laptop/ROS_Projects/test_0/install/mycpp_package/share/mycpp_package/environment/path.sh
+-- Installing: /home/ylo-laptop/ROS_Projects/test_0/install/mycpp_package/share/mycpp_package/environment/path.dsv
+-- Installing: /home/ylo-laptop/ROS_Projects/test_0/install/mycpp_package/share/mycpp_package/local_setup.bash
+-- Installing: /home/ylo-laptop/ROS_Projects/test_0/install/mycpp_package/share/mycpp_package/local_setup.sh
+-- Installing: /home/ylo-laptop/ROS_Projects/test_0/install/mycpp_package/share/mycpp_package/local_setup.zsh
+-- Installing: /home/ylo-laptop/ROS_Projects/test_0/install/mycpp_package/share/mycpp_package/local_setup.dsv
+-- Installing: /home/ylo-laptop/ROS_Projects/test_0/install/mycpp_package/share/mycpp_package/package.dsv
+-- Installing: /home/ylo-laptop/ROS_Projects/test_0/install/mycpp_package/share/ament_index/resource_index/packages/mycpp_package
+-- Installing: /home/ylo-laptop/ROS_Projects/test_0/install/mycpp_package/share/mycpp_package/cmake/mycpp_packageConfig.cmake
+-- Installing: /home/ylo-laptop/ROS_Projects/test_0/install/mycpp_package/share/mycpp_package/cmake/mycpp_packageConfig-version.cmake
+-- Installing: /home/ylo-laptop/ROS_Projects/test_0/install/mycpp_package/share/mycpp_package/package.xml
