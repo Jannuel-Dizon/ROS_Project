@@ -3,7 +3,7 @@
 <package format="3">
   <name>mycpp_package</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>TODO: Learning how to use ROS2</description>
   <maintainer email="jannuellaurodizon@gmail.com">ylo-laptop</maintainer>
   <license>Apache-2.0</license>
 

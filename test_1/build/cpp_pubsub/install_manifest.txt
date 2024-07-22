@@ -1,0 +1,17 @@
+/home/ylo-laptop/ROS_Projects/test_1/install/cpp_pubsub/lib/cpp_pubsub/talker
+/home/ylo-laptop/ROS_Projects/test_1/install/cpp_pubsub/lib/cpp_pubsub/listener
+/home/ylo-laptop/ROS_Projects/test_1/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+/home/ylo-laptop/ROS_Projects/test_1/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+/home/ylo-laptop/ROS_Projects/test_1/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+/home/ylo-laptop/ROS_Projects/test_1/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+/home/ylo-laptop/ROS_Projects/test_1/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+/home/ylo-laptop/ROS_Projects/test_1/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+/home/ylo-laptop/ROS_Projects/test_1/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+/home/ylo-laptop/ROS_Projects/test_1/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+/home/ylo-laptop/ROS_Projects/test_1/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+/home/ylo-laptop/ROS_Projects/test_1/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+/home/ylo-laptop/ROS_Projects/test_1/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+/home/ylo-laptop/ROS_Projects/test_1/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+/home/ylo-laptop/ROS_Projects/test_1/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+/home/ylo-laptop/ROS_Projects/test_1/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+/home/ylo-laptop/ROS_Projects/test_1/install/cpp_pubsub/share/cpp_pubsub/package.xml

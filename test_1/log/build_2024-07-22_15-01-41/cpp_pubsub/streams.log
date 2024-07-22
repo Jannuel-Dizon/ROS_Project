@@ -1,0 +1,36 @@
+[0.012s] Invoking command in '/home/ylo-laptop/ROS_Projects/test_1/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ylo-laptop/ROS_Projects/test_1/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/ylo-laptop/ROS_Projects/test_1/install/cpp_pubsub
+[0.028s] -- Found ament_cmake: 2.7.0 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.308s] -- Found rclcpp: 28.3.1 (/opt/ros/rolling/share/rclcpp/cmake)
+[0.358s] -- Found rosidl_generator_c: 4.8.1 (/opt/ros/rolling/share/rosidl_generator_c/cmake)
+[0.368s] -- Found rosidl_generator_cpp: 4.8.1 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)
+[0.380s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.394s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.457s] -- Found rmw_implementation_cmake: 7.4.1 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)
+[0.458s] -- Found rmw_fastrtps_cpp: 9.0.0 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)
+[0.525s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.587s] -- Found std_msgs: 5.4.1 (/opt/ros/rolling/share/std_msgs/cmake)
+[0.601s] -- Found ament_lint_auto: 0.18.1 (/opt/ros/rolling/share/ament_lint_auto/cmake)
+[0.709s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.709s] -- Configured cppcheck include dirs: 
+[0.709s] -- Configured cppcheck exclude dirs and/or files: 
+[0.709s] -- Added test 'lint_cmake' to check CMake code style
+[0.710s] -- Added test 'uncrustify' to check C / C++ code style
+[0.710s] -- Configured uncrustify additional arguments: 
+[0.710s] -- Added test 'xmllint' to check XML markup files
+[0.711s] -- Configuring done (0.7s)
+[0.715s] [31mCMake Error at CMakeLists.txt:16 (add_executable):
+[0.715s]   Cannot find source file:
+[0.715s] 
+[0.715s]     src/publisher_lambda_functions.cpp
+[0.715s] 
+[0.716s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm
+[0.716s]   .ccm .cxxm .c++m .h .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90
+[0.716s]   .f95 .f03 .hip .ispc
+[0.716s] 
+[0.716s] [0m
+[0.717s] [31mCMake Error at CMakeLists.txt:16 (add_executable):
+[0.717s]   No SOURCES given to target: talker
+[0.717s] 
+[0.717s] [0m
+[0.717s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[0.725s] Invoked command in '/home/ylo-laptop/ROS_Projects/test_1/build/cpp_pubsub' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ylo-laptop/ROS_Projects/test_1/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/ylo-laptop/ROS_Projects/test_1/install/cpp_pubsub
