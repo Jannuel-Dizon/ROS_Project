@@ -1,0 +1,24 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[ 75%] Built target server
+[100%] [32m[1mLinking CXX executable client[0m
+[100%] Built target client
+-- Install configuration: ""
+-- Installing: /home/ylo-laptop/ROS_Projects/test_3/install/cpp_srcli/lib/cpp_srcli/server
+-- Set non-toolchain portion of runtime path of "/home/ylo-laptop/ROS_Projects/test_3/install/cpp_srcli/lib/cpp_srcli/server" to ""
+-- Installing: /home/ylo-laptop/ROS_Projects/test_3/install/cpp_srcli/lib/cpp_srcli/client
+-- Set non-toolchain portion of runtime path of "/home/ylo-laptop/ROS_Projects/test_3/install/cpp_srcli/lib/cpp_srcli/client" to ""
+-- Installing: /home/ylo-laptop/ROS_Projects/test_3/install/cpp_srcli/share/ament_index/resource_index/package_run_dependencies/cpp_srcli
+-- Installing: /home/ylo-laptop/ROS_Projects/test_3/install/cpp_srcli/share/ament_index/resource_index/parent_prefix_path/cpp_srcli
+-- Installing: /home/ylo-laptop/ROS_Projects/test_3/install/cpp_srcli/share/cpp_srcli/environment/ament_prefix_path.sh
+-- Installing: /home/ylo-laptop/ROS_Projects/test_3/install/cpp_srcli/share/cpp_srcli/environment/ament_prefix_path.dsv
+-- Installing: /home/ylo-laptop/ROS_Projects/test_3/install/cpp_srcli/share/cpp_srcli/environment/path.sh
+-- Installing: /home/ylo-laptop/ROS_Projects/test_3/install/cpp_srcli/share/cpp_srcli/environment/path.dsv
+-- Installing: /home/ylo-laptop/ROS_Projects/test_3/install/cpp_srcli/share/cpp_srcli/local_setup.bash
+-- Installing: /home/ylo-laptop/ROS_Projects/test_3/install/cpp_srcli/share/cpp_srcli/local_setup.sh
+-- Installing: /home/ylo-laptop/ROS_Projects/test_3/install/cpp_srcli/share/cpp_srcli/local_setup.zsh
+-- Installing: /home/ylo-laptop/ROS_Projects/test_3/install/cpp_srcli/share/cpp_srcli/local_setup.dsv
+-- Installing: /home/ylo-laptop/ROS_Projects/test_3/install/cpp_srcli/share/cpp_srcli/package.dsv
+-- Installing: /home/ylo-laptop/ROS_Projects/test_3/install/cpp_srcli/share/ament_index/resource_index/packages/cpp_srcli
+-- Installing: /home/ylo-laptop/ROS_Projects/test_3/install/cpp_srcli/share/cpp_srcli/cmake/cpp_srcliConfig.cmake
+-- Installing: /home/ylo-laptop/ROS_Projects/test_3/install/cpp_srcli/share/cpp_srcli/cmake/cpp_srcliConfig-version.cmake
+-- Installing: /home/ylo-laptop/ROS_Projects/test_3/install/cpp_srcli/share/cpp_srcli/package.xml

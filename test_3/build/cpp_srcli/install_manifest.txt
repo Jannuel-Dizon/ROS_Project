@@ -1,0 +1,17 @@
+/home/ylo-laptop/ROS_Projects/test_3/install/cpp_srcli/lib/cpp_srcli/server
+/home/ylo-laptop/ROS_Projects/test_3/install/cpp_srcli/lib/cpp_srcli/client
+/home/ylo-laptop/ROS_Projects/test_3/install/cpp_srcli/share/ament_index/resource_index/package_run_dependencies/cpp_srcli
+/home/ylo-laptop/ROS_Projects/test_3/install/cpp_srcli/share/ament_index/resource_index/parent_prefix_path/cpp_srcli
+/home/ylo-laptop/ROS_Projects/test_3/install/cpp_srcli/share/cpp_srcli/environment/ament_prefix_path.sh
+/home/ylo-laptop/ROS_Projects/test_3/install/cpp_srcli/share/cpp_srcli/environment/ament_prefix_path.dsv
+/home/ylo-laptop/ROS_Projects/test_3/install/cpp_srcli/share/cpp_srcli/environment/path.sh
+/home/ylo-laptop/ROS_Projects/test_3/install/cpp_srcli/share/cpp_srcli/environment/path.dsv
+/home/ylo-laptop/ROS_Projects/test_3/install/cpp_srcli/share/cpp_srcli/local_setup.bash
+/home/ylo-laptop/ROS_Projects/test_3/install/cpp_srcli/share/cpp_srcli/local_setup.sh
+/home/ylo-laptop/ROS_Projects/test_3/install/cpp_srcli/share/cpp_srcli/local_setup.zsh
+/home/ylo-laptop/ROS_Projects/test_3/install/cpp_srcli/share/cpp_srcli/local_setup.dsv
+/home/ylo-laptop/ROS_Projects/test_3/install/cpp_srcli/share/cpp_srcli/package.dsv
+/home/ylo-laptop/ROS_Projects/test_3/install/cpp_srcli/share/ament_index/resource_index/packages/cpp_srcli
+/home/ylo-laptop/ROS_Projects/test_3/install/cpp_srcli/share/cpp_srcli/cmake/cpp_srcliConfig.cmake
+/home/ylo-laptop/ROS_Projects/test_3/install/cpp_srcli/share/cpp_srcli/cmake/cpp_srcliConfig-version.cmake
+/home/ylo-laptop/ROS_Projects/test_3/install/cpp_srcli/share/cpp_srcli/package.xml
