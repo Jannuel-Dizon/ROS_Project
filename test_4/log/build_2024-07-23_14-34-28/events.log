@@ -1,0 +1,131 @@
+[0.000000] (-) TimerEvent: {}
+[0.000833] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000920] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.000950] (cpp_srvcli) JobQueued: {'identifier': 'cpp_srvcli', 'dependencies': OrderedDict({'tutorial_interfaces': '/home/ylo-laptop/ROS_Projects/test_4/install/tutorial_interfaces'})}
+[0.000995] (cpp_srvcli) JobStarted: {'identifier': 'cpp_srvcli'}
+[0.011178] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'cmake'}
+[0.011871] (cpp_srvcli) JobProgress: {'identifier': 'cpp_srvcli', 'progress': 'build'}
+[0.012295] (cpp_srvcli) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ylo-laptop/ROS_Projects/test_4/build/cpp_srvcli', '--', '-j16', '-l16'], 'cwd': '/home/ylo-laptop/ROS_Projects/test_4/build/cpp_srvcli', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ylo-laptop', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '3', 'LD_LIBRARY_PATH': '/home/ylo-laptop/ROS_Projects/test_4/install/tutorial_interfaces/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/opt/gz_math_vendor/lib:/opt/ros/rolling/opt/gz_utils_vendor/lib:/opt/ros/rolling/opt/gz_cmake_vendor/lib:/opt/ros/rolling/lib', 'HOME': '/home/ylo-laptop', 'OLDPWD': '/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli', 'DESKTOP_SESSION': 'ubuntu', 'ZED_TERM': 'true', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'SYSTEMD_EXEC_PID': '2988', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'rolling', 'LOGNAME': 'ylo-laptop', 'WINDOWID': '4294967297', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ylo-laptop', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'ZED_FORCE_CLI_MODE': '', 'PATH': '/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/ylo-laptop/.local/bin/', 'SESSION_MANAGER': 'local/ylo-laptop:@/tmp/.ICE-unix/2925,unix/ylo-laptop:/tmp/.ICE-unix/2925', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e48ef824_36cb_4996_aa28_91138749bba4', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.132', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ylo-laptop/ROS_Projects/test_4/install/tutorial_interfaces:/opt/ros/rolling', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'ALACRITTY_WINDOW_ID': '4294967297', 'PWD': '/home/ylo-laptop/ROS_Projects/test_4/build/cpp_srvcli', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/ylo-laptop/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ylo-laptop/ROS_Projects/test_4/install/tutorial_interfaces/lib/python3.12/site-packages:/opt/ros/rolling/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/ylo-laptop/ROS_Projects/test_4/install/tutorial_interfaces:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling'}), 'shell': False}
+[0.099773] (-) TimerEvent: {}
+[0.111876] (cpp_srvcli) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/server.dir/src/add_three_ints_server.cpp.o\x1b[0m\n'}
+[0.113028] (cpp_srvcli) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/client.dir/src/add_three_ints_client.cpp.o\x1b[0m\n'}
+[0.199945] (-) TimerEvent: {}
+[0.300371] (-) TimerEvent: {}
+[0.400719] (-) TimerEvent: {}
+[0.501066] (-) TimerEvent: {}
+[0.601424] (-) TimerEvent: {}
+[0.701859] (-) TimerEvent: {}
+[0.802242] (-) TimerEvent: {}
+[0.902618] (-) TimerEvent: {}
+[1.002993] (-) TimerEvent: {}
+[1.103374] (-) TimerEvent: {}
+[1.203780] (-) TimerEvent: {}
+[1.304160] (-) TimerEvent: {}
+[1.404513] (-) TimerEvent: {}
+[1.504893] (-) TimerEvent: {}
+[1.605261] (-) TimerEvent: {}
+[1.705648] (-) TimerEvent: {}
+[1.806036] (-) TimerEvent: {}
+[1.906439] (-) TimerEvent: {}
+[2.006872] (-) TimerEvent: {}
+[2.107244] (-) TimerEvent: {}
+[2.207633] (-) TimerEvent: {}
+[2.297493] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli/src/add_three_ints_server.cpp:6:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpractice_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.297724] (cpp_srvcli) StderrLine: {'line': b'    6 | void add(const std::shared_ptr<\x1b[01;31m\x1b[Kpractice_interfaces\x1b[m\x1b[K::srv::AddThreeInts::Request> request,\n'}
+[2.297824] (cpp_srvcli) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.297926] (cpp_srvcli) StderrLine: {'line': b'      |                                \x1b[32m\x1b[Krcl_interfaces\x1b[m\x1b[K\n'}
+[2.298030] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli/src/add_three_ints_server.cpp:6:79:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.298127] (cpp_srvcli) StderrLine: {'line': b'    6 | void add(const std::shared_ptr<practice_interfaces::srv::AddThreeInts::Request\x1b[01;31m\x1b[K>\x1b[m\x1b[K request,\n'}
+[2.298223] (cpp_srvcli) StderrLine: {'line': b'      |                                                                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.303093] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli/src/add_three_ints_server.cpp:6:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpractice_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.303274] (cpp_srvcli) StderrLine: {'line': b'    6 | void add(const std::shared_ptr<\x1b[01;31m\x1b[Kpractice_interfaces\x1b[m\x1b[K::srv::AddThreeInts::Request> request,\n'}
+[2.303366] (cpp_srvcli) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.303458] (cpp_srvcli) StderrLine: {'line': b'      |                                \x1b[32m\x1b[Krcl_interfaces\x1b[m\x1b[K\n'}
+[2.303565] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli/src/add_three_ints_server.cpp:6:79:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.303672] (cpp_srvcli) StderrLine: {'line': b'    6 | void add(const std::shared_ptr<practice_interfaces::srv::AddThreeInts::Request\x1b[01;31m\x1b[K>\x1b[m\x1b[K request,\n'}
+[2.303765] (cpp_srvcli) StderrLine: {'line': b'      |                                                                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.307721] (-) TimerEvent: {}
+[2.308672] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli/src/add_three_ints_server.cpp:6:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpractice_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.308842] (cpp_srvcli) StderrLine: {'line': b'    6 | void add(const std::shared_ptr<\x1b[01;31m\x1b[Kpractice_interfaces\x1b[m\x1b[K::srv::AddThreeInts::Request> request,\n'}
+[2.308931] (cpp_srvcli) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.309022] (cpp_srvcli) StderrLine: {'line': b'      |                                \x1b[32m\x1b[Krcl_interfaces\x1b[m\x1b[K\n'}
+[2.309112] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli/src/add_three_ints_server.cpp:6:79:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.309214] (cpp_srvcli) StderrLine: {'line': b'    6 | void add(const std::shared_ptr<practice_interfaces::srv::AddThreeInts::Request\x1b[01;31m\x1b[K>\x1b[m\x1b[K request,\n'}
+[2.309309] (cpp_srvcli) StderrLine: {'line': b'      |                                                                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.309402] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli/src/add_three_ints_server.cpp:6:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid template-id\n'}
+[2.309496] (cpp_srvcli) StderrLine: {'line': b'    6 | void add(const \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::shared_ptr<practice_interfaces::srv::AddThreeInts::Request> request,\n'}
+[2.309612] (cpp_srvcli) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.314444] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli/src/add_three_ints_server.cpp:6:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpractice_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.314645] (cpp_srvcli) StderrLine: {'line': b'    6 | void add(const std::shared_ptr<\x1b[01;31m\x1b[Kpractice_interfaces\x1b[m\x1b[K::srv::AddThreeInts::Request> request,\n'}
+[2.314740] (cpp_srvcli) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.314844] (cpp_srvcli) StderrLine: {'line': b'      |                                \x1b[32m\x1b[Krcl_interfaces\x1b[m\x1b[K\n'}
+[2.314933] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli/src/add_three_ints_server.cpp:6:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kvariable or field \xe2\x80\x98\x1b[01m\x1b[Kadd\x1b[m\x1b[K\xe2\x80\x99 declared void\n'}
+[2.315038] (cpp_srvcli) StderrLine: {'line': b'    6 | void \x1b[01;31m\x1b[Kadd\x1b[m\x1b[K(const std::shared_ptr<practice_interfaces::srv::AddThreeInts::Request> request,\n'}
+[2.315129] (cpp_srvcli) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.315219] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli/src/add_three_ints_server.cpp:6:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.315321] (cpp_srvcli) StderrLine: {'line': b'    6 | void add(\x1b[01;31m\x1b[Kconst\x1b[m\x1b[K std::shared_ptr<practice_interfaces::srv::AddThreeInts::Request> request,\n'}
+[2.315412] (cpp_srvcli) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.320387] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli/src/add_three_ints_server.cpp:7:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpractice_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.320621] (cpp_srvcli) StderrLine: {'line': b'    7 |           std::shared_ptr<\x1b[01;31m\x1b[Kpractice_interfaces\x1b[m\x1b[K::srv::AddThreeInts::Response>      response)\n'}
+[2.320728] (cpp_srvcli) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.320819] (cpp_srvcli) StderrLine: {'line': b'      |                           \x1b[32m\x1b[Krcl_interfaces\x1b[m\x1b[K\n'}
+[2.320909] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli/src/add_three_ints_server.cpp:7:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.320994] (cpp_srvcli) StderrLine: {'line': b'    7 |           std::shared_ptr<practice_interfaces::srv::AddThreeInts::Response\x1b[01;31m\x1b[K>\x1b[m\x1b[K      response)\n'}
+[2.321083] (cpp_srvcli) StderrLine: {'line': b'      |                                                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.326378] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli/src/add_three_ints_server.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[01;32m\x1b[K main\x1b[m\x1b[K(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.326621] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli/src/add_three_ints_server.cpp:21:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpractice_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.326772] (cpp_srvcli) StderrLine: {'line': b'   21 |   rclcpp::Service<\x1b[01;31m\x1b[Kpractice_interfaces\x1b[m\x1b[K::srv::AddThreeInts>::SharedPtr service =\n'}
+[2.326905] (cpp_srvcli) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.327018] (cpp_srvcli) StderrLine: {'line': b'      |                   \x1b[32m\x1b[Krcl_interfaces\x1b[m\x1b[K\n'}
+[2.327137] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli/src/add_three_ints_server.cpp:21:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.327265] (cpp_srvcli) StderrLine: {'line': b'   21 |   rclcpp::Service<practice_interfaces::srv::AddThreeInts\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr service =\n'}
+[2.327405] (cpp_srvcli) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.327528] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli/src/add_three_ints_server.cpp:21:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kqualified-id in declaration before \xe2\x80\x98\x1b[01m\x1b[Kservice\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.327684] (cpp_srvcli) StderrLine: {'line': b'   21 |   rclcpp::Service<practice_interfaces::srv::AddThreeInts>::SharedPtr \x1b[01;31m\x1b[Kservice\x1b[m\x1b[K =\n'}
+[2.327811] (cpp_srvcli) StderrLine: {'line': b'      |                                                                      \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.379505] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli/src/add_three_ints_client.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[01;32m\x1b[K main\x1b[m\x1b[K(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.379751] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli/src/add_three_ints_client.cpp:20:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpractice_interfaces\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.379905] (cpp_srvcli) StderrLine: {'line': b'   20 |   rclcpp::Client<\x1b[01;31m\x1b[Kpractice_interfaces\x1b[m\x1b[K::srv::AddThreeInts>::SharedPtr client =\n'}
+[2.380035] (cpp_srvcli) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.380156] (cpp_srvcli) StderrLine: {'line': b'      |                  \x1b[32m\x1b[Krcl_interfaces\x1b[m\x1b[K\n'}
+[2.380279] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli/src/add_three_ints_client.cpp:20:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.380403] (cpp_srvcli) StderrLine: {'line': b'   20 |   rclcpp::Client<practice_interfaces::srv::AddThreeInts\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr client =\n'}
+[2.380532] (cpp_srvcli) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.380688] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli/src/add_three_ints_client.cpp:20:69:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kqualified-id in declaration before \xe2\x80\x98\x1b[01m\x1b[Kclient\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.380819] (cpp_srvcli) StderrLine: {'line': b'   20 |   rclcpp::Client<practice_interfaces::srv::AddThreeInts>::SharedPtr \x1b[01;31m\x1b[Kclient\x1b[m\x1b[K =\n'}
+[2.380946] (cpp_srvcli) StderrLine: {'line': b'      |                                                                     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.381067] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli/src/add_three_ints_client.cpp:23:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[2.381182] (cpp_srvcli) StderrLine: {'line': b'   23 |   auto request = std::\x1b[01;31m\x1b[Kmake_shared<practice_interfaces::srv::AddThreeInts>\x1b[m\x1b[K();\n'}
+[2.381314] (cpp_srvcli) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.381456] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli/src/add_three_ints_client.cpp:23:74:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmake_shared<practice_interfaces>()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.381627] (cpp_srvcli) StderrLine: {'line': b'   23 |   auto request = \x1b[01;31m\x1b[Kstd::make_shared<practice_interfaces::srv::AddThreeInts>()\x1b[m\x1b[K;\n'}
+[2.381760] (cpp_srvcli) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[2.381887] (cpp_srvcli) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/memory:80\x1b[m\x1b[K,\n'}
+[2.382010] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/rolling/include/rclcpp/rclcpp/rclcpp.hpp:169\x1b[m\x1b[K,\n'}
+[2.382137] (cpp_srvcli) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli/src/add_three_ints_client.cpp:1\x1b[m\x1b[K:\n'}
+[2.382263] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<typename std::enable_if<(! std::is_array< <template-parameter-1-1> >::value), _Tp>::type> std::\x1b[01;32m\x1b[Kmake_shared\x1b[m\x1b[K(_Args&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.382393] (cpp_srvcli) StderrLine: {'line': b' 1005 |     \x1b[01;36m\x1b[Kmake_shared\x1b[m\x1b[K(_Args&&... __args)\n'}
+[2.382516] (cpp_srvcli) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.382666] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.382854] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli/src/add_three_ints_client.cpp:28:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclient\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.382999] (cpp_srvcli) StderrLine: {'line': b'   28 |   while (!\x1b[01;31m\x1b[Kclient\x1b[m\x1b[K->wait_for_service(1s)) {\n'}
+[2.383127] (cpp_srvcli) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.387197] (cpp_srvcli) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli/src/add_three_ints_client.cpp:36:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclient\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.387423] (cpp_srvcli) StderrLine: {'line': b'   36 |   auto result = \x1b[01;31m\x1b[Kclient\x1b[m\x1b[K->async_send_request(request);\n'}
+[2.387567] (cpp_srvcli) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.407859] (-) TimerEvent: {}
+[2.508171] (-) TimerEvent: {}
+[2.608471] (-) TimerEvent: {}
+[2.708811] (-) TimerEvent: {}
+[2.809108] (-) TimerEvent: {}
+[2.909415] (-) TimerEvent: {}
+[2.942397] (cpp_srvcli) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/add_three_ints_server.cpp.o] Error 1\n'}
+[2.942823] (cpp_srvcli) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/server.dir/all] Error 2\n'}
+[2.942929] (cpp_srvcli) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[3.009713] (-) TimerEvent: {}
+[3.010362] (cpp_srvcli) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/add_three_ints_client.cpp.o] Error 1\n'}
+[3.010859] (cpp_srvcli) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client.dir/all] Error 2\n'}
+[3.011326] (cpp_srvcli) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.016398] (cpp_srvcli) CommandEnded: {'returncode': 2}
+[3.095354] (cpp_srvcli) JobEnded: {'identifier': 'cpp_srvcli', 'rc': 2}
+[3.106156] (-) EventReactorShutdown: {}

@@ -1,0 +1,32 @@
+[0.011s] Invoking command in '/home/ylo-laptop/ROS_Projects/test_4/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ylo-laptop/ROS_Projects/test_4/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/ylo-laptop/ROS_Projects/test_4/install/tutorial_interfaces
+[0.073s] -- The C compiler identification is GNU 13.2.0
+[0.139s] -- The CXX compiler identification is GNU 13.2.0
+[0.163s] -- Detecting C compiler ABI info
+[0.273s] -- Detecting C compiler ABI info - done
+[0.282s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.282s] -- Detecting C compile features
+[0.282s] -- Detecting C compile features - done
+[0.293s] -- Detecting CXX compiler ABI info
+[0.422s] -- Detecting CXX compiler ABI info - done
+[0.431s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.431s] -- Detecting CXX compile features
+[0.432s] -- Detecting CXX compile features - done
+[0.434s] -- Found ament_cmake: 2.7.0 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.614s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.756s] -- Found geometry_msgs: 5.4.1 (/opt/ros/rolling/share/geometry_msgs/cmake)
+[0.797s] -- Found rosidl_generator_c: 4.8.1 (/opt/ros/rolling/share/rosidl_generator_c/cmake)
+[0.811s] -- Found rosidl_generator_cpp: 4.8.1 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)
+[0.827s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.846s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.913s] -- Found rosidl_default_generators: 1.7.1 (/opt/ros/rolling/share/rosidl_default_generators/cmake)
+[0.928s] -- Found rosidl_adapter: 4.8.1 (/opt/ros/rolling/share/rosidl_adapter/cmake)
+[0.931s] [31mCMake Error at /opt/ros/rolling/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+[0.932s]   rosidl_generate_interfaces() the passed file 'msg/Sphere,msg' doesn't exist
+[0.932s]   relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.932s]   '/home/ylo-laptop/ROS_Projects/test_4/src/tutorial_interfaces'
+[0.932s] Call Stack (most recent call first):
+[0.932s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[0.932s] 
+[0.932s] [0m
+[0.932s] -- Configuring incomplete, errors occurred!
+[0.940s] Invoked command in '/home/ylo-laptop/ROS_Projects/test_4/build/tutorial_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ylo-laptop/ROS_Projects/test_4/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/ylo-laptop/ROS_Projects/test_4/install/tutorial_interfaces

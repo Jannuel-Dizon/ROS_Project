@@ -1,0 +1,26 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/publisher_lambda_function.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable talker[0m
+[100%] [32m[1mLinking CXX executable listener[0m
+[100%] Built target talker
+[100%] Built target listener
+-- Install configuration: ""
+-- Installing: /home/ylo-laptop/ROS_Projects/test_4/install/cpp_pubsub/lib/cpp_pubsub/talker
+-- Set non-toolchain portion of runtime path of "/home/ylo-laptop/ROS_Projects/test_4/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+-- Installing: /home/ylo-laptop/ROS_Projects/test_4/install/cpp_pubsub/lib/cpp_pubsub/listener
+-- Set non-toolchain portion of runtime path of "/home/ylo-laptop/ROS_Projects/test_4/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+-- Installing: /home/ylo-laptop/ROS_Projects/test_4/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+-- Installing: /home/ylo-laptop/ROS_Projects/test_4/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+-- Installing: /home/ylo-laptop/ROS_Projects/test_4/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+-- Installing: /home/ylo-laptop/ROS_Projects/test_4/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+-- Installing: /home/ylo-laptop/ROS_Projects/test_4/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+-- Installing: /home/ylo-laptop/ROS_Projects/test_4/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+-- Installing: /home/ylo-laptop/ROS_Projects/test_4/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+-- Installing: /home/ylo-laptop/ROS_Projects/test_4/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+-- Installing: /home/ylo-laptop/ROS_Projects/test_4/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+-- Installing: /home/ylo-laptop/ROS_Projects/test_4/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+-- Installing: /home/ylo-laptop/ROS_Projects/test_4/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+-- Installing: /home/ylo-laptop/ROS_Projects/test_4/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+-- Installing: /home/ylo-laptop/ROS_Projects/test_4/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+-- Installing: /home/ylo-laptop/ROS_Projects/test_4/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+-- Installing: /home/ylo-laptop/ROS_Projects/test_4/install/cpp_pubsub/share/cpp_pubsub/package.xml

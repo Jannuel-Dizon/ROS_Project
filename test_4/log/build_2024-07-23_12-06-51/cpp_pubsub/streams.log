@@ -1,0 +1,40 @@
+[0.011s] Invoking command in '/home/ylo-laptop/ROS_Projects/test_4/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ylo-laptop/ROS_Projects/test_4/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/ylo-laptop/ROS_Projects/test_4/install/cpp_pubsub
+[0.025s] -- Found ament_cmake: 2.7.0 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.283s] -- Found rclcpp: 28.3.1 (/opt/ros/rolling/share/rclcpp/cmake)
+[0.327s] -- Found rosidl_generator_c: 4.8.1 (/opt/ros/rolling/share/rosidl_generator_c/cmake)
+[0.336s] -- Found rosidl_generator_cpp: 4.8.1 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)
+[0.348s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.362s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.425s] -- Found rmw_implementation_cmake: 7.4.1 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)
+[0.426s] -- Found rmw_fastrtps_cpp: 9.0.0 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)
+[0.506s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.573s] -- Found ament_lint_auto: 0.18.1 (/opt/ros/rolling/share/ament_lint_auto/cmake)
+[0.706s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.706s] -- Configured cppcheck include dirs: 
+[0.706s] -- Configured cppcheck exclude dirs and/or files: 
+[0.706s] -- Added test 'lint_cmake' to check CMake code style
+[0.707s] -- Added test 'uncrustify' to check C / C++ code style
+[0.707s] -- Configured uncrustify additional arguments: 
+[0.708s] -- Added test 'xmllint' to check XML markup files
+[0.708s] -- Configuring done (0.7s)
+[0.723s] -- Generating done (0.0s)
+[0.725s] -- Build files have been written to: /home/ylo-laptop/ROS_Projects/test_4/build/cpp_pubsub
+[0.733s] Invoked command in '/home/ylo-laptop/ROS_Projects/test_4/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ylo-laptop/ROS_Projects/test_4/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/ylo-laptop/ROS_Projects/test_4/install/cpp_pubsub
+[0.735s] Invoking command in '/home/ylo-laptop/ROS_Projects/test_4/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ylo-laptop/ROS_Projects/test_4/build/cpp_pubsub -- -j16 -l16
+[0.801s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o[0m
+[0.801s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/publisher_lambda_function.cpp.o[0m
+[1.084s] [01m[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_pubsub/src/publisher_lambda_function.cpp:20:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.hpp: No such file or directory
+[1.084s]    20 | #include [01;31m[K"std_msgs/msg/string.hpp"[m[K
+[1.084s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.084s] compilation terminated.
+[1.094s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/publisher_lambda_function.cpp.o] Error 1
+[1.094s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2
+[1.094s] gmake[1]: *** Waiting for unfinished jobs....
+[1.096s] [01m[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_pubsub/src/publisher_lambda_function.cpp:20:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.hpp: No such file or directory
+[1.096s]    20 | #include [01;31m[K"std_msgs/msg/string.hpp"[m[K
+[1.096s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.096s] compilation terminated.
+[1.101s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o] Error 1
+[1.101s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+[1.102s] gmake: *** [Makefile:146: all] Error 2
+[1.106s] Invoked command in '/home/ylo-laptop/ROS_Projects/test_4/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ylo-laptop/ROS_Projects/test_4/build/cpp_pubsub -- -j16 -l16

@@ -1,0 +1,88 @@
+[01m[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli/src/add_three_ints_server.cpp:6:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kpractice_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+    6 | void add(const std::shared_ptr<[01;31m[Kpractice_interfaces[m[K::srv::AddThreeInts::Request> request,
+      |                                [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |                                [32m[Krcl_interfaces[m[K
+[01m[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli/src/add_three_ints_server.cpp:6:79:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    6 | void add(const std::shared_ptr<practice_interfaces::srv::AddThreeInts::Request[01;31m[K>[m[K request,
+      |                                                                               [01;31m[K^[m[K
+[01m[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli/src/add_three_ints_server.cpp:6:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kpractice_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+    6 | void add(const std::shared_ptr<[01;31m[Kpractice_interfaces[m[K::srv::AddThreeInts::Request> request,
+      |                                [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |                                [32m[Krcl_interfaces[m[K
+[01m[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli/src/add_three_ints_server.cpp:6:79:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    6 | void add(const std::shared_ptr<practice_interfaces::srv::AddThreeInts::Request[01;31m[K>[m[K request,
+      |                                                                               [01;31m[K^[m[K
+[01m[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli/src/add_three_ints_server.cpp:6:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kpractice_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+    6 | void add(const std::shared_ptr<[01;31m[Kpractice_interfaces[m[K::srv::AddThreeInts::Request> request,
+      |                                [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |                                [32m[Krcl_interfaces[m[K
+[01m[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli/src/add_three_ints_server.cpp:6:79:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    6 | void add(const std::shared_ptr<practice_interfaces::srv::AddThreeInts::Request[01;31m[K>[m[K request,
+      |                                                                               [01;31m[K^[m[K
+[01m[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli/src/add_three_ints_server.cpp:6:16:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+    6 | void add(const [01;31m[Kstd[m[K::shared_ptr<practice_interfaces::srv::AddThreeInts::Request> request,
+      |                [01;31m[K^~~[m[K
+[01m[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli/src/add_three_ints_server.cpp:6:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kpractice_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+    6 | void add(const std::shared_ptr<[01;31m[Kpractice_interfaces[m[K::srv::AddThreeInts::Request> request,
+      |                                [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |                                [32m[Krcl_interfaces[m[K
+[01m[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli/src/add_three_ints_server.cpp:6:6:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[Kadd[m[K’ declared void
+    6 | void [01;31m[Kadd[m[K(const std::shared_ptr<practice_interfaces::srv::AddThreeInts::Request> request,
+      |      [01;31m[K^~~[m[K
+[01m[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli/src/add_three_ints_server.cpp:6:10:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+    6 | void add([01;31m[Kconst[m[K std::shared_ptr<practice_interfaces::srv::AddThreeInts::Request> request,
+      |          [01;31m[K^~~~~[m[K
+[01m[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli/src/add_three_ints_server.cpp:7:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kpractice_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+    7 |           std::shared_ptr<[01;31m[Kpractice_interfaces[m[K::srv::AddThreeInts::Response>      response)
+      |                           [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |                           [32m[Krcl_interfaces[m[K
+[01m[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli/src/add_three_ints_server.cpp:7:75:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    7 |           std::shared_ptr<practice_interfaces::srv::AddThreeInts::Response[01;31m[K>[m[K      response)
+      |                                                                           [01;31m[K^[m[K
+[01m[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli/src/add_three_ints_server.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli/src/add_three_ints_server.cpp:21:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kpractice_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+   21 |   rclcpp::Service<[01;31m[Kpractice_interfaces[m[K::srv::AddThreeInts>::SharedPtr service =
+      |                   [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |                   [32m[Krcl_interfaces[m[K
+[01m[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli/src/add_three_ints_server.cpp:21:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   21 |   rclcpp::Service<practice_interfaces::srv::AddThreeInts[01;31m[K>[m[K::SharedPtr service =
+      |                                                         [01;31m[K^[m[K
+[01m[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli/src/add_three_ints_server.cpp:21:70:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[Kservice[m[K’
+   21 |   rclcpp::Service<practice_interfaces::srv::AddThreeInts>::SharedPtr [01;31m[Kservice[m[K =
+      |                                                                      [01;31m[K^~~~~~~[m[K
+[01m[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli/src/add_three_ints_client.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli/src/add_three_ints_client.cpp:20:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kpractice_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+   20 |   rclcpp::Client<[01;31m[Kpractice_interfaces[m[K::srv::AddThreeInts>::SharedPtr client =
+      |                  [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |                  [32m[Krcl_interfaces[m[K
+[01m[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli/src/add_three_ints_client.cpp:20:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   20 |   rclcpp::Client<practice_interfaces::srv::AddThreeInts[01;31m[K>[m[K::SharedPtr client =
+      |                                                        [01;31m[K^[m[K
+[01m[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli/src/add_three_ints_client.cpp:20:69:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[Kclient[m[K’
+   20 |   rclcpp::Client<practice_interfaces::srv::AddThreeInts>::SharedPtr [01;31m[Kclient[m[K =
+      |                                                                     [01;31m[K^~~~~~[m[K
+[01m[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli/src/add_three_ints_client.cpp:23:23:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   23 |   auto request = std::[01;31m[Kmake_shared<practice_interfaces::srv::AddThreeInts>[m[K();
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli/src/add_three_ints_client.cpp:23:74:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<practice_interfaces>()[m[K’
+   23 |   auto request = [01;31m[Kstd::make_shared<practice_interfaces::srv::AddThreeInts>()[m[K;
+      |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/c++/13/memory:80[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/rclcpp.hpp:169[m[K,
+                 from [01m[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli/src/add_three_ints_client.cpp:1[m[K:
+[01m[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<typename std::enable_if<(! std::is_array< <template-parameter-1-1> >::value), _Tp>::type> std::[01;32m[Kmake_shared[m[K(_Args&& ...)[m[K’
+ 1005 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli/src/add_three_ints_client.cpp:28:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient[m[K’ was not declared in this scope
+   28 |   while (![01;31m[Kclient[m[K->wait_for_service(1s)) {
+      |           [01;31m[K^~~~~~[m[K
+[01m[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli/src/add_three_ints_client.cpp:36:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient[m[K’ was not declared in this scope
+   36 |   auto result = [01;31m[Kclient[m[K->async_send_request(request);
+      |                 [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/add_three_ints_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/server.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/add_three_ints_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

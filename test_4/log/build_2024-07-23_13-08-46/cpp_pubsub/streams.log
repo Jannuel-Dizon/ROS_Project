@@ -1,0 +1,18 @@
+[0.009s] Invoking command in '/home/ylo-laptop/ROS_Projects/test_4/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ylo-laptop/ROS_Projects/test_4/build/cpp_pubsub -- -j16 -l16
+[0.078s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o[0m
+[0.078s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/publisher_lambda_function.cpp.o[0m
+[0.175s] [01m[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_pubsub/src/publisher_lambda_function.cpp:19:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hp: No such file or directory
+[0.175s]    19 | #include [01;31m[K"rclcpp/rclcpp.hp"[m[K
+[0.175s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[0.176s] [01m[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_pubsub/src/publisher_lambda_function.cpp:19:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hp: No such file or directory
+[0.176s]    19 | #include [01;31m[K"rclcpp/rclcpp.hp"[m[K
+[0.176s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[0.176s] compilation terminated.
+[0.176s] compilation terminated.
+[0.182s] gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/publisher_lambda_function.cpp.o] Error 1
+[0.183s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o] Error 1
+[0.183s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2
+[0.183s] gmake[1]: *** Waiting for unfinished jobs....
+[0.183s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talker.dir/all] Error 2
+[0.183s] gmake: *** [Makefile:146: all] Error 2
+[0.186s] Invoked command in '/home/ylo-laptop/ROS_Projects/test_4/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ylo-laptop/ROS_Projects/test_4/build/cpp_pubsub -- -j16 -l16

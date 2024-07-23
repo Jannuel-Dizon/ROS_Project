@@ -1,0 +1,19 @@
+[0.011s] Invoking command in '/home/ylo-laptop/ROS_Projects/test_4/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ylo-laptop/ROS_Projects/test_4/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/ylo-laptop/ROS_Projects/test_4/install/tutorial_interfaces
+[0.031s] -- Found ament_cmake: 2.7.0 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.281s] -- Found geometry_msgs: 5.4.1 (/opt/ros/rolling/share/geometry_msgs/cmake)
+[0.323s] -- Found rosidl_generator_c: 4.8.1 (/opt/ros/rolling/share/rosidl_generator_c/cmake)
+[0.332s] -- Found rosidl_generator_cpp: 4.8.1 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)
+[0.344s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.356s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.397s] -- Found rosidl_default_generators: 1.7.1 (/opt/ros/rolling/share/rosidl_default_generators/cmake)
+[0.404s] -- Found rosidl_adapter: 4.8.1 (/opt/ros/rolling/share/rosidl_adapter/cmake)
+[0.407s] [31mCMake Error at /opt/ros/rolling/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+[0.407s]   rosidl_generate_interfaces() the passed file 'src/AddThreeInts.srv' doesn't
+[0.407s]   exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.407s]   '/home/ylo-laptop/ROS_Projects/test_4/src/tutorial_interfaces'
+[0.407s] Call Stack (most recent call first):
+[0.407s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[0.407s] 
+[0.407s] [0m
+[0.407s] -- Configuring incomplete, errors occurred!
+[0.412s] Invoked command in '/home/ylo-laptop/ROS_Projects/test_4/build/tutorial_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ylo-laptop/ROS_Projects/test_4/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/ylo-laptop/ROS_Projects/test_4/install/tutorial_interfaces

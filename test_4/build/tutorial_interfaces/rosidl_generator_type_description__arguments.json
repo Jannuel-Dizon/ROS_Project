@@ -1,0 +1,15 @@
+{
+  "package_name": "tutorial_interfaces",
+  "output_dir": "/home/ylo-laptop/ROS_Projects/test_4/build/tutorial_interfaces/rosidl_generator_type_description/tutorial_interfaces",
+  "idl_tuples": [
+    "/home/ylo-laptop/ROS_Projects/test_4/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces:msg/Num.idl",
+    "/home/ylo-laptop/ROS_Projects/test_4/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces:msg/Sphere.idl",
+    "/home/ylo-laptop/ROS_Projects/test_4/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces:srv/AddThreeInts.idl"
+  ],
+  "include_paths": [
+    "geometry_msgs:/opt/ros/rolling/share/geometry_msgs",
+    "std_msgs:/opt/ros/rolling/share/std_msgs",
+    "service_msgs:/opt/ros/rolling/share/service_msgs",
+    "builtin_interfaces:/opt/ros/rolling/share/builtin_interfaces"
+  ]
+}

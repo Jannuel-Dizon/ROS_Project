@@ -1,0 +1,28 @@
+[0.015s] Invoking command in '/home/ylo-laptop/ROS_Projects/test_4/build/cpp_srvcli': AMENT_PREFIX_PATH=/home/ylo-laptop/ROS_Projects/test_4/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ylo-laptop/ROS_Projects/test_4/install/tutorial_interfaces:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ylo-laptop/ROS_Projects/test_4/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ylo-laptop/ROS_Projects/test_4/install/tutorial_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ylo-laptop/ROS_Projects/test_4/build/cpp_srvcli -- -j16 -l16
+[0.088s] [ 50%] Built target server
+[0.097s] [ 75%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_three_ints_client.cpp.o[0m
+[3.766s] [100%] [32m[1mLinking CXX executable client[0m
+[3.931s] [100%] Built target client
+[3.944s] Invoked command in '/home/ylo-laptop/ROS_Projects/test_4/build/cpp_srvcli' returned '0': AMENT_PREFIX_PATH=/home/ylo-laptop/ROS_Projects/test_4/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ylo-laptop/ROS_Projects/test_4/install/tutorial_interfaces:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ylo-laptop/ROS_Projects/test_4/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ylo-laptop/ROS_Projects/test_4/install/tutorial_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ylo-laptop/ROS_Projects/test_4/build/cpp_srvcli -- -j16 -l16
+[3.982s] Invoking command in '/home/ylo-laptop/ROS_Projects/test_4/build/cpp_srvcli': AMENT_PREFIX_PATH=/home/ylo-laptop/ROS_Projects/test_4/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ylo-laptop/ROS_Projects/test_4/install/tutorial_interfaces:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ylo-laptop/ROS_Projects/test_4/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ylo-laptop/ROS_Projects/test_4/install/tutorial_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ylo-laptop/ROS_Projects/test_4/build/cpp_srvcli
+[4.000s] -- Install configuration: ""
+[4.000s] -- Installing: /home/ylo-laptop/ROS_Projects/test_4/install/cpp_srvcli/lib/cpp_srvcli/server
+[4.001s] -- Set non-toolchain portion of runtime path of "/home/ylo-laptop/ROS_Projects/test_4/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+[4.001s] -- Installing: /home/ylo-laptop/ROS_Projects/test_4/install/cpp_srvcli/lib/cpp_srvcli/client
+[4.002s] -- Set non-toolchain portion of runtime path of "/home/ylo-laptop/ROS_Projects/test_4/install/cpp_srvcli/lib/cpp_srvcli/client" to ""
+[4.002s] -- Installing: /home/ylo-laptop/ROS_Projects/test_4/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[4.002s] -- Installing: /home/ylo-laptop/ROS_Projects/test_4/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[4.002s] -- Installing: /home/ylo-laptop/ROS_Projects/test_4/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[4.003s] -- Installing: /home/ylo-laptop/ROS_Projects/test_4/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[4.003s] -- Installing: /home/ylo-laptop/ROS_Projects/test_4/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[4.003s] -- Installing: /home/ylo-laptop/ROS_Projects/test_4/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[4.004s] -- Installing: /home/ylo-laptop/ROS_Projects/test_4/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[4.004s] -- Installing: /home/ylo-laptop/ROS_Projects/test_4/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[4.004s] -- Installing: /home/ylo-laptop/ROS_Projects/test_4/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[4.004s] -- Installing: /home/ylo-laptop/ROS_Projects/test_4/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[4.004s] -- Installing: /home/ylo-laptop/ROS_Projects/test_4/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[4.005s] -- Installing: /home/ylo-laptop/ROS_Projects/test_4/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[4.005s] -- Installing: /home/ylo-laptop/ROS_Projects/test_4/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[4.005s] -- Installing: /home/ylo-laptop/ROS_Projects/test_4/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[4.005s] -- Installing: /home/ylo-laptop/ROS_Projects/test_4/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[4.007s] Invoked command in '/home/ylo-laptop/ROS_Projects/test_4/build/cpp_srvcli' returned '0': AMENT_PREFIX_PATH=/home/ylo-laptop/ROS_Projects/test_4/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ylo-laptop/ROS_Projects/test_4/install/tutorial_interfaces:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ylo-laptop/ROS_Projects/test_4/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ylo-laptop/ROS_Projects/test_4/install/tutorial_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ylo-laptop/ROS_Projects/test_4/build/cpp_srvcli

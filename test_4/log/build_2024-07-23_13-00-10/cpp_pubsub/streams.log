@@ -1,0 +1,30 @@
+[0.012s] Invoking command in '/home/ylo-laptop/ROS_Projects/test_4/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ylo-laptop/ROS_Projects/test_4/build/cpp_pubsub -- -j16 -l16
+[0.040s] -- Found ament_cmake: 2.7.0 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.282s] -- Found rclcpp: 28.3.1 (/opt/ros/rolling/share/rclcpp/cmake)
+[0.327s] -- Found rosidl_generator_c: 4.8.1 (/opt/ros/rolling/share/rosidl_generator_c/cmake)
+[0.336s] -- Found rosidl_generator_cpp: 4.8.1 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)
+[0.347s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.359s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.418s] -- Found rmw_implementation_cmake: 7.4.1 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)
+[0.419s] -- Found rmw_fastrtps_cpp: 9.0.0 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)
+[0.486s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.562s] [31mCMake Error at CMakeLists.txt:15 (find_package):
+[0.562s]   By not providing "Findtutorial_interface.cmake" in CMAKE_MODULE_PATH this
+[0.563s]   project has asked CMake to find a package configuration file provided by
+[0.563s]   "tutorial_interface", but CMake did not find one.
+[0.563s] 
+[0.563s]   Could not find a package configuration file provided by
+[0.563s]   "tutorial_interface" with any of the following names:
+[0.563s] 
+[0.564s]     tutorial_interfaceConfig.cmake
+[0.564s]     tutorial_interface-config.cmake
+[0.564s] 
+[0.564s]   Add the installation prefix of "tutorial_interface" to CMAKE_PREFIX_PATH or
+[0.564s]   set "tutorial_interface_DIR" to a directory containing one of the above
+[0.565s]   files.  If "tutorial_interface" provides a separate development package or
+[0.565s]   SDK, be sure it has been installed.
+[0.565s] 
+[0.565s] [0m
+[0.565s] -- Configuring incomplete, errors occurred!
+[0.569s] gmake: *** [Makefile:284: cmake_check_build_system] Error 1
+[0.572s] Invoked command in '/home/ylo-laptop/ROS_Projects/test_4/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ylo-laptop/ROS_Projects/test_4/build/cpp_pubsub -- -j16 -l16

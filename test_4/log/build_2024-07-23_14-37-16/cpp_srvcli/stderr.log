@@ -1,0 +1,47 @@
+[01m[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli/src/add_three_ints_client.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli/src/add_three_ints_client.cpp:24:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<tutorial_interfaces::srv::AddThreeInts, __gnu_cxx::_S_atomic, false, false>::element_type = struct tutorial_interfaces::srv::AddThreeInts[m[K’ {aka ‘[01m[Kstruct tutorial_interfaces::srv::AddThreeInts[m[K’} has no member named ‘[01m[Ka[m[K’
+   24 |   request->[01;31m[Ka[m[K = atoll(argv[1]);
+      |            [01;31m[K^[m[K
+[01m[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli/src/add_three_ints_client.cpp:25:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<tutorial_interfaces::srv::AddThreeInts, __gnu_cxx::_S_atomic, false, false>::element_type = struct tutorial_interfaces::srv::AddThreeInts[m[K’ {aka ‘[01m[Kstruct tutorial_interfaces::srv::AddThreeInts[m[K’} has no member named ‘[01m[Kb[m[K’
+   25 |   request->[01;31m[Kb[m[K = atoll(argv[2]);
+      |            [01;31m[K^[m[K
+[01m[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli/src/add_three_ints_client.cpp:26:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<tutorial_interfaces::srv::AddThreeInts, __gnu_cxx::_S_atomic, false, false>::element_type = struct tutorial_interfaces::srv::AddThreeInts[m[K’ {aka ‘[01m[Kstruct tutorial_interfaces::srv::AddThreeInts[m[K’} has no member named ‘[01m[Kc[m[K’
+   26 |   request->[01;31m[Kc[m[K = atoll(argv[3]);
+      |            [01;31m[K^[m[K
+[01m[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli/src/add_three_ints_client.cpp:36:43:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Client<tutorial_interfaces::srv::AddThreeInts>::async_send_request(std::shared_ptr<tutorial_interfaces::srv::AddThreeInts>&)[m[K’
+   36 |   auto result = [01;31m[Kclient->async_send_request(request)[m[K;
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executor_options.hpp:22[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executor.hpp:38[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+                 from [01m[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli/src/add_three_ints_client.cpp:1[m[K:
+[01m[K/opt/ros/rolling/include/rclcpp/rclcpp/client.hpp:672:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::shared_ptr<tutorial_interfaces::srv::AddThreeInts_Response_<std::allocator<void> > > >)> >::value, void>::type* <anonymous> > rclcpp::Client<ServiceT>::SharedFutureAndRequestId rclcpp::Client<ServiceT>::[01;32m[Kasync_send_request[m[K(SharedRequest, CallbackT&&) [35m[K[with typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<typename ServiceT::Response::SharedPtr>)> >::value>::type* <anonymous> = CallbackT; ServiceT = tutorial_interfaces::srv::AddThreeInts][m[K[m[K’
+  672 |   [01;36m[Kasync_send_request[m[K(SharedRequest request, CallbackT && cb)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/rolling/include/rclcpp/rclcpp/client.hpp:672:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli/src/add_three_ints_client.cpp:36:43:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+   36 |   auto result = [01;36m[Kclient->async_send_request(request)[m[K;
+      |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/opt/ros/rolling/include/rclcpp/rclcpp/client.hpp:703:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<std::shared_ptr<tutorial_interfaces::srv::AddThreeInts_Request_<std::allocator<void> > >, std::shared_ptr<tutorial_interfaces::srv::AddThreeInts_Response_<std::allocator<void> > > > >)> >::value, void>::type* <anonymous> > rclcpp::Client<ServiceT>::SharedFutureWithRequestAndRequestId rclcpp::Client<ServiceT>::[01;32m[Kasync_send_request[m[K(SharedRequest, CallbackT&&) [35m[K[with typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<typename ServiceT::Request::SharedPtr, typename ServiceT::Response::SharedPtr> >)> >::value>::type* <anonymous> = CallbackT; ServiceT = tutorial_interfaces::srv::AddThreeInts][m[K[m[K’
+  703 |   [01;36m[Kasync_send_request[m[K(SharedRequest request, CallbackT && cb)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/rolling/include/rclcpp/rclcpp/client.hpp:703:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ylo-laptop/ROS_Projects/test_4/src/cpp_srvcli/src/add_three_ints_client.cpp:36:43:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+   36 |   auto result = [01;36m[Kclient->async_send_request(request)[m[K;
+      |                 [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/opt/ros/rolling/include/rclcpp/rclcpp/client.hpp:637:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Client<ServiceT>::FutureAndRequestId rclcpp::Client<ServiceT>::[01;32m[Kasync_send_request[m[K(SharedRequest) [35m[K[with ServiceT = tutorial_interfaces::srv::AddThreeInts; SharedRequest = std::shared_ptr<tutorial_interfaces::srv::AddThreeInts_Request_<std::allocator<void> > >][m[K[m[K’
+  637 |   [01;36m[Kasync_send_request[m[K(SharedRequest request)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/rolling/include/rclcpp/rclcpp/client.hpp:637:36:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kshared_ptr<[01;32m[Ktutorial_interfaces::srv::AddThreeInts[m[K>[m[K’ to ‘[01m[Kshared_ptr<[01;32m[Ktutorial_interfaces::srv::AddThreeInts_Request_<std::allocator<void> >[m[K>[m[K’
+  637 |   async_send_request([01;36m[KSharedRequest request[m[K)
+      |                      [01;36m[K~~~~~~~~~~~~~~^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/add_three_ints_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/client.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2
