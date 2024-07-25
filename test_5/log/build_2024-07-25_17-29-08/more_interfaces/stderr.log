@@ -1,0 +1,4 @@
+[31mCMake Error at CMakeLists.txt:29 (taget_link_libraries):
+  Unknown CMake command "taget_link_libraries".
+
+[0m
