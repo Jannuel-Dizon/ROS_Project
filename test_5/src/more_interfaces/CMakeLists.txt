@@ -12,8 +12,8 @@ find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 find_package(rclcpp REQUIRED)
 
-add_executable(publis_address_book src/publish_address_book.cpp)
-ament_target_dependencies(publis_address_book rclcpp)
+add_executable(publish_address_book src/publish_address_book.cpp)
+ament_target_dependencies(publish_address_book rclcpp)
 
 set(msg_files
     "msg/AddressBook.msg"
@@ -23,10 +23,10 @@ rosidl_generate_interfaces(${PROJECT_NAME}
     ${msg_files}
 )
 
-rosidl_get_typesupport_target(cpp_typsupport_target
-    ${PROJECT_NAME} publis_address_book)
+rosidl_get_typesupport_target(cpp_typesupport_target
+  ${PROJECT_NAME} rosidl_typesupport_cpp)
 
-taget_link_libraries(publis_address_book "${cpp_typsupport_target}")
+target_link_libraries(publish_address_book "${cpp_typesupport_target}")
 
 ament_export_dependencies(rosidl_default_runtime)
 
@@ -43,7 +43,7 @@ if(BUILD_TESTING)
 endif()
 
 install(TARGETS
-    publis_address_book
+    publish_address_book
     DESTINATION lib/${PROJECT_NAME}
 )
 

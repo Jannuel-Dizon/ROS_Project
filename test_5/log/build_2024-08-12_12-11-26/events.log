@@ -1,0 +1,315 @@
+[0.000000] (-) TimerEvent: {}
+[0.000764] (more_interfaces) JobQueued: {'identifier': 'more_interfaces', 'dependencies': OrderedDict()}
+[0.000907] (more_interfaces) JobStarted: {'identifier': 'more_interfaces'}
+[0.009967] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'cmake'}
+[0.011764] (more_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/ylo-laptop/ROS_Projects/test_5/src/more_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces'], 'cwd': '/home/ylo-laptop/ROS_Projects/test_5/build/more_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ylo-laptop', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '3', 'LD_LIBRARY_PATH': '/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/opt/gz_math_vendor/lib:/opt/ros/rolling/opt/gz_utils_vendor/lib:/opt/ros/rolling/opt/gz_cmake_vendor/lib:/opt/ros/rolling/lib', 'HOME': '/home/ylo-laptop', 'OLDPWD': '/home/ylo-laptop/ROS_Projects', 'TERM_PROGRAM_VERSION': '0.147.2', 'DESKTOP_SESSION': 'ubuntu', 'ZED_TERM': 'true', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2275', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=b28640161be7ae027d363f8666b701fb', 'COLORTERM': 'truecolor', 'QSYS_ROOTDIR': '/home/ylo-laptop/intelFPGA_lite/23.1std/quartus/sopc_builder/bin', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'rolling', 'LOGNAME': 'ylo-laptop', 'WINDOWID': '4294967297', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ylo-laptop', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'ZED_FORCE_CLI_MODE': '', 'PATH': '/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/ylo-laptop/.local/bin/:/home/ylo-laptop/intelFPGA_lite/23.1std/quartus/bin', 'SESSION_MANAGER': 'local/ylo-laptop:@/tmp/.ICE-unix/2275,unix/ylo-laptop:/tmp/.ICE-unix/2275', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/14b43fb3_b086_450e_958a_e6a996cb6da4', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.674', 'TERM_PROGRAM': 'zed', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/rolling', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'ALACRITTY_WINDOW_ID': '4294967297', 'PWD': '/home/ylo-laptop/ROS_Projects/test_5/build/more_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=b28640161be7ae027d363f8666b701fb', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/ylo-laptop/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/rolling/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling'}), 'shell': False}
+[0.036237] (more_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.7.0 (/opt/ros/rolling/share/ament_cmake/cmake)\n'}
+[0.099638] (-) TimerEvent: {}
+[0.145678] (more_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.7.1 (/opt/ros/rolling/share/rosidl_default_generators/cmake)\n'}
+[0.150491] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.199502] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.199983] (-) TimerEvent: {}
+[0.227303] (more_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.8.1 (/opt/ros/rolling/share/rosidl_adapter/cmake)\n'}
+[0.229134] (more_interfaces) StdoutLine: {'line': b'-- Found rclcpp: 28.3.1 (/opt/ros/rolling/share/rclcpp/cmake)\n'}
+[0.293762] (more_interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.4.1 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)\n'}
+[0.295012] (more_interfaces) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 9.0.0 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.300123] (-) TimerEvent: {}
+[0.362441] (more_interfaces) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.400273] (-) TimerEvent: {}
+[0.500638] (-) TimerEvent: {}
+[0.601014] (-) TimerEvent: {}
+[0.701367] (-) TimerEvent: {}
+[0.709427] (more_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.13.0 (/opt/ros/rolling/share/ament_cmake_ros/cmake)\n'}
+[0.801525] (-) TimerEvent: {}
+[0.834075] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.901647] (-) TimerEvent: {}
+[0.945530] (more_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.946588] (more_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.12.0 (/opt/ros/rolling/share/python_cmake_module/cmake)\n'}
+[1.001796] (-) TimerEvent: {}
+[1.102149] (-) TimerEvent: {}
+[1.202522] (-) TimerEvent: {}
+[1.224437] (more_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[1.245018] (more_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.18.1 (/opt/ros/rolling/share/ament_lint_auto/cmake)\n'}
+[1.267659] (more_interfaces) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.269074] (more_interfaces) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.269362] (more_interfaces) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.270818] (more_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.273021] (more_interfaces) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.273288] (more_interfaces) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.273589] (more_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.275005] (more_interfaces) StdoutLine: {'line': b'-- Configuring done (1.2s)\n'}
+[1.302643] (-) TimerEvent: {}
+[1.311182] (more_interfaces) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.315451] (more_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/ylo-laptop/ROS_Projects/test_5/build/more_interfaces\n'}
+[1.326451] (more_interfaces) CommandEnded: {'returncode': 0}
+[1.327067] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'build'}
+[1.328236] (more_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ylo-laptop/ROS_Projects/test_5/build/more_interfaces', '--', '-j16', '-l16'], 'cwd': '/home/ylo-laptop/ROS_Projects/test_5/build/more_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ylo-laptop', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '3', 'LD_LIBRARY_PATH': '/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/opt/gz_math_vendor/lib:/opt/ros/rolling/opt/gz_utils_vendor/lib:/opt/ros/rolling/opt/gz_cmake_vendor/lib:/opt/ros/rolling/lib', 'HOME': '/home/ylo-laptop', 'OLDPWD': '/home/ylo-laptop/ROS_Projects', 'TERM_PROGRAM_VERSION': '0.147.2', 'DESKTOP_SESSION': 'ubuntu', 'ZED_TERM': 'true', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2275', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=b28640161be7ae027d363f8666b701fb', 'COLORTERM': 'truecolor', 'QSYS_ROOTDIR': '/home/ylo-laptop/intelFPGA_lite/23.1std/quartus/sopc_builder/bin', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'rolling', 'LOGNAME': 'ylo-laptop', 'WINDOWID': '4294967297', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ylo-laptop', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'ZED_FORCE_CLI_MODE': '', 'PATH': '/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/ylo-laptop/.local/bin/:/home/ylo-laptop/intelFPGA_lite/23.1std/quartus/bin', 'SESSION_MANAGER': 'local/ylo-laptop:@/tmp/.ICE-unix/2275,unix/ylo-laptop:/tmp/.ICE-unix/2275', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/14b43fb3_b086_450e_958a_e6a996cb6da4', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.674', 'TERM_PROGRAM': 'zed', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/rolling', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'ALACRITTY_WINDOW_ID': '4294967297', 'PWD': '/home/ylo-laptop/ROS_Projects/test_5/build/more_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=b28640161be7ae027d363f8666b701fb', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/ylo-laptop/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/rolling/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling'}), 'shell': False}
+[1.381615] (more_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[1.390371] (more_interfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_more_interfaces\n'}
+[1.402763] (-) TimerEvent: {}
+[1.503018] (-) TimerEvent: {}
+[1.563170] (more_interfaces) StdoutLine: {'line': b'[  2%] Built target more_interfaces__rosidl_generator_type_description\n'}
+[1.579714] (more_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.592660] (more_interfaces) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.594201] (more_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[1.594958] (more_interfaces) StdoutLine: {'line': b'creating more_interfaces.egg-info\n'}
+[1.603138] (-) TimerEvent: {}
+[1.614144] (more_interfaces) StdoutLine: {'line': b'writing more_interfaces.egg-info/PKG-INFO\n'}
+[1.614367] (more_interfaces) StdoutLine: {'line': b'writing dependency_links to more_interfaces.egg-info/dependency_links.txt\n'}
+[1.614535] (more_interfaces) StdoutLine: {'line': b'writing top-level names to more_interfaces.egg-info/top_level.txt\n'}
+[1.614691] (more_interfaces) StdoutLine: {'line': b"writing manifest file 'more_interfaces.egg-info/SOURCES.txt'\n"}
+[1.669839] (more_interfaces) StdoutLine: {'line': b"reading manifest file 'more_interfaces.egg-info/SOURCES.txt'\n"}
+[1.670353] (more_interfaces) StdoutLine: {'line': b"writing manifest file 'more_interfaces.egg-info/SOURCES.txt'\n"}
+[1.703253] (-) TimerEvent: {}
+[1.714051] (more_interfaces) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_build_more_interfaces_egg\n'}
+[1.803414] (-) TimerEvent: {}
+[1.830262] (more_interfaces) StdoutLine: {'line': b'[  8%] Built target more_interfaces__cpp\n'}
+[1.839044] (more_interfaces) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_c.dir/rosidl_generator_c/more_interfaces/msg/detail/address_book__functions.c.o\x1b[0m\n'}
+[1.839254] (more_interfaces) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_c.dir/rosidl_generator_c/more_interfaces/msg/detail/address_book__description.c.o\x1b[0m\n'}
+[1.839839] (more_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_c.dir/rosidl_generator_c/more_interfaces/msg/detail/address_book__type_support.c.o\x1b[0m\n'}
+[1.903552] (-) TimerEvent: {}
+[1.976728] (more_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libmore_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[2.003660] (-) TimerEvent: {}
+[2.029360] (more_interfaces) StdoutLine: {'line': b'[ 19%] Built target more_interfaces__rosidl_generator_c\n'}
+[2.041332] (more_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.041546] (more_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.041642] (more_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.042047] (more_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.042970] (more_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.043593] (more_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.103803] (-) TimerEvent: {}
+[2.204131] (-) TimerEvent: {}
+[2.262460] (more_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/more_interfaces/msg/address_book__type_support.cpp.o\x1b[0m\n'}
+[2.268539] (more_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/more_interfaces/msg/address_book__type_support.cpp.o\x1b[0m\n'}
+[2.287549] (more_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/more_interfaces/msg/detail/address_book__type_support.cpp.o\x1b[0m\n'}
+[2.298500] (more_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/more_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/more_interfaces/msg/detail/address_book__type_support.c.o\x1b[0m\n'}
+[2.301093] (more_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/more_interfaces/msg/detail/dds_fastrtps/address_book__type_support.cpp.o\x1b[0m\n'}
+[2.304223] (-) TimerEvent: {}
+[2.315817] (more_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/more_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/more_interfaces/msg/detail/address_book__type_support_c.cpp.o\x1b[0m\n'}
+[2.344655] (more_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking C shared library libmore_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.376995] (more_interfaces) StdoutLine: {'line': b'[ 55%] Built target more_interfaces__rosidl_typesupport_introspection_c\n'}
+[2.400868] (more_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.404349] (-) TimerEvent: {}
+[2.448273] (more_interfaces) StdoutLine: {'line': b'[ 58%] Built target more_interfaces__rosidl_typesupport_c\n'}
+[2.504474] (-) TimerEvent: {}
+[2.604769] (-) TimerEvent: {}
+[2.678460] (more_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.679940] (more_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.704884] (-) TimerEvent: {}
+[2.739002] (more_interfaces) StdoutLine: {'line': b'[ 63%] Built target more_interfaces__rosidl_typesupport_cpp\n'}
+[2.759392] (more_interfaces) StdoutLine: {'line': b'[ 63%] Built target more_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[2.761844] (more_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/publish_address_book.dir/src/publish_address_book.cpp.o\x1b[0m\n'}
+[2.804990] (-) TimerEvent: {}
+[2.816362] (more_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.845401] (more_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.905110] (-) TimerEvent: {}
+[2.918103] (more_interfaces) StdoutLine: {'line': b'[ 72%] Built target more_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[2.950707] (more_interfaces) StdoutLine: {'line': b'[ 72%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[2.979729] (more_interfaces) StdoutLine: {'line': b'[ 72%] Built target more_interfaces\n'}
+[3.005209] (-) TimerEvent: {}
+[3.013236] (more_interfaces) StdoutLine: {'line': b'[ 75%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.105311] (-) TimerEvent: {}
+[3.205564] (-) TimerEvent: {}
+[3.297329] (more_interfaces) StdoutLine: {'line': b'[ 75%] Built target more_interfaces__py\n'}
+[3.305664] (-) TimerEvent: {}
+[3.322910] (more_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/more_interfaces__rosidl_generator_py.dir/rosidl_generator_py/more_interfaces/msg/_address_book_s.c.o\x1b[0m\n'}
+[3.405788] (-) TimerEvent: {}
+[3.480250] (more_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library libmore_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[3.505888] (-) TimerEvent: {}
+[3.531679] (more_interfaces) StdoutLine: {'line': b'[ 80%] Built target more_interfaces__rosidl_generator_py\n'}
+[3.554385] (more_interfaces) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/more_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.554603] (more_interfaces) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/more_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.554708] (more_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/more_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.605998] (-) TimerEvent: {}
+[3.664786] (more_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.668533] (more_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.675296] (more_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.700268] (more_interfaces) StdoutLine: {'line': b'[ 97%] Built target more_interfaces_s__rosidl_typesupport_c\n'}
+[3.706100] (-) TimerEvent: {}
+[3.706585] (more_interfaces) StdoutLine: {'line': b'[ 97%] Built target more_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[3.706827] (more_interfaces) StdoutLine: {'line': b'[ 97%] Built target more_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[3.806202] (-) TimerEvent: {}
+[3.906474] (-) TimerEvent: {}
+[4.006734] (-) TimerEvent: {}
+[4.106972] (-) TimerEvent: {}
+[4.207197] (-) TimerEvent: {}
+[4.307386] (-) TimerEvent: {}
+[4.407609] (-) TimerEvent: {}
+[4.507827] (-) TimerEvent: {}
+[4.608021] (-) TimerEvent: {}
+[4.708257] (-) TimerEvent: {}
+[4.808510] (-) TimerEvent: {}
+[4.908756] (-) TimerEvent: {}
+[5.008999] (-) TimerEvent: {}
+[5.109219] (-) TimerEvent: {}
+[5.209436] (-) TimerEvent: {}
+[5.309618] (-) TimerEvent: {}
+[5.409852] (-) TimerEvent: {}
+[5.510129] (-) TimerEvent: {}
+[5.610481] (-) TimerEvent: {}
+[5.710813] (-) TimerEvent: {}
+[5.811154] (-) TimerEvent: {}
+[5.911492] (-) TimerEvent: {}
+[6.011820] (-) TimerEvent: {}
+[6.112207] (-) TimerEvent: {}
+[6.212722] (-) TimerEvent: {}
+[6.313049] (-) TimerEvent: {}
+[6.413639] (-) TimerEvent: {}
+[6.513977] (-) TimerEvent: {}
+[6.614305] (-) TimerEvent: {}
+[6.714662] (-) TimerEvent: {}
+[6.815002] (-) TimerEvent: {}
+[6.915350] (-) TimerEvent: {}
+[7.015672] (-) TimerEvent: {}
+[7.115989] (-) TimerEvent: {}
+[7.216334] (-) TimerEvent: {}
+[7.257794] (more_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable publish_address_book\x1b[0m\n'}
+[7.316682] (-) TimerEvent: {}
+[7.416986] (-) TimerEvent: {}
+[7.517341] (-) TimerEvent: {}
+[7.522633] (more_interfaces) StdoutLine: {'line': b'[100%] Built target publish_address_book\n'}
+[7.539110] (more_interfaces) CommandEnded: {'returncode': 0}
+[7.617437] (-) TimerEvent: {}
+[7.631348] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'install'}
+[7.649817] (more_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ylo-laptop/ROS_Projects/test_5/build/more_interfaces'], 'cwd': '/home/ylo-laptop/ROS_Projects/test_5/build/more_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ylo-laptop', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '3', 'LD_LIBRARY_PATH': '/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/opt/gz_math_vendor/lib:/opt/ros/rolling/opt/gz_utils_vendor/lib:/opt/ros/rolling/opt/gz_cmake_vendor/lib:/opt/ros/rolling/lib', 'HOME': '/home/ylo-laptop', 'OLDPWD': '/home/ylo-laptop/ROS_Projects', 'TERM_PROGRAM_VERSION': '0.147.2', 'DESKTOP_SESSION': 'ubuntu', 'ZED_TERM': 'true', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2275', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=b28640161be7ae027d363f8666b701fb', 'COLORTERM': 'truecolor', 'QSYS_ROOTDIR': '/home/ylo-laptop/intelFPGA_lite/23.1std/quartus/sopc_builder/bin', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'rolling', 'LOGNAME': 'ylo-laptop', 'WINDOWID': '4294967297', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ylo-laptop', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'ZED_FORCE_CLI_MODE': '', 'PATH': '/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/ylo-laptop/.local/bin/:/home/ylo-laptop/intelFPGA_lite/23.1std/quartus/bin', 'SESSION_MANAGER': 'local/ylo-laptop:@/tmp/.ICE-unix/2275,unix/ylo-laptop:/tmp/.ICE-unix/2275', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/14b43fb3_b086_450e_958a_e6a996cb6da4', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.674', 'TERM_PROGRAM': 'zed', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/rolling', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'ALACRITTY_WINDOW_ID': '4294967297', 'PWD': '/home/ylo-laptop/ROS_Projects/test_5/build/more_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=b28640161be7ae027d363f8666b701fb', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/ylo-laptop/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/rolling/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/opt/ros/rolling'}), 'shell': False}
+[7.657877] (more_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.658308] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/share/ament_index/resource_index/rosidl_interfaces/more_interfaces\n'}
+[7.658444] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/share/more_interfaces/msg/AddressBook.json\n'}
+[7.658633] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/include/more_interfaces/more_interfaces\n'}
+[7.658741] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/include/more_interfaces/more_interfaces/msg\n'}
+[7.658902] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/include/more_interfaces/more_interfaces/msg/address_book.h\n'}
+[7.659008] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.659111] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail\n'}
+[7.659273] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__struct.h\n'}
+[7.659422] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.h\n'}
+[7.659526] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__functions.h\n'}
+[7.659632] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__description.c\n'}
+[7.659736] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__functions.c\n'}
+[7.659895] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.c\n'}
+[7.659999] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/share/more_interfaces/environment/library_path.sh\n'}
+[7.660102] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/share/more_interfaces/environment/library_path.dsv\n'}
+[7.660232] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_c.so\n'}
+[7.660386] (more_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_c.so" to ""\n'}
+[7.660555] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/include/more_interfaces/more_interfaces\n'}
+[7.660659] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/include/more_interfaces/more_interfaces/msg\n'}
+[7.660761] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.660917] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail\n'}
+[7.661021] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_c.h\n'}
+[7.661124] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[7.661250] (more_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[7.661430] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/include/more_interfaces/more_interfaces\n'}
+[7.661581] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/include/more_interfaces/more_interfaces/msg\n'}
+[7.661682] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.661805] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail\n'}
+[7.661904] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_c.h\n'}
+[7.662005] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.c\n'}
+[7.662109] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[7.662252] (more_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[7.662383] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_c.so\n'}
+[7.662558] (more_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[7.662667] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/include/more_interfaces/more_interfaces\n'}
+[7.662769] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/include/more_interfaces/more_interfaces/msg\n'}
+[7.662875] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail\n'}
+[7.662977] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__builder.hpp\n'}
+[7.663155] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__struct.hpp\n'}
+[7.663257] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.hpp\n'}
+[7.663413] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__traits.hpp\n'}
+[7.663519] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[7.663659] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/include/more_interfaces/more_interfaces/msg/address_book.hpp\n'}
+[7.663763] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/include/more_interfaces/more_interfaces\n'}
+[7.663867] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/include/more_interfaces/more_interfaces/msg\n'}
+[7.664005] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/include/more_interfaces/more_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.664107] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail\n'}
+[7.664213] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/dds_fastrtps\n'}
+[7.664324] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.664441] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.664628] (more_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[7.664823] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/include/more_interfaces/more_interfaces\n'}
+[7.664931] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/include/more_interfaces/more_interfaces/msg\n'}
+[7.665034] (more_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail\n'}
+[7.665138] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.665241] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/include/more_interfaces/more_interfaces/msg/detail/address_book__type_support.cpp\n'}
+[7.665361] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[7.665577] (more_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[7.665686] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_cpp.so\n'}
+[7.665793] (more_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[7.665897] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/share/more_interfaces/environment/pythonpath.sh\n'}
+[7.666011] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/share/more_interfaces/environment/pythonpath.dsv\n'}
+[7.666115] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/lib/python3.12/site-packages/more_interfaces-0.0.0-py3.12.egg-info\n'}
+[7.666311] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/lib/python3.12/site-packages/more_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[7.666438] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/lib/python3.12/site-packages/more_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[7.666548] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/lib/python3.12/site-packages/more_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[7.666652] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/lib/python3.12/site-packages/more_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[7.666754] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/lib/python3.12/site-packages/more_interfaces\n'}
+[7.666940] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[7.667047] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[7.667151] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[7.667252] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/msg\n'}
+[7.667368] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/msg/_address_book_s.c\n'}
+[7.667478] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/msg/_address_book.py\n'}
+[7.667667] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/msg/__init__.py\n'}
+[7.667770] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[7.667871] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.so\n'}
+[7.667973] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/__init__.py\n'}
+[7.668069] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/_more_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[7.707167] (more_interfaces) StdoutLine: {'line': b"Listing '/home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/lib/python3.12/site-packages/more_interfaces'...\n"}
+[7.707291] (more_interfaces) StdoutLine: {'line': b"Compiling '/home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/__init__.py'...\n"}
+[7.707412] (more_interfaces) StdoutLine: {'line': b"Listing '/home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/msg'...\n"}
+[7.707512] (more_interfaces) StdoutLine: {'line': b"Compiling '/home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/msg/__init__.py'...\n"}
+[7.707610] (more_interfaces) StdoutLine: {'line': b"Compiling '/home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/msg/_address_book.py'...\n"}
+[7.713011] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[7.713282] (more_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[7.713505] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[7.713783] (more_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[7.713963] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.so\n'}
+[7.714262] (more_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/lib/python3.12/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.so" to ""\n'}
+[7.714411] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_py.so\n'}
+[7.714689] (more_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_py.so" to ""\n'}
+[7.714795] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/share/more_interfaces/msg/AddressBook.idl\n'}
+[7.714973] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/share/more_interfaces/msg/AddressBook.msg\n'}
+[7.715126] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/lib/more_interfaces/publish_address_book\n'}
+[7.716509] (more_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/lib/more_interfaces/publish_address_book" to ""\n'}
+[7.716731] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/share/ament_index/resource_index/package_run_dependencies/more_interfaces\n'}
+[7.716893] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/share/ament_index/resource_index/parent_prefix_path/more_interfaces\n'}
+[7.717069] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.sh\n'}
+[7.717256] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.dsv\n'}
+[7.717383] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/share/more_interfaces/environment/path.sh\n'}
+[7.717489] (-) TimerEvent: {}
+[7.717647] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/share/more_interfaces/environment/path.dsv\n'}
+[7.717775] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/share/more_interfaces/local_setup.bash\n'}
+[7.718016] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/share/more_interfaces/local_setup.sh\n'}
+[7.718289] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/share/more_interfaces/local_setup.zsh\n'}
+[7.718568] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/share/more_interfaces/local_setup.dsv\n'}
+[7.718780] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/share/more_interfaces/package.dsv\n'}
+[7.718933] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/share/ament_index/resource_index/packages/more_interfaces\n'}
+[7.719084] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cExport.cmake\n'}
+[7.719329] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.719544] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[7.719694] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[7.719842] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.719989] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.720137] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[7.720387] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.720596] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_cppExport.cmake\n'}
+[7.720739] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[7.720890] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[7.721036] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.721234] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[7.721426] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[7.721579] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[7.721730] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_pyExport.cmake\n'}
+[7.721876] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/share/more_interfaces/cmake/export_more_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[7.722040] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[7.722187] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.722351] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.722550] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.722701] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.722850] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.723024] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.723166] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig.cmake\n'}
+[7.723306] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig-version.cmake\n'}
+[7.723478] (more_interfaces) StdoutLine: {'line': b'-- Installing: /home/ylo-laptop/ROS_Projects/test_5/install/more_interfaces/share/more_interfaces/package.xml\n'}
+[7.725738] (more_interfaces) CommandEnded: {'returncode': 0}
+[7.817632] (-) TimerEvent: {}
+[7.860131] (more_interfaces) JobEnded: {'identifier': 'more_interfaces', 'rc': 0}
+[7.861232] (-) EventReactorShutdown: {}
