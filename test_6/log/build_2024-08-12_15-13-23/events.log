@@ -1,0 +1,60 @@
+[0.000000] (-) TimerEvent: {}
+[0.000656] (py_srvcli) JobQueued: {'identifier': 'py_srvcli', 'dependencies': OrderedDict()}
+[0.000764] (py_srvcli) JobStarted: {'identifier': 'py_srvcli'}
+[0.099912] (-) TimerEvent: {}
+[0.200344] (-) TimerEvent: {}
+[0.300723] (-) TimerEvent: {}
+[0.401043] (-) TimerEvent: {}
+[0.501345] (-) TimerEvent: {}
+[0.601768] (-) TimerEvent: {}
+[0.702124] (-) TimerEvent: {}
+[0.802419] (-) TimerEvent: {}
+[0.902716] (-) TimerEvent: {}
+[0.964941] (py_srvcli) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/py_srvcli', 'build', '--build-base', '/home/ylo-laptop/ROS_Projects/test_6/build/py_srvcli/build', 'install', '--record', '/home/ylo-laptop/ROS_Projects/test_6/build/py_srvcli/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ylo-laptop/ROS_Projects/test_6/src/py_srvcli', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ylo-laptop', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/opt/gz_math_vendor/lib:/opt/ros/rolling/opt/gz_utils_vendor/lib:/opt/ros/rolling/opt/gz_cmake_vendor/lib:/opt/ros/rolling/lib', 'HOME': '/home/ylo-laptop', 'OLDPWD': '/home/ylo-laptop/ROS_Projects/test_6/src/py_srvcli/py_srvcli', 'TERM_PROGRAM_VERSION': '0.147.2', 'DESKTOP_SESSION': 'ubuntu', 'ZED_TERM': 'true', 'GIO_LAUNCHED_DESKTOP_FILE': '/home/ylo-laptop/.local/share/applications/dev.zed.Zed.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2159', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'SYSTEMD_EXEC_PID': '2492', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'QSYS_ROOTDIR': '/home/ylo-laptop/intelFPGA_lite/23.1std/quartus/sopc_builder/bin', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '6005', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'rolling', 'LOGNAME': 'ylo-laptop', 'WINDOWID': '4294967297', 'JOURNAL_STREAM': '8:22585', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ylo-laptop', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/ylo-laptop/.local/bin/:/home/ylo-laptop/intelFPGA_lite/23.1std/quartus/bin', 'SESSION_MANAGER': 'local/ylo-laptop:@/tmp/.ICE-unix/2447,unix/ylo-laptop:/tmp/.ICE-unix/2447', 'INVOCATION_ID': 'b29fb4ecc175452bb66c11d662dceb6c', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'TERM_PROGRAM': 'zed', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/rolling', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'ALACRITTY_WINDOW_ID': '4294967297', 'PWD': '/home/ylo-laptop/ROS_Projects/test_6/build/py_srvcli', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/ylo-laptop/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/ylo-laptop/ROS_Projects/test_6/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ylo-laptop/ROS_Projects/test_6/install/py_srvcli/lib/python3.12/site-packages:/opt/ros/rolling/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor'}, 'shell': False}
+[1.003103] (-) TimerEvent: {}
+[1.103448] (-) TimerEvent: {}
+[1.203791] (-) TimerEvent: {}
+[1.212513] (py_srvcli) StdoutLine: {'line': b'running egg_info\n'}
+[1.212915] (py_srvcli) StdoutLine: {'line': b'creating ../../build/py_srvcli/py_srvcli.egg-info\n'}
+[1.230674] (py_srvcli) StdoutLine: {'line': b'writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO\n'}
+[1.231064] (py_srvcli) StdoutLine: {'line': b'writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt\n'}
+[1.231357] (py_srvcli) StdoutLine: {'line': b'writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt\n'}
+[1.231556] (py_srvcli) StdoutLine: {'line': b'writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt\n'}
+[1.231744] (py_srvcli) StdoutLine: {'line': b'writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt\n'}
+[1.231930] (py_srvcli) StdoutLine: {'line': b"writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'\n"}
+[1.266878] (py_srvcli) StdoutLine: {'line': b"reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'\n"}
+[1.267233] (py_srvcli) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.267507] (py_srvcli) StdoutLine: {'line': b"writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'\n"}
+[1.267743] (py_srvcli) StdoutLine: {'line': b'running build\n'}
+[1.267945] (py_srvcli) StdoutLine: {'line': b'running build_py\n'}
+[1.268233] (py_srvcli) StdoutLine: {'line': b'creating /home/ylo-laptop/ROS_Projects/test_6/build/py_srvcli/build\n'}
+[1.268460] (py_srvcli) StdoutLine: {'line': b'creating /home/ylo-laptop/ROS_Projects/test_6/build/py_srvcli/build/lib\n'}
+[1.268656] (py_srvcli) StdoutLine: {'line': b'creating /home/ylo-laptop/ROS_Projects/test_6/build/py_srvcli/build/lib/py_srvcli\n'}
+[1.268880] (py_srvcli) StdoutLine: {'line': b'copying py_srvcli/__init__.py -> /home/ylo-laptop/ROS_Projects/test_6/build/py_srvcli/build/lib/py_srvcli\n'}
+[1.269110] (py_srvcli) StdoutLine: {'line': b'copying py_srvcli/service_member_function.py -> /home/ylo-laptop/ROS_Projects/test_6/build/py_srvcli/build/lib/py_srvcli\n'}
+[1.269309] (py_srvcli) StdoutLine: {'line': b'copying py_srvcli/client_member_function.py -> /home/ylo-laptop/ROS_Projects/test_6/build/py_srvcli/build/lib/py_srvcli\n'}
+[1.269496] (py_srvcli) StdoutLine: {'line': b'running install\n'}
+[1.274176] (py_srvcli) StdoutLine: {'line': b'running install_lib\n'}
+[1.292374] (py_srvcli) StdoutLine: {'line': b'creating /home/ylo-laptop/ROS_Projects/test_6/install/py_srvcli/lib/python3.12/site-packages/py_srvcli\n'}
+[1.292738] (py_srvcli) StdoutLine: {'line': b'copying /home/ylo-laptop/ROS_Projects/test_6/build/py_srvcli/build/lib/py_srvcli/__init__.py -> /home/ylo-laptop/ROS_Projects/test_6/install/py_srvcli/lib/python3.12/site-packages/py_srvcli\n'}
+[1.292950] (py_srvcli) StdoutLine: {'line': b'copying /home/ylo-laptop/ROS_Projects/test_6/build/py_srvcli/build/lib/py_srvcli/service_member_function.py -> /home/ylo-laptop/ROS_Projects/test_6/install/py_srvcli/lib/python3.12/site-packages/py_srvcli\n'}
+[1.293232] (py_srvcli) StdoutLine: {'line': b'copying /home/ylo-laptop/ROS_Projects/test_6/build/py_srvcli/build/lib/py_srvcli/client_member_function.py -> /home/ylo-laptop/ROS_Projects/test_6/install/py_srvcli/lib/python3.12/site-packages/py_srvcli\n'}
+[1.293442] (py_srvcli) StdoutLine: {'line': b'byte-compiling /home/ylo-laptop/ROS_Projects/test_6/install/py_srvcli/lib/python3.12/site-packages/py_srvcli/__init__.py to __init__.cpython-312.pyc\n'}
+[1.293709] (py_srvcli) StdoutLine: {'line': b'byte-compiling /home/ylo-laptop/ROS_Projects/test_6/install/py_srvcli/lib/python3.12/site-packages/py_srvcli/service_member_function.py to service_member_function.cpython-312.pyc\n'}
+[1.293917] (py_srvcli) StdoutLine: {'line': b'byte-compiling /home/ylo-laptop/ROS_Projects/test_6/install/py_srvcli/lib/python3.12/site-packages/py_srvcli/client_member_function.py to client_member_function.cpython-312.pyc\n'}
+[1.294200] (py_srvcli) StdoutLine: {'line': b'running install_data\n'}
+[1.294477] (py_srvcli) StdoutLine: {'line': b'creating /home/ylo-laptop/ROS_Projects/test_6/install/py_srvcli/share/ament_index\n'}
+[1.294665] (py_srvcli) StdoutLine: {'line': b'creating /home/ylo-laptop/ROS_Projects/test_6/install/py_srvcli/share/ament_index/resource_index\n'}
+[1.294850] (py_srvcli) StdoutLine: {'line': b'creating /home/ylo-laptop/ROS_Projects/test_6/install/py_srvcli/share/ament_index/resource_index/packages\n'}
+[1.295054] (py_srvcli) StdoutLine: {'line': b'copying resource/py_srvcli -> /home/ylo-laptop/ROS_Projects/test_6/install/py_srvcli/share/ament_index/resource_index/packages\n'}
+[1.295258] (py_srvcli) StdoutLine: {'line': b'copying package.xml -> /home/ylo-laptop/ROS_Projects/test_6/install/py_srvcli/share/py_srvcli\n'}
+[1.295460] (py_srvcli) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.303920] (-) TimerEvent: {}
+[1.313449] (py_srvcli) StdoutLine: {'line': b'Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/ylo-laptop/ROS_Projects/test_6/install/py_srvcli/lib/python3.12/site-packages/py_srvcli-0.0.0-py3.12.egg-info\n'}
+[1.314322] (py_srvcli) StdoutLine: {'line': b'running install_scripts\n'}
+[1.404071] (-) TimerEvent: {}
+[1.433058] (py_srvcli) StdoutLine: {'line': b'Installing service script to /home/ylo-laptop/ROS_Projects/test_6/install/py_srvcli/lib/py_srvcli\n'}
+[1.433378] (py_srvcli) StdoutLine: {'line': b"writing list of installed files to '/home/ylo-laptop/ROS_Projects/test_6/build/py_srvcli/install.log'\n"}
+[1.466405] (py_srvcli) CommandEnded: {'returncode': 0}
+[1.487399] (py_srvcli) JobEnded: {'identifier': 'py_srvcli', 'rc': 0}
+[1.488980] (-) EventReactorShutdown: {}
