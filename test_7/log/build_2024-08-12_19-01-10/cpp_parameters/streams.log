@@ -1,0 +1,8 @@
+[0.017s] Invoking command in '/home/ylo-laptop/ROS_Projects/test_7/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ylo-laptop/ROS_Projects/test_7/build/cpp_parameters -- -j16 -l16
+[0.067s] [31mCMake Error at CMakeLists.txt:10 (ament_target_dependencies):
+[0.067s]   Unknown CMake command "ament_target_dependencies".
+[0.067s] 
+[0.068s] [0m
+[0.068s] -- Configuring incomplete, errors occurred!
+[0.070s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.074s] Invoked command in '/home/ylo-laptop/ROS_Projects/test_7/build/cpp_parameters' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ylo-laptop/ROS_Projects/test_7/build/cpp_parameters -- -j16 -l16

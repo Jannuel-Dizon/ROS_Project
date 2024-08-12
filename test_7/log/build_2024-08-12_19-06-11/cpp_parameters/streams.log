@@ -1,0 +1,10 @@
+[0.016s] Invoking command in '/home/ylo-laptop/ROS_Projects/test_7/build/cpp_parameters': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ylo-laptop/ROS_Projects/test_7/build/cpp_parameters -- -j16 -l16
+[0.115s] [ 50%] [32mBuilding CXX object CMakeFiles/minimal_param_node.dir/src/cpp_parameters_node.cpp.o[0m
+[0.198s] [01m[K/home/ylo-laptop/ROS_Projects/test_7/src/cpp_parameters/src/cpp_parameters_node.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[0.199s]     5 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[0.199s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.199s] compilation terminated.
+[0.207s] gmake[2]: *** [CMakeFiles/minimal_param_node.dir/build.make:76: CMakeFiles/minimal_param_node.dir/src/cpp_parameters_node.cpp.o] Error 1
+[0.208s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/minimal_param_node.dir/all] Error 2
+[0.208s] gmake: *** [Makefile:146: all] Error 2
+[0.212s] Invoked command in '/home/ylo-laptop/ROS_Projects/test_7/build/cpp_parameters' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ylo-laptop/ROS_Projects/test_7/build/cpp_parameters -- -j16 -l16
